@@ -13,7 +13,7 @@ exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
 source-git-commit: 3a5be1897b90b1d913a5eb86fb1442e702a1c89d
 workflow-type: tm+mt
 source-wordcount: '1416'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 3%
 
 Adobe Experience Manager (AEM) Assets Brand Portal可協助您輕鬆取得、控制核准的創意資產，並安全分發給跨裝置的外部團體和內部業務使用者。 它有助於提高資產共用效率、加快資產上市時間，並降低不合規和未經授權存取的風險。 Brand Portal可讓使用者隨時隨地以公司核准的格式瀏覽、搜尋、預覽、下載和匯出資產。
 
-## 2024.02.0版新增功能 {#whats-new-in-2024.02.0}
+## 2024.02.0的新增功能{#whats-new-in-2024.02.0}
 
 ### 已修正的重大問題 {#critical-issues-fixed}
 
@@ -42,9 +42,9 @@ Adobe Experience Manager (AEM) Assets Brand Portal可協助您輕鬆取得、控
 
 * 無法在土耳其語言環境中下載受DRM保護的數位資產。
 * 無法開啟和下載包含具有多行標題之資產的現有報表。
-* 當您使用下載資產時 [!UICONTROL 下載] 按鈕時，最多可下載1000個資產。
+* 當您使用動作列的[!UICONTROL 下載]按鈕下載資產時，最多可下載1000個資產。
 * 在內容樹狀結構中檢視時，PSD型別資產的名稱不正確。
-* [!UICONTROL 刪除轉譯] 資產詳細資料頁面上的選項無法運作。
+* 資產詳細資料頁面上的[!UICONTROL 刪除轉譯]選項無法運作。
 * 下載快顯視窗中的資產標題和大小未對齊。
 * 建立報表時，標籤未當地語系化。
 * 在Brand Portal中，支援管理員稱為管理員。
@@ -56,19 +56,19 @@ Adobe Experience Manager (AEM) Assets Brand Portal可協助您輕鬆取得、控
 **錯誤修正和增強功能**
 此版本包含下列增強功能：
 
-* 瀏覽時的效能改善 [!UICONTROL 集合].
+* 瀏覽[!UICONTROL 集合]時的效能改善。
 
 * 改善使用OmniSearch欄位執行部分搜尋時的搜尋結果。
 
 此版本包含下列錯誤修正：
 
-* 無法儲存 [!UICONTROL 日期] 和 [!UICONTROL 選項] 述詞 [!UICONTROL 智慧型集合].
+* 無法將[!UICONTROL Date]和[!UICONTROL Options]述詞儲存至[!UICONTROL 智慧型集合]。
 
-* 此 [!UICONTROL 日期和時間] 使用英語以外的地區設定時，格式不一致。
+* 使用英文以外的地區設定時，[!UICONTROL 日期與時間]格式不一致。
 
-* 執行資產搜尋時， [!UICONTROL 刪除] 按鈕遺失。
+* 執行資產搜尋時，[!UICONTROL 刪除]按鈕遺失。
 
-* 如果 [!UICONTROL 標題] 欄位包含多位元組符號 [!UICONTROL 連結共用]，則無法下載報表。
+* 如果[!UICONTROL Title]欄位在[!UICONTROL 連結共用]中包含多位元組符號，則無法下載報表。
 
 * 檢視PDF型別的檔案時，標籤和工具提示未當地語系化。
 
@@ -77,7 +77,7 @@ Adobe Experience Manager (AEM) Assets Brand Portal可協助您輕鬆取得、控
 **錯誤修正和增強功能**
 此版本包含下列增強功能：
 
-* 改善在上載入資產時的效能 [!UICONTROL 下載] 快顯視窗。
+* 在[!UICONTROL 下載]快顯視窗中載入資產時的效能改善。
 * 當您下載資產或資產的轉譯時，現在會以其原始檔案型別格式（而非zip檔案）下載。
 
 此版本包含下列錯誤修正：
@@ -91,8 +91,8 @@ Adobe Experience Manager (AEM) Assets Brand Portal可協助您輕鬆取得、控
 **錯誤修正**
 此版本包含下列嚴重問題的修正：
 
-* 如果從共用連結下載資產時發生錯誤， `Notice` 和 `Close` 錯誤提示的標籤未當地語系化。
-* Brand Portal顯示 **請求標頭欄位太大** 使用存取搜尋篩選器時發生錯誤 `Filter` 窗格。
+* 如果從共用連結下載資產時發生錯誤，錯誤提示的`Notice`和`Close`標籤不會當地語系化。
+* 使用`Filter`窗格存取搜尋篩選時，Brand Portal顯示&#x200B;**要求標題欄位太大**&#x200B;錯誤。
 
 **已知問題**
 此版本包含下列已知問題：
@@ -100,7 +100,7 @@ Adobe Experience Manager (AEM) Assets Brand Portal可協助您輕鬆取得、控
 * 資產來源報表內容中的部分本地化。
 * 使用者設定檔的少數欄位無法在使用者設定檔上編輯。
 
-### 2023年2月發行版本 {#feb-2023}
+### 2023 年 2 月發行版本 {#feb-2023}
 
 **錯誤修正**
 
@@ -116,9 +116,9 @@ Adobe Experience Manager (AEM) Assets Brand Portal可協助您輕鬆取得、控
 此版本包含下列增強功能：
 
 * 新的現代PDF檢視器現已推出，以改善PDF資產的預覽。
-* 您現在可以選擇啟用或停用管理員的Asset sourcing通知。 瀏覽至 [!UICONTROL 一般設定] 然後啟用或停用 [!UICONTROL `Notify Administrator of asset contribution`].
+* 您現在可以選擇啟用或停用管理員的Asset sourcing通知。 瀏覽至[!UICONTROL 一般設定]，然後啟用或停用[!UICONTROL `Notify Administrator of asset contribution`]。
 
-  ![通知管理員資產貢獻](assets/notify-admin.png)
+  ![通知系統管理員資產貢獻](assets/notify-admin.png)
 
 * 如果要求存取權已停用，未經授權的使用者就無法要求存取Brand Portal。
 * 設定檔選擇器清單上只會顯示為Brand Portal布建的組織。
@@ -132,7 +132,7 @@ Adobe Experience Manager (AEM) Assets Brand Portal可協助您輕鬆取得、控
 
 ### 2022 年 10 月版 {#oct-2022}
 
-**已修正的重大問題**
+**已修正的嚴重問題**
 
 此版本包含下列嚴重問題的修正：
 
@@ -152,14 +152,14 @@ Adobe Experience Manager (AEM) Assets Brand Portal可協助您輕鬆取得、控
 
 ### 2022 年 8 月版 {#aug-2022}
 
-**已修正的重大問題**
+**已修正的嚴重問題**
 
 此版本包含下列嚴重問題的修正：
 
 * 當NUI無法在Experience Manager中處理資產時，Brand Portal會顯示不準確的資產匯入狀態。
 * 預覽動作失敗時，沒有通知可傳達失敗。
 * 修正了每個資產的totalUploadedSize屬性值不準確的問題。
-* 當您按一下 **下載所有專案** 而且資產有大量的轉譯可供使用，Brand Portal會下載無效的.ZIP檔案。
+* 當您按一下「下載所有專案」****&#x200B;並且資產有大量的轉譯專案可供使用時，Brand Portal會下載無效的.ZIP檔案。
 * Brand Portal使用者介面上某些字串的轉譯會遭到截斷。
 
 ### 2022 年 5 月版 {#may-2022}
@@ -168,7 +168,7 @@ Adobe Experience Manager (AEM) Assets Brand Portal可協助您輕鬆取得、控
 
 Brand Portal現在每十二小時執行一次自動工作，以刪除發佈至AEM的所有Brand Portal資產。 因此，您不需要手動刪除「貢獻」資料夾中的資產，以使資料夾大小低於臨界值限制。
 
-**已修正的重大問題**
+**已修正的嚴重問題**
 
 此版本包含下列嚴重問題的修正：
 
@@ -179,19 +179,19 @@ Brand Portal現在每十二小時執行一次自動工作，以刪除發佈至AE
 * 當您使用電子郵件共用「貢獻」資料夾的URL時，檢視者和編輯者角色在使用階層連結存取其父資料夾時會遇到問題。
 * Sourcing已發佈報告顯示不正確的工單開始時間。
 
-### 2022年2月發行版本 {#feb-2022}
+### 2022 年 2 月發行版本 {#feb-2022}
 
 **新功能**
 
 * 訪客使用者的工作階段逾時臨界值已從2小時降低至15分鐘。
-* 其他 **[!UICONTROL 檢視頁面]** 多頁PDF的選項已移除，因為使用者現在可以從Adobe Document Cloud檢視器檢視PDF頁面。
-* 使用者無法搜尋、導覽或開啟資料夾。 使用者介面會反映錯誤訊息： `Failed to load data`.
-* 此 **[!UICONTROL 轉譯]** 面板不會列出發佈至Brand Portal之資產的所有靜態轉譯。
-* 此 **[!UICONTROL 轉譯]** 面板會列出資產的智慧型裁切轉譯，但使用者無法預覽或下載智慧型裁切轉譯。
+* 已為多頁PDF移除額外的&#x200B;**[!UICONTROL 檢視頁面]**&#x200B;選項，因為使用者現在可以從Adobe Document Cloud檢視器檢視PDF頁面。
+* 使用者無法搜尋、導覽或開啟資料夾。 使用者介面反映錯誤訊息： `Failed to load data`。
+* **[!UICONTROL 轉譯]**&#x200B;面板未列出發佈至Brand Portal之資產的所有靜態轉譯。
+* **[!UICONTROL 轉譯]**&#x200B;面板會列出資產的智慧型裁切轉譯，但使用者無法預覽或下載智慧型裁切轉譯。
 * 下載對話方塊會列出所選資產的智慧型裁切轉譯，但使用者無法下載智慧型裁切轉譯。
 * 非管理員使用者在下載資產時只會取得原始資產轉譯。 不會下載系統和自訂轉譯。
-* 套用搜尋篩選條件以下載資產時， `Download` 下載對話方塊中的按鈕已停用，不允許使用者下載資產。
-* 如果 `Smart Tags` 和（或） `Color Tags` 已啟用，「下載」對話方塊會列出 `json` 檔案做為轉譯並下載這些 `json` 封存的zip資料夾中的檔案。
+* 套用搜尋篩選條件以下載資產時，`Download`按鈕在下載對話方塊中會停用，且不允許使用者下載資產。
+* 如果`Smart Tags`和（或） `Color Tags`已啟用，下載對話方塊會將`json`個檔案列為轉譯，並將這`json`個檔案下載到封存的zip資料夾中。
 * 匿名使用者無法使用共用連結下載資產，因為連結會重新導向至Brand Portal登入頁面。
 * 系統未反映作用中同時使用者人數的正確值。
 
@@ -374,11 +374,11 @@ Brand Portal使用者介面提供下列語言版本：
 
 ## 認證平台 {#certified-platforms}
 
-若要確定哪些平台通過認證可以使用此版本的Brand Portal，請參閱 **支援觸控最佳化的UI** 中的資料行。 **編寫使用者介面的支援瀏覽器** 部分 [技術需求](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/introduction/technical-requirements.html).
+若要確定哪些平台已認證可以使用此版本的Brand Portal執行，請參閱[技術需求](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/introduction/technical-requirements.html)的&#x200B;**編寫使用者介面的支援瀏覽器**&#x200B;區段表格中的&#x200B;**觸控最佳化UI支援**&#x200B;欄。
 
 ## 連結 {#links}
 
-* [adobe.com上的Adobe Experience Manager產品頁面](https://business.adobe.com/in/products/experience-manager/adobe-experience-manager.html)
+* adobe.com上的[Adobe Experience Manager產品頁面](https://business.adobe.com/in/products/experience-manager/adobe-experience-manager.html)
 * [Assets Brand Portal檔案](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/home.html)
 
 ## 產品存取與支援（受限制的網站） {#product-access-and-support-restricted-sites}

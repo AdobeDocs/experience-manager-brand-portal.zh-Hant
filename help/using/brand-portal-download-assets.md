@@ -1,7 +1,7 @@
 ---
 title: 下載資產
 seo-title: Download assets
-description: 所有使用者都可以同時下載他們可存取的資產和資料夾。 如此一來，核准的品牌資產就能安全地散發，以供離線使用。
+description: 所有使用者可以同時下載他們可存取的資產和資料夾。 如此一來，核准的品牌資產便可安全地散發，以供離線使用。
 seo-description: All users can simultaneously download assets and folders accessible to them. This way, approved brand assets can be securely distributed for offline use.
 uuid: 4b57118e-a76e-4d8a-992a-cb3c3097bc03
 content-type: reference
@@ -12,96 +12,96 @@ discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 exl-id: be264b1c-38d9-4075-b56a-113f34a2c6bf
 source-git-commit: fe6677df928a4125185051d80ae3055afb479369
 workflow-type: tm+mt
-source-wordcount: '1921'
-ht-degree: 3%
+source-wordcount: '1932'
+ht-degree: 4%
 
 ---
 
 # 下載資產 {#download-assets-from-bp}
 
-Adobe Experience Manager Assets Brand Portal可讓使用者同時下載可從Brand Portal存取的資產和資料夾，藉此增強下載體驗。 如此一來，核准的品牌資產就能安全地散發，以供離線使用。 請閱讀下文，瞭解如何從Brand Portal下載資產（已核准資產），以及期望 [下載效能](#expected-download-performance).
+Adobe Experience Manager Assets Brand Portal允許使用者同時下載可從Brand Portal存取的資產和資料夾，藉此增強下載體驗。 如此一來，核准的品牌資產便可安全地散發，以供離線使用。 請閱讀下文，瞭解如何從Brand Portal下載資產（已核准的資產），以及[下載效能](#expected-download-performance)的期望。
 
 
 >[!NOTE]
 >
->在Brand Portal 2020.10.0 （及更高版本）中， **[!UICONTROL 快速下載]** 預設會啟用此設定，使用IBM Aspera Connect加速下載資產。 安裝IBM Aspera Connect 3.9.9 (`https://www.ibm.com/docs/en/aspera-connect/3.9.9`)，然後再從Brand Portal下載資產。 如需詳細資訊，請參閱 [加速從Brand Portal下載的指南](../using/accelerated-download.md).
+>在Brand Portal 2020.10.0 （及更新版本）中，「**[!UICONTROL 快速下載]**」設定預設為啟用，會使用IBM Aspera Connect來加速資產下載。 從Brand Portal下載資產之前，請在瀏覽器的擴充功能中安裝IBM Aspera Connect 3.9.9 (`https://www.ibm.com/docs/en/aspera-connect/3.9.9`)。 如需詳細資訊，請參閱[加速從Brand Portal](../using/accelerated-download.md)下載的指南。
 >
->如果您不想使用IBM Aspera Connect並繼續正常下載程式，請聯絡Brand Portal管理員以關閉 **[!UICONTROL 快速下載]** 設定。
+>如果您不想使用IBM Aspera Connect並繼續正常下載程式，請聯絡Brand Portal管理員以關閉&#x200B;**[!UICONTROL 快速下載]**&#x200B;設定。
 
 ## 設定資產下載 {#configure-download}
 
-Brand Portal管理員可以為Brand Portal使用者設定資產下載和使用者群組設定，好讓他們從Brand Portal介面存取和下載資產轉譯。
+Brand Portal管理員可以為Brand Portal使用者設定資產下載和使用者群組設定，讓他們從Brand Portal介面存取和下載資產轉譯。
 
 >[!NOTE]
 >
 >套用至使用者介面的下載設定有助於Brand Portal使用者獲得自助式體驗，以便輕鬆設定和下載資產轉譯。 它不會限制在應用程式層的資產下載，例如，使用者仍然可以存取和下載具有完整URL路徑的資產轉譯。
 
-下列設定會定義從Brand Portal介面存取和下載資產轉譯：
+下列設定會定義從Brand Portal介面存取及下載資產轉譯：
 
 * 啟用下載設定
 * 設定使用者群組設定
 
 ### 啟用下載設定 {#enable-download-settings}
 
-管理員可以啟用資產 **[!UICONTROL 下載設定]** 以定義Brand Portal使用者可存取以供下載的轉譯集。
+管理員可以啟用資產&#x200B;**[!UICONTROL 下載設定]**，以定義Brand Portal使用者可存取的轉譯集以供下載。
 
 可用的設定包括：
 
 * **[!UICONTROL 快速下載]**
 
-   它提供使用IBM Aspera Connect加速資產下載的功能。 根據預設， **[!UICONTROL 快速下載]** 中的設定已啟用 **[!UICONTROL 下載設定]**.
+  它提供使用IBM Aspera Connect加速資產下載的功能。 預設會在&#x200B;**[!UICONTROL 下載設定]**&#x200B;中啟用&#x200B;**[!UICONTROL 快速下載]**&#x200B;設定。
 
 * **[!UICONTROL 自訂轉譯]**
 
-   允許下載資產的自訂和（或）動態轉譯。
+  啟用下載資產的自訂和（或）動態轉譯。
 
-   除了原始資產和系統產生的轉譯之外，所有資產轉譯都稱為自訂轉譯。 其中包含可用於資產的靜態和動態轉譯。 任何使用者都可以在Experience Manager Assets中建立自訂靜態轉譯，但只有管理員才能建立自訂動態轉譯。 如需詳細資訊，請參閱 [如何套用影像預設集或動態轉譯](../using/brand-portal-image-presets.md).
+  除了原始資產和系統產生的轉譯之外的所有資產轉譯都稱為自訂轉譯。 其中包含資產可用的靜態和動態轉譯。 任何使用者都可以在Experience Manager Assets中建立自訂靜態轉譯，但只有管理員才能建立自訂動態轉譯。 如需詳細資訊，請參閱[如何套用影像預設集或動態轉譯](../using/brand-portal-image-presets.md)。
 
 * **[!UICONTROL 系統轉譯]**
 
-   允許下載系統產生的資產轉譯。
+  啟用下載系統產生的資產轉譯。
 
-   這些是根據「DAM更新資產」工作流程，在Experience Manager Assets中自動產生的縮圖。
+  這些是根據「DAM更新資產」工作流程在Experience Manager Assets中自動產生的縮圖。
 
 * **[!UICONTROL 資產下載]**
 
-   可讓您將轉譯下載到每個資產的個別檔案夾中。 此設定適用於資料夾、集合和大量下載資產（超過20個資產）。
+  允許將轉譯下載到每個資產的個別資料夾中。 此設定適用於資料夾、收藏和大量下載資產（超過20個資產）。
 
 
-以管理員身分登入您的Brand Portal租使用者，並導覽至 **[!UICONTROL 工具]** > **[!UICONTROL 下載]**.
+以系統管理員身分登入您的Brand Portal租使用者，並瀏覽至&#x200B;**[!UICONTROL 工具]** > **[!UICONTROL 下載]**。
 
-管理員可以啟用Brand Portal使用者的任何設定組合，以存取和下載資產轉譯。
+管理員可以啟用任何設定組合，讓Brand Portal使用者存取及下載資產轉譯。
 
 ![](assets/download-settings-new.png)
 
 
 >[!NOTE]
 >
->只有管理員可以下載過期的資產。 如需過期資產的詳細資訊，請參閱 [管理資產的數位版權](../using/manage-digital-rights-of-assets.md).
+>只有管理員可以下載過期的資產。 如需過期資產的詳細資訊，請參閱[管理資產的數位版權](../using/manage-digital-rights-of-assets.md)。
 
 ### 設定使用者群組設定 {#configure-user-group-settings}
 
-除了 **[!UICONTROL 下載設定]**，Brand Portal管理員可以進一步設定不同使用者群組的設定，以檢視和（或）下載原始資產及其轉譯。
+除了&#x200B;**[!UICONTROL 下載設定]**&#x200B;之外，Brand Portal管理員還可以進一步設定不同使用者群組的設定，以檢視和（或）下載原始資產及其轉譯。
 
-以管理員身分登入您的Brand Portal租使用者，並導覽至 **[!UICONTROL 工具]** > **[!UICONTROL 使用者]**. 在 **[!UICONTROL 使用者角色]** 頁面，導覽至 **[!UICONTROL 群組]** 索引標籤來設定使用者群組的檢視和（或）下載設定。
+以系統管理員身分登入您的Brand Portal租使用者，並瀏覽至&#x200B;**[!UICONTROL 工具]** > **[!UICONTROL 使用者]**。 在&#x200B;**[!UICONTROL 使用者角色]**&#x200B;頁面中，瀏覽至&#x200B;**[!UICONTROL 群組]**&#x200B;索引標籤以設定使用者群組的檢視和（或）下載設定。
 
-![view-download-permission](assets/download-permissions.png)
+![檢視 — 下載 — 許可權](assets/download-permissions.png)
 
 >[!NOTE]
 >
 >如果將使用者新增到多個群組，並且其中一個群組具有限制，則該限制將套用至使用者。
 
-根據設定，獨立資產、多個資產、包含資產的資料夾、已授權或未授權的資產，以及使用共用連結下載資產時，下載工作流程保持不變。
+根據設定，獨立資產、多個資產、包含資產的資料夾、授權或未授權的資產，以及使用共用連結下載資產時，下載工作流程保持不變。
 
-以下矩陣定義使用者是否有權存取轉譯，取決於 [下載設定](#configure-download)：
+以下矩陣定義使用者是否可存取轉譯，視[下載設定](#configure-download)而定：
 
-| **下載設定：自訂轉譯** | **下載設定：系統轉譯** | **使用者群組設定：下載原始檔案** | **使用者群組設定：下載轉譯** | **結果** |
+| **下載設定：自訂轉譯** | **下載設定：系統轉譯** | **使用者群組設定：下載原始專案** | **使用者群組設定：下載轉譯** | **結果** |
 |---|---|---|---|---|
 | 開啟 | 開啟 | 開啟 | 開啟 | 檢視和下載所有轉譯 |
 | 開啟 | 開啟 | 關閉 | 關閉 | 檢視原始資產 |
 | 關閉 | 關閉 | 開啟 | 開啟 | 檢視和下載原始資產 |
 | 開啟 | 關閉 | 開啟 | 開啟 | 檢視和下載原始資產和自訂轉譯 |
-| 關閉 | 開啟 | 開啟 | 開啟 | 檢視和下載原始資產與系統轉譯 |
+| 關閉 | 開啟 | 開啟 | 開啟 | 檢視和下載原始資產及系統轉譯 |
 | 開啟 | 關閉 | 關閉 | 關閉 | 檢視原始資產 |
 | 關閉 | 開啟 | 關閉 | 關閉 | 檢視原始資產 |
 | 關閉 | 關閉 | 關閉 | 開啟 | 檢視原始資產 |
@@ -118,7 +118,7 @@ Brand Portal使用者可以從Brand Portal介面下載多個資產、包含資�
 >
 >如果您沒有存取或下載資產轉譯的許可權，請聯絡Brand Portal管理員。
 
-如果使用者有權存取轉譯，則會為使用者提供增強功能 **[!UICONTROL 下載]** 對話方塊中的下列功能：
+如果使用者有權存取轉譯，則會提供具有以下功能的增強型&#x200B;**[!UICONTROL 下載]**&#x200B;對話方塊：
 
 * 檢視下載清單中任何資產的所有可用轉譯。
 * 排除不需要下載的資產轉譯。
@@ -127,67 +127,67 @@ Brand Portal使用者可以從Brand Portal介面下載多個資產、包含資�
 * 為每個資產建立個別的資料夾。
 * 下載選取的資產及其轉譯。
 
-![download-dialog](assets/download-dialog-box.png)
+![下載對話方塊](assets/download-dialog-box.png)
 
 >[!NOTE]
 >
->此 **[!UICONTROL 下載]** 對話方塊僅出現於 **[!UICONTROL 自訂轉譯]** 和（或） **[!UICONTROL 系統轉譯]** 在中啟用 **[!UICONTROL 下載設定]**.
+>只有在&#x200B;**[!UICONTROL 下載設定]**&#x200B;中啟用&#x200B;**[!UICONTROL 自訂轉譯]**&#x200B;和（或）**[!UICONTROL 系統轉譯]**&#x200B;時，**[!UICONTROL 下載]**&#x200B;對話方塊才會出現。
 
 
 ### 下載資產的步驟 {#bulk-download}
 
-以下是從Brand Portal介面下載資產或包含資產的資料夾的步驟：
+以下是從Brand Portal介面下載資產或包含資產的檔案夾的步驟：
 
-1. 登入您的Brand Portal租使用者。 根據預設， **[!UICONTROL 檔案]** 檢視會開啟，其中包含所有已發佈的資產和資料夾。
+1. 登入您的Brand Portal租使用者。 依預設，**[!UICONTROL 檔案]**&#x200B;檢視會開啟，其中包含所有已發佈的資產和資料夾。
 
    執行下列任一項作業：
 
-   * 選取您要下載的資產或資料夾。 在頂端的工具列中，按一下 **[!UICONTROL 下載]** 圖示。
+   * 選取您要下載的資產或資料夾。 從頂端的工具列按一下&#x200B;**[!UICONTROL 下載]**&#x200B;圖示。
 
-      ![select-multi-assets](assets/select-assets-new.png)
+     ![select-multiple-assets](assets/select-assets-new.png)
 
-   * 若要下載資產的特定資產轉譯，請將指標暫留在資產上，然後按一下 **[!UICONTROL 下載]** 圖示供快速動作縮圖使用。
+   * 若要下載資產的特定資產轉譯，請將指標暫留在資產上，然後按一下快速動作縮圖中的&#x200B;**[!UICONTROL 下載]**&#x200B;圖示。
 
-      ![select-asset](assets/select-asset.png)
-
-
-      >[!NOTE]
-      >
-      >如果您是第一次下載資產，而且瀏覽器中未安裝IBM Aspera Connect，系統會提示您安裝Aspera下載加速器(`https://www.ibm.com/docs/en/aspera-connect/3.9.9`)。
+     ![select-asset](assets/select-asset.png)
 
 
-      >[!NOTE]
-      >
-      >如果您要下載的資產也包含授權資產，系統會將您重新導向至 **[!UICONTROL 版權管理]** 頁面。 在此頁面中，選取資產，按一下 **[!UICONTROL 同意]**，然後按一下 **[!UICONTROL 下載]**. 如果您選擇不同意，授權資產將不會下載。
-      > 
-      >受授權保護的資產具有 [已附加授權合約](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/drm.html) ，這是透過設定資產的 [中繼資料屬性](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/drm.html) 在Experience Manager Assets中。
+     >[!NOTE]
+     >
+     >如果您是第一次下載資產，而且瀏覽器中未安裝IBM Aspera Connect，則會提示您安裝Aspera下載加速器(`https://www.ibm.com/docs/en/aspera-connect/3.9.9`)。
 
 
-      ![licensed-asset](assets/licensed-asset-new.png)
+     >[!NOTE]
+     >
+     >如果您正在下載的資產也包含授權資產，系統會將您重新導向至&#x200B;**[!UICONTROL 版權管理]**&#x200B;頁面。 在此頁面中，選取資產，按一下&#x200B;**[!UICONTROL 同意]**，然後按一下&#x200B;**[!UICONTROL 下載]**。 如果您選擇不同意，授權資產將不會下載。
+     > 
+     >受授權保護的資產附有[授權合約](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/drm.html)，方法是在Experience Manager Assets中設定資產的[中繼資料屬性](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/drm.html)。
 
-1. 此 **[!UICONTROL 下載]** 列出所有選定資產的對話方塊隨即開啟。
 
-   按一下任何資產以檢視可用的轉譯，並選取與您要下載的轉譯相對應的核取方塊。
+     ![已授權資產](assets/licensed-asset-new.png)
 
-   您可以手動選取或排除個別資產的轉譯，或按一下 **套用** 圖示可針對類似資產型別（此範例中的所有影像檔案）選取要下載的相同轉譯集。 在 **[!UICONTROL 全部套用]** 對話方塊，按一下 **[!UICONTROL 完成]** 將規則套用至所有類似資產。
+1. **[!UICONTROL 下載]**&#x200B;對話方塊會開啟，其中列出所有選取的資產。
 
-   ![apply-all](assets/apply.png)
+   按一下任何資產以檢視可用的轉譯，並選取與您要下載的轉譯對應的核取方塊。
 
-   您也可以按一下「 」，將資產從下載清單中移除（如有需要） **移除** 圖示。
+   您可以手動選取或排除個別資產的轉譯，或按一下「套用」****&#x200B;圖示來選取相同的一組轉譯，以供下載類似的資產型別（此範例中的所有影像檔案）。 在&#x200B;**[!UICONTROL 全部套用]**&#x200B;對話方塊中，按一下&#x200B;**[!UICONTROL 完成]**&#x200B;以將規則套用至所有類似的資產。
+
+   ![套用全部](assets/apply.png)
+
+   您也可以按一下&#x200B;**移除**&#x200B;圖示，從下載清單移除資產（如有需要）。
 
    ![移除](assets/remove.png)
 
-   若要在下載資產時保留Brand Portal資料夾階層，請選取 **[!UICONTROL 為每個資產建立個別的資料夾]** 核取方塊。
+   若要在下載資產時保留Brand Portal資料夾階層，請選取&#x200B;**[!UICONTROL 為每個資產建立個別資料夾]**&#x200B;核取方塊。
 
-   下載按鈕會反映所選專案的計數。 套用完規則後，請按一下 **[!UICONTROL 下載專案]**.
+   下載按鈕會反映所選專案的計數。 套用完規則後，按一下&#x200B;**[!UICONTROL 下載專案]**。
 
-   ![download-dialog](assets/download-dialog-box-new.png)
+   ![下載對話方塊](assets/download-dialog-box-new.png)
 
-1. 根據預設 **[!UICONTROL 快速下載]** 中的設定已啟用 **[!UICONTROL 下載設定]**. 因此，確認方塊會顯示為允許使用IBM Aspera Connect加速下載。
+1. 預設會在&#x200B;**[!UICONTROL 下載設定]**&#x200B;中啟用&#x200B;**[!UICONTROL 快速下載]**&#x200B;設定。 因此，確認方塊會出現，以允許使用IBM Aspera Connect加速下載。
 
-   若要繼續使用 **[!UICONTROL 快速下載]**，按一下 **[!UICONTROL 允許]**. 所有選取的轉譯都會使用IBM Aspera Connect下載到zip資料夾中。
+   若要繼續使用&#x200B;**[!UICONTROL 快速下載]**，請按一下&#x200B;**[!UICONTROL 允許]**。 所有選取的轉譯都會使用IBM Aspera Connect下載到zip資料夾中。
 
-   如果您不想使用IBM Aspera Connect，請按一下 **[!UICONTROL 拒絕]**. 若 **[!UICONTROL 快速下載]** 被拒絕或失敗，系統會填入錯誤訊息。 按一下 **[!UICONTROL 一般下載]** 按鈕以繼續下載資產。
+   如果您不想要使用IBM Aspera Connect，請按一下&#x200B;**[!UICONTROL 拒絕]**。 如果&#x200B;**[!UICONTROL 快速下載]**&#x200B;被拒絕或失敗，系統會填入「錯誤」訊息。 按一下&#x200B;**[!UICONTROL 正常下載]**&#x200B;按鈕以繼續下載資產。
 
 <!-- removed the known issue from step 2 as it is fixed in 2022.02.0 release.
    >[!CAUTION]
@@ -199,29 +199,29 @@ Brand Portal使用者可以從Brand Portal介面下載多個資產、包含資�
 
 >[!NOTE]
 >
->如果 **[!UICONTROL 快速下載]** 管理員會關閉此設定，系統不會使用IBM Aspera Connect，直接將選取的轉譯下載到zip資料夾中。
+>如果管理員已關閉&#x200B;**[!UICONTROL 快速下載]**&#x200B;設定，則選取的轉譯會直接下載到zip資料夾中，而不使用IBM Aspera Connect。
 
 >[!NOTE]
 >
->如果 **[!UICONTROL 資產下載]** 中的設定已啟用 **[!UICONTROL 下載設定]**，資產轉譯會下載到zip檔案夾內每個資產的個別檔案夾中。
+>如果&#x200B;**[!UICONTROL 下載設定]**&#x200B;中啟用了&#x200B;**[!UICONTROL 資產下載]**&#x200B;設定，則會將資產轉譯下載到zip資料夾內每個資產的個別資料夾中。
 >  
->如果資產是從共用連結下載，資產轉譯會針對zip資料夾內的每個資產下載到個別資料夾中。
+>如果資產是從共用連結下載，資產轉譯會針對zip資料夾內的每個資產下載在個別資料夾中。
 >
->如果選取要下載的資料夾、集合或超過20個資產， **[!UICONTROL 下載]** 會略過對話方塊，而且使用者可存取的所有資產轉譯（動態轉譯除外）都會下載到zip資料夾中。
+>如果選取了資料夾、集合或超過20個資產進行下載，則會略過&#x200B;**[!UICONTROL 下載]**&#x200B;對話方塊，而且使用者可存取的所有資產轉譯（動態轉譯除外）都會下載到zip資料夾中。
 
 >[!NOTE]
 >
->Brand Portal支援在混合模式和Scene 7模式下設定Dynamic Media。
+>Brand Portal支援在混合和Scene 7模式中設定Dynamic Media。
 >
->(*如果Experience Manager Assets編寫執行個體執行於&#x200B;**Dynamic Media混合模式***)
+>(*如果Experience Manager Assets作者執行個體是在&#x200B;**Dynamic Media混合模式***上執行)
 >
->若要預覽或下載資產的動態轉譯，請確定動態媒體已啟用，且資產的金字塔形轉譯存在於已發佈資產的Experience Manager Assets作者執行個體。 將資產從Experience Manager Assets發佈到Brand Portal時，也會發佈其Pyramid tiff轉譯。
+>若要預覽或下載資產的動態轉譯，請確定動態媒體已啟用，且資產的金字塔影格轉譯存在於已發佈資產的Experience Manager Assets作者例項。 將資產從Experience Manager Assets發佈至Brand Portal時，也會發佈其Pyramid tiff轉譯。
 
 
 
-如果您不是 [管理員已授權可存取原始轉譯](../using/brand-portal-adding-users.md#main-pars-procedure-202029708)，則不會下載所選資產的原始轉譯。
+如果您未經管理員[授權，無法存取原始轉譯](../using/brand-portal-adding-users.md#main-pars-procedure-202029708)，則不會下載所選資產的原始轉譯。
 
-![no-access-message](assets/no-access-message.png)
+![無存取權訊息](assets/no-access-message.png)
 
 <!-- This issue has been resolved, check with engineering.
 >[!NOTE]
@@ -233,28 +233,28 @@ Brand Portal使用者可以從Brand Portal介面下載多個資產、包含資�
 
 除了下載工作流程外，還有另一種方法可直接從資產詳細資訊頁面下載個別資產的轉譯。
 
-使用者可以預覽不同的資產轉譯、選取特定轉譯，並直接從以下來源下載資產轉譯： **[!UICONTROL 轉譯]** 面板，而不需開啟 **[!UICONTROL 下載]** 對話方塊。
+使用者可以預覽不同的資產轉譯、選取特定的轉譯，以及直接從資產詳細資料頁面中的&#x200B;**[!UICONTROL 轉譯]**&#x200B;面板下載資產轉譯，而不需要開啟&#x200B;**[!UICONTROL 下載]**&#x200B;對話方塊。
 
 
 以下是從資產詳細資訊頁面下載資產轉譯的步驟：
 
 1. 登入您的Brand Portal租使用者，然後按一下資產以開啟資產詳細資訊頁面。
-1. 按一下左側的覆蓋圖示，然後按一下 **[!UICONTROL 轉譯]**.
+1. 按一下左側的覆蓋圖示，然後按一下&#x200B;**[!UICONTROL 轉譯]**。
 
-   ![節目導覽](assets/rendition-navigation.png)
+   ![轉譯導覽](assets/rendition-navigation.png)
 
-1. 此 **[!UICONTROL 轉譯]** 面板會根據資產列出所有可存取的資產轉譯 [下載設定](#configure-download).
+1. **[!UICONTROL 轉譯]**&#x200B;面板會根據資產[下載設定](#configure-download)列出所有可存取的資產轉譯。
 
-   選取您要下載的特定轉譯，然後按一下 **[!UICONTROL 下載專案]**.
+   選取您要下載的特定轉譯，然後按一下&#x200B;**[!UICONTROL 下載專案]**。
 
-   ![轉譯 — 面板](assets/renditions-panel.png)
+   ![轉譯面板](assets/renditions-panel.png)
 
 
-1. 根據預設 **[!UICONTROL 快速下載]** 中的設定已啟用 **[!UICONTROL 下載設定]**. 因此，確認方塊會顯示為允許使用IBM Aspera Connect加速下載。
+1. 預設會在&#x200B;**[!UICONTROL 下載設定]**&#x200B;中啟用&#x200B;**[!UICONTROL 快速下載]**&#x200B;設定。 因此，確認方塊會出現，以允許使用IBM Aspera Connect加速下載。
 
-   若要繼續使用 **[!UICONTROL 快速下載]**，按一下 **[!UICONTROL 允許]**. 所有選取的轉譯都會使用IBM Aspera Connect下載到zip資料夾中。
+   若要繼續使用&#x200B;**[!UICONTROL 快速下載]**，請按一下&#x200B;**[!UICONTROL 允許]**。 所有選取的轉譯都會使用IBM Aspera Connect下載到zip資料夾中。
 
-   如果您拒絕使用 **[!UICONTROL 快速下載]**，系統會填入錯誤訊息。 按一下 **[!UICONTROL 一般下載]** 按鈕以繼續下載資產。
+   如果您拒絕使用&#x200B;**[!UICONTROL 快速下載]**，系統會填入錯誤訊息。 按一下&#x200B;**[!UICONTROL 正常下載]**&#x200B;按鈕以繼續下載資產。
 
 <!-- removed the known issue from step 3 as it is fixed in 2022.02.0 release.
    >[!CAUTION]
@@ -268,12 +268,12 @@ Brand Portal使用者可以從Brand Portal介面下載多個資產、包含資�
 
 >[!NOTE]
 >
->如果 **[!UICONTROL 快速下載]** 管理員會關閉此設定，系統不會使用IBM Aspera Connect，直接將選取的轉譯下載到zip資料夾中。
+>如果管理員已關閉&#x200B;**[!UICONTROL 快速下載]**&#x200B;設定，則選取的轉譯會直接下載到zip資料夾中，而不使用IBM Aspera Connect。
 
 
 >[!NOTE]
 >
->個別下載的資產會顯示在資產下載報表中。 不過，如果下載了包含資產的資料夾，則該資料夾和資產不會顯示在資產下載報表中。
+>個別下載的Assets會顯示在資產下載報表中。 不過，如果下載了包含資產的資料夾，該資料夾和資產不會顯示在資產下載報表中。
 
 <!--
 >[!NOTE]
@@ -417,20 +417,20 @@ Following are the steps to download assets or folders containing assets from Bra
 
 ## 預期的下載效能 {#expected-download-performance}
 
-根據本機網際網路連線和伺服器延遲等因素，不同使用者端位置的檔案下載體驗可能會有所不同。 在不同使用者端位置觀察到2 GB檔案的預期下載效能如下，其中位於美國奧勒岡州的Brand Portal伺服器為：
+根據本機網際網路連線和伺服器延遲等因素，不同使用者端位置的使用者可能會有不同的檔案下載體驗。 在不同使用者端位置觀察到2 GB檔案的預期下載效能如下，其中的Brand Portal伺服器位在美國奧勒岡州：
 
-| 使用者端位置 | 使用者端與伺服器之間的延遲 | 預期下載速度 | 下載2-GB檔案所花的時間 |
+| 使用者端位置 | 使用者端與伺服器之間的延遲 | 預期下載速度 | 下載2 GB檔案所花的時間 |
 |-------------------------|-----------------------------------|-------------------------|------------------------------------|
-| 美國西部（北加州） | 18毫秒 | 7.68 MB/秒 | 4 分鐘 |
-| 美國西部（奧勒岡州） | 42毫秒 | 3.84 MB/秒 | 9 分鐘 |
-| 美國東部（維吉尼亞北部） | 85毫秒 | 1.61 MB/秒 | 21 分鐘 |
-| APAC （東京） | 124毫秒 | 1.13 MB/秒 | 30 分鐘 |
-| 野田 | 275毫秒 | 0.5 MB/秒 | 68 分鐘 |
-| 雪梨 | 175毫秒 | 0.49 MB/秒 | 69 分鐘 |
-| 倫敦 | 179毫秒 | 0.32 MB/秒 | 106 分鐘 |
-| 新加坡 | 196毫秒 | 0.5 MB/秒 | 68 分鐘 |
+| 美國西部（北加利福尼亞） | 18 毫秒 | 7.68 MB/秒 | 4 分鐘 |
+| 美國西部（奧勒岡州） | 42 毫秒 | 3.84 MB/秒 | 9 分鐘 |
+| 美國東部（維吉尼亞北部） | 85 毫秒 | 1.61 MB/秒 | 21 分鐘 |
+| APAC （東京） | 124 毫秒 | 1.13 MB/秒 | 30 分鐘 |
+| Noida | 275 毫秒 | 0.5 MB/秒 | 68 分鐘 |
+| 雪梨 | 175 毫秒 | 0.49 MB/秒 | 69 分鐘 |
+| 倫敦 | 179 毫秒 | 0.32 MB/秒 | 106 分鐘 |
+| 新加坡 | 196 毫秒 | 0.5 MB/秒 | 68 分鐘 |
 
 
 >[!NOTE]
 >
->在測試條件下會觀察到引述的資料，對於不同位置的使用者而言，這會因延遲和頻寬而異。
+>在測試條件下可觀察引用的資料，對於處於不同位置且經歷不同延遲和頻寬的使用者而言，這些條件可能有所不同。

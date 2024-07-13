@@ -12,7 +12,7 @@ discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
 exl-id: cf28df58-c6dd-4b12-8279-01351892009f
 source-git-commit: ce765700aaecba4bfff7b55effb05f981b94bdec
 workflow-type: tm+mt
-source-wordcount: '1019'
+source-wordcount: '999'
 ht-degree: 3%
 
 ---
@@ -27,7 +27,7 @@ Adobe Experience Manager Assets Brand Portal可讓您整合IBM® Aspera Connect 
 >
 >下載速度因使用者而異，因為它取決於網路頻寬、伺服器延遲和使用者端地理位置等因素。
 
-此 **[!UICONTROL 快速下載]** 設定預設為啟用，可大幅縮短從Brand Portal下載所需資產檔案的時間。
+預設會啟用&#x200B;**[!UICONTROL 快速下載]**&#x200B;設定，大幅減少從Brand Portal下載所需資產檔案的時間。
 
 ![](assets/download-settings-new.png)
 
@@ -35,9 +35,9 @@ Adobe Experience Manager Assets Brand Portal可讓您整合IBM® Aspera Connect 
 
 若要更快下載檔案，請確定以下事項：
 
-* 瀏覽至 **[!UICONTROL 工具]** > **[!UICONTROL 下載]** 並確認 **[!UICONTROL 快速下載]** 設定已啟用 **[!UICONTROL 下載設定]**.
+* 導覽至&#x200B;**[!UICONTROL 工具]** > **[!UICONTROL 下載]**，並確認&#x200B;**[!UICONTROL 下載設定]**&#x200B;中已啟用&#x200B;**[!UICONTROL 快速下載]**&#x200B;設定。
 * 確定防火牆上的連線埠33001 （TCP和UDP）已開啟。
-* **安裝IBM® Aspera Connect 3.9.9** 在瀏覽器的擴充功能中使用管理員許可權([IBM® Aspera Connect下載](https://www.ibm.com/support/fixcentral/swg/selectFixes?parent=ibm%7EOther%20software&amp;product=ibm/Other+software/IBM+Aspera+Connect&amp;release=3.9.9&amp;platform=All&amp;function=all))。
+* 使用系統管理員許可權([IBM® Aspera Connect Downloads](https://www.ibm.com/support/fixcentral/swg/selectFixes?parent=ibm%7EOther%20software&amp;product=ibm/Other+software/IBM+Aspera+Connect&amp;release=3.9.9&amp;platform=All&amp;function=all))，在瀏覽器的擴充功能中&#x200B;**安裝IBM® Aspera Connect 3.9.9**。
 
 >[!NOTE]
 >
@@ -58,7 +58,7 @@ Adobe Experience Manager Assets Brand Portal可讓您整合IBM® Aspera Connect 
 
 下表顯示使用Aspera Connect檔案下載加速器時2 GB之檔案的下載效能：
 
-*考慮到Brand Portal伺服器位於美國奧勒岡，觀察到的結果會因網路頻寬、伺服器延遲和使用者端位置等因素而有所不同。*
+*考慮到Brand Portal伺服器位於俄勒岡（美國），觀察到的結果會因網路頻寬、伺服器延遲和使用者端位置等因素而有所不同。*
 
 | 使用者端位置 | 使用者端與伺服器之間的延遲（毫秒） | 使用Aspera Connect File Transfer Accelerator (MBps)提升速度 | 使用Aspera File Transfer Accelerator下載2 GB的檔案所花的時間（秒） |
 |---------------------------|-----------------------------------|---------------------------------------------|-------------------------------------------------------------------------|
@@ -75,29 +75,29 @@ Adobe Experience Manager Assets Brand Portal可讓您整合IBM® Aspera Connect 
 
 若要從Brand Portal更快下載資產：
 
-1. 登入您的Brand Portal租使用者。 根據預設， **[!UICONTROL 檔案]** 檢視開啟，其中包含所有已發佈的資產和資料夾。
+1. 登入您的Brand Portal租使用者。 依預設，**[!UICONTROL 檔案]**&#x200B;檢視會開啟，其中包含所有已發佈的資產和資料夾。
 
    執行下列任一項作業：
 
-   * 選取您要下載的資產或資料夾。 從頂部的工具列中，按一下 **[!UICONTROL 下載]** 圖示。
+   * 選取您要下載的資產或資料夾。 從頂端的工具列按一下&#x200B;**[!UICONTROL 下載]**&#x200B;圖示。
 
-     ![select-multi-assets](assets/select-assets-new.png)
+     ![select-multiple-assets](assets/select-assets-new.png)
 
-   * 若要下載資產的特定資產轉譯，請將指標暫留在資產上，然後按一下 **[!UICONTROL 下載]** 圖示在快速動作縮圖中可用。
+   * 若要下載資產的特定資產轉譯，請將指標暫留在資產上，然後按一下快速動作縮圖中的&#x200B;**[!UICONTROL 下載]**&#x200B;圖示。
 
      ![select-asset](assets/select-asset.png)
 
-1. 此 **[!UICONTROL 下載]** 列出所有選定資產的對話方塊隨即開啟。
+1. **[!UICONTROL 下載]**&#x200B;對話方塊會開啟，其中列出所有選取的資產。
 
-   若要在下載資產時保留Brand Portal資料夾階層，請選取 **[!UICONTROL 為每個資產建立個別的資料夾]** 核取方塊。
+   若要在下載資產時保留Brand Portal資料夾階層，請選取&#x200B;**[!UICONTROL 為每個資產建立個別資料夾]**&#x200B;核取方塊。
 
-   下載按鈕會反映所選專案的計數。 套用完規則後，請按一下 **[!UICONTROL 下載專案]**. 若要進一步瞭解如何套用規則，請參閱 [下載資產](../using/brand-portal-download-assets.md#download-assets).
+   下載按鈕會反映所選專案的計數。 套用完規則後，按一下&#x200B;**[!UICONTROL 下載專案]**。 若要進一步瞭解如何套用規則，請參閱[下載資產](../using/brand-portal-download-assets.md#download-assets)。
 
-   ![download-dialog](assets/download-dialog-box-new.png)
+   ![下載對話方塊](assets/download-dialog-box-new.png)
 
-1. 根據預設 **[!UICONTROL 快速下載]** 中的設定已啟用 **[!UICONTROL 下載設定]**. 因此，系統會顯示確認方塊，以使用IBM® Aspera Connect下載資產。
+1. 預設會在&#x200B;**[!UICONTROL 下載設定]**&#x200B;中啟用&#x200B;**[!UICONTROL 快速下載]**&#x200B;設定。 因此，系統會顯示確認方塊，以使用IBM® Aspera Connect下載資產。
 
-   如果您是第一次下載資產，而且您的瀏覽器未安裝IBM® Aspera Connect ，或是現有版本已過期，系統會提示您安裝Aspera下載加速器(`https://www.ibm.com/docs/en/aspera-connect/3.9.9`)。
+   如果您是第一次下載資產，而且瀏覽器中未安裝IBM® Aspera Connect，或是現有版本已過期，系統會提示您安裝Aspera下載加速器(`https://www.ibm.com/docs/en/aspera-connect/3.9.9`)。
 
    ![](assets/aspera-not-launched.png)
 
@@ -109,17 +109,17 @@ Adobe Experience Manager Assets Brand Portal可讓您整合IBM® Aspera Connect 
 
 1. 成功安裝使用者端後，請重新整理瀏覽器頁面，並再次起始下載步驟。
 
-1. 若要繼續使用 **[!UICONTROL 快速下載]**，按一下 **[!UICONTROL 允許]**. 所有選取的轉譯都會使用IBM® Aspera Connect下載到zip資料夾中。
+1. 若要繼續使用&#x200B;**[!UICONTROL 快速下載]**，請按一下&#x200B;**[!UICONTROL 允許]**。 所有選取的轉譯都會使用IBM® Aspera Connect下載到zip資料夾中。
 
    成功完成下載後，對話方塊會顯示資產下載至使用者系統的位置。
 
    ![](assets/aspera-download-2.png)
 
-   如果您不想要使用IBM® Aspera Connect，請按一下 **[!UICONTROL 拒絕]**. 如果 **[!UICONTROL 快速下載]** 被拒絕或失敗，系統會填入「錯誤」訊息。 按一下 **[!UICONTROL 一般下載]** 按鈕以繼續下載資產。
+   如果您不想要使用IBM® Aspera Connect，請按一下&#x200B;**[!UICONTROL 拒絕]**。 如果&#x200B;**[!UICONTROL 快速下載]**&#x200B;被拒絕或失敗，系統會填入「錯誤」訊息。 按一下&#x200B;**[!UICONTROL 正常下載]**&#x200B;按鈕以繼續下載資產。
 
 >[!NOTE]
 >
-如果 **[!UICONTROL 快速下載]** 管理員會關閉此設定，系統不會使用IBM® Aspera Connect將選取的轉譯直接下載到zip資料夾中。
+>如果管理員已關閉&#x200B;**[!UICONTROL 快速下載]**&#x200B;設定，則選取的轉譯會直接下載到zip資料夾中，而不使用IBM® Aspera Connect。
 
 <!-- 
 On successful completion of the download, a dialog box shows the location where assets are downloaded onto the user's system. If there is a failure, it shows error.
@@ -180,20 +180,20 @@ On successful completion of the download, a dialog box shows the location where 
 
 ## 在Microsoft® Edge瀏覽器上使用檔案加速器 {#using-file-accelerator-on-microsoft-edge-browser}
 
-Microsoft® Edge會在增強保護模式(EPM)中執行，以防止在相同的私人網路或信任網站中與Aspera Connect伺服器通訊。 因此，每次建立與伺服器的連線時，都會顯示快顯視窗。
+Microsoft® Edge會在增強保護模式(EPM)中執行，以防止在相同的私人網路或受信任的網站上與Aspera Connect伺服器通訊。 因此，每次建立與伺服器的連線時，都會顯示快顯視窗。
 
 ![](assets/switchapps-msedge.png)
 
 若要在Microsoft® Edge上使用加速下載功能，請從信任的網站清單中移除Brand Portal網站。
 
-1. 開啟「控制面板」 (**[!UICONTROL Window鍵+ X]**，然後選取 **[!UICONTROL 控制面板]**)。
-1. 前往 **[!UICONTROL 網路與網際網路]** > **[!UICONTROL 網際網路選項]**. 按一下 **[!UICONTROL 安全性]** 標籤。
-1. 按一下 **[!UICONTROL 信任的網站區域]**，然後按一下 **[!UICONTROL 網站]**.
+1. 開啟[控制檯] （**[!UICONTROL Window鍵+ X]**，然後選取[控制檯] ****）。
+1. 移至&#x200B;**[!UICONTROL 網路和網際網路]** > **[!UICONTROL 網際網路選項]**。 按一下「**[!UICONTROL 安全性]**」標籤。
+1. 按一下&#x200B;**[!UICONTROL 信任的網站區域]**，然後按一下&#x200B;**[!UICONTROL 網站]**。
 1. 從清單中移除Brand Portal網站。
 
 ## Aspera Connect使用者端喜好設定 {#aspera-connect-client-preferences}
 
-在IBM® Aspera Connect使用者端偏好設定中可設定一些實用的偏好設定，方法是按一下右鍵圖示並選取 **[!UICONTROL 偏好設定]**.
+在IBM® Aspera Connect使用者端偏好設定中可設定一些實用的偏好設定，方法是按一下圖示並選取&#x200B;**[!UICONTROL 偏好設定]**。
 
 ![](assets/download_assets_frombrandportalimg19.png)
 
@@ -209,11 +209,11 @@ Microsoft® Edge會在增強保護模式(EPM)中執行，以防止在相同的�
 
 如果加速下載對您無效，請嘗試下列建議：
 
-1. 檢查連線埠是否未被封鎖。 使用Google搜尋來尋找可讓您根據使用的作業系統檢查連線埠是否遭到封鎖的選項。  <!-- THIS URL IS 404 AND DOES NOT REDIRECT [https://test-connect.asperasoft.com](https://test-connect.asperasoft.com/) from your computer. -->
+1. 檢查連線埠是否未被封鎖。 使用Google搜尋來尋找可讓您根據使用的作業系統檢查連線埠是否遭到封鎖的選項。 <!-- THIS URL IS 404 AND DOES NOT REDIRECT [https://test-connect.asperasoft.com](https://test-connect.asperasoft.com/) from your computer. -->
 
    如果連線埠狀況不正常，請連絡您的網路群組，並確定連線埠33001 （TCP和UDP）在防火牆中未被封鎖。
 
-1. 如果連線埠正常，則透過測量可用的頻寬來檢查您的網路是否速度不慢 [https://www.speedtest.net/](https://www.speedtest.net/).
+1. 如果連線埠正常，則使用[https://www.speedtest.net/](https://www.speedtest.net/)測量可用的頻寬，檢查您的網路是否速度不慢。
 
    如果頻寬是幾個(1-10 Mbps)或以Kbps為單位，請使用Aspera偏好設定並嘗試將頻寬限製為等於可用頻寬。
 
