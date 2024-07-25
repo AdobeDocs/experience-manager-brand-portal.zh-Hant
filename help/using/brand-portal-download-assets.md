@@ -1,71 +1,67 @@
 ---
 title: 下載資產
-seo-title: Download assets
-description: 所有使用者可以同時下載他們可存取的資產和資料夾。 如此一來，核准的品牌資產便可安全地散發，以供離線使用。
-seo-description: All users can simultaneously download assets and folders accessible to them. This way, approved brand assets can be securely distributed for offline use.
-uuid: 4b57118e-a76e-4d8a-992a-cb3c3097bc03
+description: 所有使用者可以同時下載可存取的資產和資料夾，確保核准的品牌資產安全地分送以供離線使用。
 content-type: reference
 contentOwner: Vishabh Gupta
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download, download-install, download assets
-discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 exl-id: be264b1c-38d9-4075-b56a-113f34a2c6bf
-source-git-commit: fe6677df928a4125185051d80ae3055afb479369
+source-git-commit: f483ac280a5e89ca25305eae09380d70ad661752
 workflow-type: tm+mt
-source-wordcount: '1932'
+source-wordcount: '1909'
 ht-degree: 4%
 
 ---
 
 # 下載資產 {#download-assets-from-bp}
 
-Adobe Experience Manager Assets Brand Portal允許使用者同時下載可從Brand Portal存取的資產和資料夾，藉此增強下載體驗。 如此一來，核准的品牌資產便可安全地散發，以供離線使用。 請閱讀下文，瞭解如何從Brand Portal下載資產（已核准的資產），以及[下載效能](#expected-download-performance)的期望。
+Adobe Experience Manager Assets Brand Portal可讓使用者同時下載可從Brand Portal存取的資產和資料夾，藉此增強下載體驗。 此方法表示核准的品牌資產可以安全地發佈，以供離線使用。 請閱讀下文，瞭解如何從Brand Portal下載資產（已核准的資產），以及[下載效能](#expected-download-performance)的期望。
 
 
 >[!NOTE]
 >
->在Brand Portal 2020.10.0 （及更新版本）中，「**[!UICONTROL 快速下載]**」設定預設為啟用，會使用IBM Aspera Connect來加速資產下載。 從Brand Portal下載資產之前，請在瀏覽器的擴充功能中安裝IBM Aspera Connect 3.9.9 (`https://www.ibm.com/docs/en/aspera-connect/3.9.9`)。 如需詳細資訊，請參閱[加速從Brand Portal](../using/accelerated-download.md)下載的指南。
+>在Brand Portal 2020.10.0 （及更新版本）中，**[!UICONTROL 快速下載]**&#x200B;設定預設為啟用，會使用IBM® Aspera Connect來加速下載資產。 從Brand Portal下載資產之前，請在瀏覽器的擴充功能中安裝IBM® Aspera Connect 3.9.9 (`https://www.ibm.com/docs/en/aspera-connect/3.9.9`)。 請參閱[指南以加速從Brand Portal](../using/accelerated-download.md)下載。
 >
->如果您不想使用IBM Aspera Connect並繼續正常下載程式，請聯絡Brand Portal管理員以關閉&#x200B;**[!UICONTROL 快速下載]**&#x200B;設定。
+>如果您不想使用IBM® Aspera Connect並繼續正常下載程式，請聯絡Brand Portal管理員以關閉&#x200B;**[!UICONTROL 快速下載]**&#x200B;設定。
 
 ## 設定資產下載 {#configure-download}
 
-Brand Portal管理員可以為Brand Portal使用者設定資產下載和使用者群組設定，讓他們從Brand Portal介面存取和下載資產轉譯。
+Brand Portal管理員可以為Brand Portal使用者設定資產下載和使用者群組設定。 此功能可讓使用者從Brand Portal介面存取及下載資產轉譯。
 
 >[!NOTE]
 >
->套用至使用者介面的下載設定有助於Brand Portal使用者獲得自助式體驗，以便輕鬆設定和下載資產轉譯。 它不會限制在應用程式層的資產下載，例如，使用者仍然可以存取和下載具有完整URL路徑的資產轉譯。
+>使用者介面上的下載設定可為Brand Portal使用者提供自助式體驗，讓他們輕鬆設定和下載資產轉譯。 它不會限制在應用程式層的資產下載，例如，使用者仍然可以存取和下載具有完整URL路徑的資產轉譯。
 
-下列設定會定義從Brand Portal介面存取及下載資產轉譯：
+以下設定會定義如何從Brand Portal介面存取及下載資產轉譯：
 
 * 啟用下載設定
 * 設定使用者群組設定
 
 ### 啟用下載設定 {#enable-download-settings}
 
-管理員可以啟用資產&#x200B;**[!UICONTROL 下載設定]**，以定義Brand Portal使用者可存取的轉譯集以供下載。
+管理員可以啟用&#x200B;**[!UICONTROL 下載設定]**，以定義Brand Portal使用者可存取的轉譯集以供下載。
 
 可用的設定包括：
 
 * **[!UICONTROL 快速下載]**
 
-  它提供使用IBM Aspera Connect加速資產下載的功能。 預設會在&#x200B;**[!UICONTROL 下載設定]**&#x200B;中啟用&#x200B;**[!UICONTROL 快速下載]**&#x200B;設定。
+  它提供使用IBM® Aspera Connect加速資產下載的功能。 預設會在&#x200B;**[!UICONTROL 下載設定]**&#x200B;中啟用&#x200B;**[!UICONTROL 快速下載]**&#x200B;設定。
 
 * **[!UICONTROL 自訂轉譯]**
 
   啟用下載資產的自訂和（或）動態轉譯。
 
-  除了原始資產和系統產生的轉譯之外的所有資產轉譯都稱為自訂轉譯。 其中包含資產可用的靜態和動態轉譯。 任何使用者都可以在Experience Manager Assets中建立自訂靜態轉譯，但只有管理員才能建立自訂動態轉譯。 如需詳細資訊，請參閱[如何套用影像預設集或動態轉譯](../using/brand-portal-image-presets.md)。
+  除了原始資產和系統產生的轉譯之外的所有資產轉譯都稱為自訂轉譯。 其中包含資產可用的靜態和動態轉譯。 任何使用者都可以在Experience Manager Assets中建立自訂靜態轉譯，但只有管理員才能建立自訂動態轉譯。 請參閱如何套用影像預設集或動態轉譯[。](../using/brand-portal-image-presets.md)
 
 * **[!UICONTROL 系統轉譯]**
 
   啟用下載系統產生的資產轉譯。
 
-  這些是根據「DAM更新資產」工作流程在Experience Manager Assets中自動產生的縮圖。
+  這些資產是根據「DAM更新資產」工作流程，在Experience Manager Assets中自動產生的縮圖。
 
 * **[!UICONTROL 資產下載]**
 
-  允許將轉譯下載到每個資產的個別資料夾中。 此設定適用於資料夾、收藏和大量下載資產（超過20個資產）。
+  轉譯會下載到每個資產的個別資料夾中。 此設定適用於超過20個資產的資料夾、收藏集和大量下載。
 
 
 以系統管理員身分登入您的Brand Portal租使用者，並瀏覽至&#x200B;**[!UICONTROL 工具]** > **[!UICONTROL 下載]**。
@@ -89,9 +85,9 @@ Brand Portal管理員可以為Brand Portal使用者設定資產下載和使用�
 
 >[!NOTE]
 >
->如果將使用者新增到多個群組，並且其中一個群組具有限制，則該限制將套用至使用者。
+>如果將使用者新增到多個群組，並且其中一個群組具有限制，則該限制適用於使用者。
 
-根據設定，獨立資產、多個資產、包含資產的資料夾、授權或未授權的資產，以及使用共用連結下載資產時，下載工作流程保持不變。
+根據設定，對於獨立資產、多個資產、包含資產的資料夾、授權或未授權的資產，以及使用共用連結下載資產，下載工作流程保持不變。
 
 以下矩陣定義使用者是否可存取轉譯，視[下載設定](#configure-download)而定：
 
@@ -153,14 +149,14 @@ Brand Portal使用者可以從Brand Portal介面下載多個資產、包含資�
 
      >[!NOTE]
      >
-     >如果您是第一次下載資產，而且瀏覽器中未安裝IBM Aspera Connect，則會提示您安裝Aspera下載加速器(`https://www.ibm.com/docs/en/aspera-connect/3.9.9`)。
+     >如果您是第一次下載資產，而且瀏覽器中未安裝IBM® Aspera Connect，則會提示您安裝Aspera下載加速器(`https://www.ibm.com/docs/en/aspera-connect/3.9.9`)。
 
 
      >[!NOTE]
      >
-     >如果您正在下載的資產也包含授權資產，系統會將您重新導向至&#x200B;**[!UICONTROL 版權管理]**&#x200B;頁面。 在此頁面中，選取資產，按一下&#x200B;**[!UICONTROL 同意]**，然後按一下&#x200B;**[!UICONTROL 下載]**。 如果您選擇不同意，授權資產將不會下載。
+     >如果您下載的資產也包含授權資產，系統會將您重新導向至&#x200B;**[!UICONTROL 版權管理]**&#x200B;頁面。 在此頁面中，選取資產，按一下&#x200B;**[!UICONTROL 同意]**，然後按一下&#x200B;**[!UICONTROL 下載]**。 如果您選擇不同意，授權資產將不會下載。
      > 
-     >受授權保護的資產附有[授權合約](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/drm.html)，方法是在Experience Manager Assets中設定資產的[中繼資料屬性](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/drm.html)。
+     >受授權保護的資產已附加[授權合約](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/drm)，方法是在Experience Manager Assets中設定資產的[中繼資料屬性](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/drm)。
 
 
      ![已授權資產](assets/licensed-asset-new.png)
@@ -169,7 +165,7 @@ Brand Portal使用者可以從Brand Portal介面下載多個資產、包含資�
 
    按一下任何資產以檢視可用的轉譯，並選取與您要下載的轉譯對應的核取方塊。
 
-   您可以手動選取或排除個別資產的轉譯，或按一下「套用」****&#x200B;圖示來選取相同的一組轉譯，以供下載類似的資產型別（此範例中的所有影像檔案）。 在&#x200B;**[!UICONTROL 全部套用]**&#x200B;對話方塊中，按一下&#x200B;**[!UICONTROL 完成]**&#x200B;以將規則套用至所有類似的資產。
+   您可以手動選取或排除個別資產的轉譯，或按一下「**套用**」圖示來選取相同的一組轉譯，以供下載類似的資產型別（此範例中的所有影像檔案）。 在&#x200B;**[!UICONTROL 全部套用]**&#x200B;對話方塊中，按一下&#x200B;**[!UICONTROL 完成]**&#x200B;以將規則套用至所有類似的資產。
 
    ![套用全部](assets/apply.png)
 
@@ -177,17 +173,17 @@ Brand Portal使用者可以從Brand Portal介面下載多個資產、包含資�
 
    ![移除](assets/remove.png)
 
-   若要在下載資產時保留Brand Portal資料夾階層，請選取&#x200B;**[!UICONTROL 為每個資產建立個別資料夾]**&#x200B;核取方塊。
+   若要在下載資產時保留Brand Portal資料夾結構，請選取&#x200B;**[!UICONTROL `Create separate folder for each asset`]**&#x200B;核取方塊。
 
    下載按鈕會反映所選專案的計數。 套用完規則後，按一下&#x200B;**[!UICONTROL 下載專案]**。
 
    ![下載對話方塊](assets/download-dialog-box-new.png)
 
-1. 預設會在&#x200B;**[!UICONTROL 下載設定]**&#x200B;中啟用&#x200B;**[!UICONTROL 快速下載]**&#x200B;設定。 因此，確認方塊會出現，以允許使用IBM Aspera Connect加速下載。
+1. 預設會在&#x200B;**[!UICONTROL 下載設定]**&#x200B;中啟用&#x200B;**[!UICONTROL 快速下載]**&#x200B;設定。 因此，確認方塊會出現，以允許使用IBM® Aspera Connect加速下載。
 
-   若要繼續使用&#x200B;**[!UICONTROL 快速下載]**，請按一下&#x200B;**[!UICONTROL 允許]**。 所有選取的轉譯都會使用IBM Aspera Connect下載到zip資料夾中。
+   若要繼續使用&#x200B;**[!UICONTROL 快速下載]**，請按一下&#x200B;**[!UICONTROL 允許]**。 所有選取的轉譯都會使用IBM® Aspera Connect下載到zip資料夾中。
 
-   如果您不想要使用IBM Aspera Connect，請按一下&#x200B;**[!UICONTROL 拒絕]**。 如果&#x200B;**[!UICONTROL 快速下載]**&#x200B;被拒絕或失敗，系統會填入「錯誤」訊息。 按一下&#x200B;**[!UICONTROL 正常下載]**&#x200B;按鈕以繼續下載資產。
+   如果您不想要使用IBM® Aspera Connect，請按一下&#x200B;**[!UICONTROL 拒絕]**。 如果&#x200B;**[!UICONTROL 快速下載]**&#x200B;被拒絕或失敗，系統會填入「錯誤」訊息。 按一下&#x200B;**[!UICONTROL 正常下載]**&#x200B;按鈕以繼續下載資產。
 
 <!-- removed the known issue from step 2 as it is fixed in 2022.02.0 release.
    >[!CAUTION]
@@ -199,7 +195,7 @@ Brand Portal使用者可以從Brand Portal介面下載多個資產、包含資�
 
 >[!NOTE]
 >
->如果管理員已關閉&#x200B;**[!UICONTROL 快速下載]**&#x200B;設定，則選取的轉譯會直接下載到zip資料夾中，而不使用IBM Aspera Connect。
+>如果管理員已關閉&#x200B;**[!UICONTROL 快速下載]**&#x200B;設定，則選取的轉譯會直接下載到zip資料夾中，而不使用IBM® Aspera Connect。
 
 >[!NOTE]
 >
@@ -207,19 +203,17 @@ Brand Portal使用者可以從Brand Portal介面下載多個資產、包含資�
 >  
 >如果資產是從共用連結下載，資產轉譯會針對zip資料夾內的每個資產下載在個別資料夾中。
 >
->如果選取了資料夾、集合或超過20個資產進行下載，則會略過&#x200B;**[!UICONTROL 下載]**&#x200B;對話方塊，而且使用者可存取的所有資產轉譯（動態轉譯除外）都會下載到zip資料夾中。
+>當您選取要下載的資料夾、集合或超過20個資產時，會略過&#x200B;**[!UICONTROL 下載]**&#x200B;對話方塊。 反之，所有可存取的資產轉譯（動態轉譯除外）都會下載到zip資料夾中。
 
 >[!NOTE]
 >
->Brand Portal支援在混合和Scene 7模式中設定Dynamic Media。
+>Brand Portal支援在混合和Scene7模式中設定Dynamic Media。
 >
->(*如果Experience Manager Assets作者執行個體是在&#x200B;**Dynamic Media混合模式***上執行)
+>(*如果Experience Manager Assets作者執行個體是在&#x200B;**Dynamic Media混合模式***中執行)
 >
->若要預覽或下載資產的動態轉譯，請確定動態媒體已啟用，且資產的金字塔影格轉譯存在於已發佈資產的Experience Manager Assets作者例項。 將資產從Experience Manager Assets發佈至Brand Portal時，也會發佈其Pyramid tiff轉譯。
+>若要預覽或下載動態轉譯，請啟用動態媒體。 確認資產的金字塔型轉譯存在於發佈資產的Experience Manager Assets作者例項中。 將資產從Experience Manager Assets發佈至Brand Portal時，也會發佈其Pyramid tiff轉譯。
 
-
-
-如果您未經管理員[授權，無法存取原始轉譯](../using/brand-portal-adding-users.md#main-pars-procedure-202029708)，則不會下載所選資產的原始轉譯。
+如果[管理員未授權您存取原始轉譯](../using/brand-portal-adding-users.md#main-pars-procedure-202029708)，則無法下載所選資產的原始轉譯。
 
 ![無存取權訊息](assets/no-access-message.png)
 
@@ -250,9 +244,9 @@ Brand Portal使用者可以從Brand Portal介面下載多個資產、包含資�
    ![轉譯面板](assets/renditions-panel.png)
 
 
-1. 預設會在&#x200B;**[!UICONTROL 下載設定]**&#x200B;中啟用&#x200B;**[!UICONTROL 快速下載]**&#x200B;設定。 因此，確認方塊會出現，以允許使用IBM Aspera Connect加速下載。
+1. 預設會在&#x200B;**[!UICONTROL 下載設定]**&#x200B;中啟用&#x200B;**[!UICONTROL 快速下載]**&#x200B;設定。 因此，確認方塊會出現，以允許使用IBM® Aspera Connect加速下載。
 
-   若要繼續使用&#x200B;**[!UICONTROL 快速下載]**，請按一下&#x200B;**[!UICONTROL 允許]**。 所有選取的轉譯都會使用IBM Aspera Connect下載到zip資料夾中。
+   若要繼續使用&#x200B;**[!UICONTROL 快速下載]**，請按一下&#x200B;**[!UICONTROL 允許]**。 所有選取的轉譯都會使用IBM® Aspera Connect下載到zip資料夾中。
 
    如果您拒絕使用&#x200B;**[!UICONTROL 快速下載]**，系統會填入錯誤訊息。 按一下&#x200B;**[!UICONTROL 正常下載]**&#x200B;按鈕以繼續下載資產。
 
@@ -268,7 +262,7 @@ Brand Portal使用者可以從Brand Portal介面下載多個資產、包含資�
 
 >[!NOTE]
 >
->如果管理員已關閉&#x200B;**[!UICONTROL 快速下載]**&#x200B;設定，則選取的轉譯會直接下載到zip資料夾中，而不使用IBM Aspera Connect。
+>如果管理員已關閉&#x200B;**[!UICONTROL 快速下載]**&#x200B;設定，則選取的轉譯會直接下載到zip資料夾中，而不使用IBM® Aspera Connect。
 
 
 >[!NOTE]
@@ -417,7 +411,7 @@ Following are the steps to download assets or folders containing assets from Bra
 
 ## 預期的下載效能 {#expected-download-performance}
 
-根據本機網際網路連線和伺服器延遲等因素，不同使用者端位置的使用者可能會有不同的檔案下載體驗。 在不同使用者端位置觀察到2 GB檔案的預期下載效能如下，其中的Brand Portal伺服器位在美國奧勒岡州：
+根據本機網際網路連線和伺服器延遲等因素，不同使用者端位置的使用者可能會有不同的檔案下載體驗。 在不同使用者端位置觀察到2 GB檔案的預期下載效能如下，其中位於美國奧勒岡的Brand Portal伺服器如下：
 
 | 使用者端位置 | 使用者端與伺服器之間的延遲 | 預期下載速度 | 下載2 GB檔案所花的時間 |
 |-------------------------|-----------------------------------|-------------------------|------------------------------------|
