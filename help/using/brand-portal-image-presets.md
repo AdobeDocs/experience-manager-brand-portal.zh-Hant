@@ -1,18 +1,14 @@
 ---
 title: 套用影像預設集或動態轉譯
-seo-title: Apply image presets or dynamic renditions
 description: 像巨集一樣，影像預設集是預先定義的集合，其中包含以名稱儲存的調整大小和格式指令。 影像預設集可讓Experience Manager Assets Brand Portal動態傳送不同大小、格式和屬性的影像。
-seo-description: Like a macro, an image preset is a predefined collection of sizing and formatting commands saved under a name. Image presets enable Experience Manager Assets Brand Portal to dynamically deliver images of different sizes, formats, and properties.
-uuid: a3c8705c-5fbd-472c-8b61-f65b3e552c1b
 content-type: reference
 topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-discoiquuid: a512dfa0-fef3-4c3f-a389-a0a3a7415bac
 role: Admin
 exl-id: 212a1b3a-686f-4250-be06-b679b6039887
-source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
+source-git-commit: 1a3e51922fb658d9d05113b4b1f4d05a0b6555c0
 workflow-type: tm+mt
-source-wordcount: '816'
+source-wordcount: '814'
 ht-degree: 1%
 
 ---
@@ -23,7 +19,7 @@ ht-degree: 1%
 
 影像預設集是用來產生影像的動態轉譯，且可供預覽和下載。 預覽影像及其轉譯時，您可以選擇預設集，將影像重新格式化為符合管理員所設定的規格。
 
-(*如果Experience Manager Assets製作執行個體在&#x200B;**Dynamic Media混合模式***上執行)若要在Brand Portal中檢視資產的動態轉譯，請確定其Pyramid tiff轉譯存在於您發佈至Brand Portal的Experience Manager Assets製作執行個體中。 發佈資產時，資產的PTIFF轉譯也會發佈至Brand Portal。
+(*如果Experience Manager Assets作者執行個體是在&#x200B;**Dynamic Media混合模式***中執行)。 若要在Brand Portal中檢視資產的動態轉譯，請確定其金字塔TIFF轉譯存在於您發佈至Brand Portal的Experience Manager Assets製作執行個體中。 發佈資產時，資產的PTIFF轉譯也會發佈至Brand Portal。
 
 >[!NOTE]
 >
@@ -40,9 +36,9 @@ Experience Manager Assets管理員可建立影像預設集，這些預設集會�
 >
 >影像的動態轉譯是使用其「金字塔」TIFF建立的。 如果金字塔TIFF不適用於任何資產，則無法在Brand Portal中擷取該資產的動態轉譯。
 >
->如果Experience Manager Assets作者執行個體在&#x200B;**Dynamic Media混合模式**&#x200B;上執行，則會建立影像資產的金字塔TIFF轉譯並儲存在Experience Manager Assets存放庫中。
+>如果Experience Manager Assets Author執行個體以&#x200B;**Dynamic Media混合模式**&#x200B;執行，則會建立影像資產的金字塔TIFF轉譯並儲存在Experience Manager Assets存放庫中。
 >
->然而，如果Experience Manager Assets作者執行個體是在&#x200B;**Dynamic Media Scene 7模式**&#x200B;上執行，則Scene 7伺服器上存在影像資產的金字塔TIFF轉譯。
+>而如果Experience Manager Assets作者執行個體以&#x200B;**Dynamic Media Scene7模式**&#x200B;執行，則Scene7伺服器上存在影像資產的金字塔TIFF轉譯。
 >
 >將這類資產發佈至Brand Portal時，會套用影像預設集並顯示動態轉譯。
 
@@ -68,7 +64,7 @@ Experience Manager Assets管理員可建立影像預設集，這些預設集會�
 1. 按一下「**[!UICONTROL 儲存]**」。影像預設集隨即建立並顯示在影像預設集頁面上。
 1. 若要刪除影像預設集，請從影像預設集頁面中選取它，然後按一下&#x200B;**[!UICONTROL 刪除]**。 在確認頁面中，按一下&#x200B;**[!UICONTROL 刪除]**&#x200B;以確認刪除。 影像預設集會從影像預設集頁面中移除。
 
-## 預覽影像時套用影像預設集  {#apply-image-presets-when-previewing-images}
+## 預覽影像時套用影像預設集 {#apply-image-presets-when-previewing-images}
 
 預覽影像及其轉譯時，請從現有的預設集中選擇，將影像重新格式化為管理員所設定的規格。
 
@@ -100,8 +96,8 @@ Experience Manager Assets管理員可建立影像預設集，這些預設集會�
    ![](assets/donload-assets-dialog.png)
 
 1. 若要下載資產的動態轉譯，請選取&#x200B;**[!UICONTROL 動態轉譯]**&#x200B;選項。
-1. 根據您要在下載期間動態重新格式化影像及其轉譯的專案自訂影像預設集屬性。 指定大小、格式、色域、解析度和影像修飾元。
+1. 自訂影像預設集屬性，以在下載期間動態地重新格式化影像及其轉譯。 指定大小、格式、色域、解析度和影像修飾元。
 
    ![](assets/dynamicrenditions.png)
 
-1. 按一下&#x200B;**[!UICONTROL 下載]**。 自訂動態轉譯會以ZIP檔案下載，連同您選擇下載的影像和轉譯。 不過，只要下載單一資產，系統就不會建立zip檔案，如此可確保快速下載。
+1. 按一下&#x200B;**[!UICONTROL 下載]**。 自訂動態轉譯會以ZIP檔案下載，連同您選擇下載的影像和轉譯。 不過，如果下載單一資產，則不會建立zip檔案，這可確保快速下載。
