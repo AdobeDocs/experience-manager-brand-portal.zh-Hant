@@ -1,17 +1,13 @@
 ---
 title: Brand Portal的Publish標籤
-seo-title: Publish tags to Brand Portal
 description: 瞭解如何從Experience Manager Assets發佈標籤至Brand Portal。
-seo-description: Learn how to publish tags from Experience Manager Assets to Brand Portal.
-uuid: 4167367e-1af8-476b-97a5-730c43bd0816
 topic-tags: publish
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
-discoiquuid: 3c8e9251-195d-4c56-a9a9-27bc8b2a82a4
 exl-id: 842656a6-1a2b-4b64-954d-1e663923a1a1
-source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
+source-git-commit: ff51a49a958d43c98443d816a92276faae5e9569
 workflow-type: tm+mt
-source-wordcount: '591'
+source-wordcount: '604'
 ht-degree: 2%
 
 ---
@@ -20,13 +16,13 @@ ht-degree: 2%
 
 瞭解如何從Experience Manager Assets發佈標籤至Brand Portal。
 
-標籤對於組織資產以及增強與其相關聯之資產的可搜尋性很有用。 標籤可視為附加資產的關鍵字或標籤（中繼資料），並可讓您透過搜尋結果快速找到資產。 若要瞭解如何在Experience Manager Assets中指派標籤給資產，請參閱[使用標籤來組織資產](https://experienceleague.adobe.com/docs/experience-manager-65/assets/managing/organize-assets.html)。
+標籤對於組織資產以及增強與其相關聯之資產的可搜尋性很有用。 標籤可視為附加資產的關鍵字或標籤（中繼資料），並可讓您透過搜尋結果快速找到資產。 若要瞭解如何在Experience Manager Assets中指派標籤給資產，請參閱[使用標籤來組織資產](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/managing/organize-assets)。
 
 當資產（和集合）與標籤相關聯時，標籤(與AEM中的資產和集合相關聯)會自動發佈至Brand Portal。Brand Portal 發佈的標籤有助於讓搜尋找到關聯的資產。
 
 >[!NOTE]
 >
->不過，建議先僅將標籤發佈至Brand Portal，再發佈與標籤相關的資產（和集合）。 這可確保更快地將資產（和集合）發佈到Brand Portal。
+>Adobe建議您在發佈與標籤相關的資產（和集合）之前，僅將標籤發佈到Brand Portal。 此方法可確保將資產（和集合）更快發佈到Brand Portal。
 
 ## 管理標記 {#manage-tags}
 
@@ -35,7 +31,7 @@ ht-degree: 2%
 若要在AEM上建立標籤、在Brand Portal上發佈標籤，並將標籤與適當的資產（或集合）相關聯，請按照以下步驟操作：
 
 1. **建立標籤**
-以系統管理許可權登入AEM Author執行個體，並從全域導覽存取**[!UICONTROL AEM標籤]**&#x200B;主控台：
+使用管理許可權登入AEM Author執行個體，並從全域導覽存取**[!UICONTROL AEM標籤]**&#x200B;主控台：
 
    1. 選取&#x200B;**[!UICONTROL 工具]**
 
@@ -43,13 +39,13 @@ ht-degree: 2%
 
    1. 選取&#x200B;**[!UICONTROL 標籤]**
 
-1. 選取&#x200B;**[!UICONTROL 建立]**，然後選取&#x200B;**[!UICONTROL 建立標籤]**&#x200B;選項。
+1. 選取「**[!UICONTROL 建立]**」，然後選取「**[!UICONTROL 建立標籤]**」選項。
 1. 指定下列設定：
 
    * **[!UICONTROL 標題]**
      *（必要）*&#x200B;標籤的顯示標題。
    * **[!UICONTROL 名稱]**
-     *（必要）*&#x200B;標籤的名稱。 如果未指定，則會從標題建立有效的節點名稱。 請參閱 [TagID](https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/tagging/framework.html)。
+     *（必要）*&#x200B;標籤的名稱。 如果未指定，則會從標題建立有效的節點名稱。 請參閱 [TagID](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/tagging/framework)。
    * **說明**
      *（選擇性）*&#x200B;標籤的說明。
    * **標籤路徑**
@@ -57,7 +53,7 @@ ht-degree: 2%
 
 1. 選取&#x200B;**[!UICONTROL 提交]**&#x200B;以建立標籤。
 
-   在AEM例項上建立標籤後，即可將標籤附加至資產（使用該資產的「屬性」區段或「管理標籤」區段）。
+   在AEM例項上建立標籤後，該標籤便可附加至資產（使用該資產的「屬性」區段或「管理標籤」區段）。
 
 1. **將標籤Publish到Brand Portal**。
 
@@ -65,12 +61,12 @@ ht-degree: 2%
 
 1. **將標籤附加至資產（或集合）**。
 
-   選取資產（或集合），然後使用該資產的「屬性」區段或「管理標籤」區段附加所需的標籤。 若要進一步瞭解如何在AEM Assets中指派標籤給資產，請參閱[使用標籤來組織資產](https://experienceleague.adobe.com/docs/experience-manager-65/assets/managing/organize-assets.html)。
+   選取資產（或集合），然後使用該資產的「屬性」區段或「管理標籤」區段附加所需的標籤。 若要進一步瞭解如何在AEM Assets中指派標籤給資產，請移至[使用標籤來組織資產](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/managing/organize-assets)。
 
 1. **Publish資產（或集合）至Brand Portal**。\
    將資產（或集合）發佈至Brand Portal時，Brand Portal上也提供附加標籤。
 
-   若要在Brand Portal中檢視個別資產（或集合）上的附加標籤，請登入Brand Portal並選取資產，在「屬性」區段下方，您會看到附加標籤。
+   若要在Brand Portal中檢視個別資產（或集合）上的附加標籤，請登入Brand Portal，然後選取資產。 在「屬性」區段下，您可以看到附加的標籤。
 
 ## 搜尋提升 {#search-promote}
 
@@ -80,7 +76,7 @@ AEM Assets Brand Portal可讓您根據關鍵字標籤，讓特定資產成為搜
 
 1. 開啟AEM作者執行個體上資產的&#x200B;**[!UICONTROL 屬性]**&#x200B;頁面。
 1. 移至&#x200B;**[!UICONTROL 進階]**&#x200B;標籤。
-1. 在&#x200B;**[!UICONTROL 提升搜尋關鍵字]**&#x200B;區段的&#x200B;**[!UICONTROL 搜尋提升]**&#x200B;中，選取&#x200B;**[!UICONTROL 新增]**&#x200B;以新增搜尋關鍵字或標籤。
+1. 在&#x200B;**[!UICONTROL 提升搜尋關鍵字]**&#x200B;區段內的&#x200B;**[!UICONTROL 搜尋提升]**&#x200B;中，選取&#x200B;**[!UICONTROL 新增]**&#x200B;以新增搜尋關鍵字或標籤。
 
    ![](assets/search-promote.png)
 
