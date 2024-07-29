@@ -9,9 +9,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 discoiquuid: bc305abc-9373-4d33-9179-0a5f3904b352
 exl-id: 9b585606-6538-459b-87a9-2e68df0087b3
-source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
+source-git-commit: 133ea1fc342e4460e7d0661205c7411a509143eb
 workflow-type: tm+mt
-source-wordcount: '1138'
+source-wordcount: '1133'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 0%
 
 若要從Brand Portal取消發佈影像預設集：
 
-1. 在AEM Author執行個體中，點選/按一下AEM標誌以存取全域導覽主控台，然後點選/按一下&#x200B;**[!UICONTROL 工具]**&#x200B;圖示，並導覽至&#x200B;**[!UICONTROL Assets >影像預設集]**。
+1. 在AEM Author執行個體中，點選/按一下AEM標誌以存取全域導覽主控台，然後按一下&#x200B;**[!UICONTROL 工具]**&#x200B;圖示，並導覽至&#x200B;**[!UICONTROL Assets >影像預設集]**。
 1. 選取影像預設集，並從上方的可用選項中選取&#x200B;**[!UICONTROL 從Brand Portal移除]**。
 
 ## Publish中繼資料結構至Brand Portal  {#publish-metadata-schema-to-brand-portal}
@@ -71,7 +71,7 @@ ht-degree: 0%
 
 若要將中繼資料結構從AEM作者例項發佈至Brand Portal：
 
-1. 在AEM Author執行個體中，點選/按一下AEM標誌以存取全域導覽主控台，然後點選/按一下「工具」圖示，並導覽至&#x200B;**[!UICONTROL Assets >中繼資料結構]**。
+1. 在AEM Author執行個體中，點選/按一下AEM標誌以存取全域導覽主控台，然後按一下「工具」圖示，並導覽至&#x200B;**[!UICONTROL Assets >中繼資料結構]**。
 1. 選取中繼資料結構描述，並從上方的可用選項中選取&#x200B;**[!UICONTROL Publish to Brand Portal]**。
 
 >[!NOTE]
@@ -80,7 +80,7 @@ ht-degree: 0%
 
 若要從Brand Portal取消發佈中繼資料結構：
 
-1. 在AEM Author執行個體中，點選/按一下AEM標誌以存取全域導覽主控台，然後點選/按一下「工具」圖示，並導覽至&#x200B;**[!UICONTROL Assets >中繼資料結構]**。
+1. 在AEM Author執行個體中，點選/按一下AEM標誌以存取全域導覽主控台，然後按一下「工具」圖示，並導覽至&#x200B;**[!UICONTROL Assets >中繼資料結構]**。
 1. 選取中繼資料結構描述，並從上方的可用選項中選取&#x200B;**[!UICONTROL 從Brand Portal移除]**。
 
 ## Publish搜尋Facet至Brand Portal {#publish-search-facets-to-brand-portal}
@@ -98,7 +98,7 @@ ht-degree: 0%
 
 若要將已編輯的搜尋Facet從AEM作者例項發佈至Brand Portal：
 
-1. 點選/按一下AEM標誌，然後前往「**[!UICONTROL 工具>一般>搜尋Forms]**」。
+1. 按一下AEM標誌，然後前往&#x200B;**[!UICONTROL 工具>一般>搜尋Forms]**。
 1. 選取已編輯的搜尋表單，然後選取&#x200B;**[!UICONTROL Publish至Brand Portal]**。
 
    >[!NOTE]
@@ -107,7 +107,7 @@ ht-degree: 0%
 
 若要從Brand Portal取消發佈搜尋表單：
 
-1. 在AEM Author執行個體中，點選/按一下AEM標誌以存取全域導覽主控台，然後點選/按一下「工具」圖示，並導覽至&#x200B;**[!UICONTROL 一般>搜尋Forms]**。
+1. 在AEM Author執行個體中，點選/按一下AEM標誌以存取全域導覽主控台，然後按一下「工具」圖示，並導覽至&#x200B;**[!UICONTROL 一般>搜尋Forms]**。
 1. 選取搜尋表單，並從上方的可用選項中選取&#x200B;**[!UICONTROL 從Brand Portal移除]**。
 
 >[!NOTE]
