@@ -5,9 +5,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 topic-tags: introduction
 exl-id: 405d7861-a140-44b1-ae1f-4f0839f05033
-source-git-commit: ff51a49a958d43c98443d816a92276faae5e9569
+source-git-commit: 4d9d7afa2cd45ea68c2e15338c92aa29ecf09f91
 workflow-type: tm+mt
-source-wordcount: '1015'
+source-wordcount: '1013'
 ht-degree: 3%
 
 ---
@@ -109,7 +109,7 @@ Brand Portal左上角的邊欄選擇器下拉式清單，可顯示導覽至資�
 路徑欄可讓您輕鬆識別資料夾階層中的資產位置。 您可以按一下資源名稱來向下瀏覽階層，然後使用標頭](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/authoring/essentials/basic-handling)中的[階層連結來向上瀏覽。
 
 <!--
-Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:05.096-0400" type="annotation">Removed:- "Selecting assets in list view To select all items in the list, use the checkbox at the upper left of the list. When all items in the list are selected, this check box appears checked. To deselect all, click or tap the checkbox. When only some items are selected, it appears with a minus sign. To select all, click or tap the checkbox. To deselect all, click or tap the checkbox again. You can change the order of items using the dotted vertical bar at the far right of each item in the list. Click the vertical selection bar and drag the item to a new position in the list."
+Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:05.096-0400" type="annotation">Removed:- "Selecting assets in list view To select all items in the list, use the checkbox at the upper left of the list. When all items in the list are selected, this check box appears checked. To deselect all, click the checkbox. When only some items are selected, it appears with a minus sign. To select all, click the checkbox. To deselect all, click the checkbox again. You can change the order of items using the dotted vertical bar at the far right of each item in the list. Click the vertical selection bar and drag the item to a new position in the list."
  -->
 
 ### 在清單檢視中檢視設定
@@ -128,7 +128,7 @@ Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:
 
 您可以在樹狀結構中向上和向下瀏覽。 按一下資源名稱或資源名稱右側的>形箭號。
 
-* 點選或按一下時，資源名稱和>形箭號會反白顯示。
+* 按一下時，資源名稱和>形箭號會醒目提示。
 * 點選或按一下縮圖可選取資源。
 * 選取時，縮圖上會覆蓋勾號，且資源名稱會反白顯示。
 * 所選資源的詳細資訊會顯示在最後一欄。
@@ -218,13 +218,13 @@ Deselecting All
 Comment Type: draft
 
 <p>In all cases, as you select items the count of the items selected is displayed at the upper right of the toolbar.</p>
-<p>You can deselect all items and exit selection mode by clicking or tapping the X next to the count.</p>
+<p>You can deselect all items and exit selection mode by clicking the X next to the count.</p>
 -->
 
 <!--
 Comment Type: draft
 
-<p>In all views, all items can be deselected by tapping escape on the keyboard if you are using a desktop device.</p>
+<p>In all views, all items can be deselected by clicking escape on the keyboard if you are using a desktop device.</p>
 -->
 
 ## 內容樹狀結構 {#content-tree}
