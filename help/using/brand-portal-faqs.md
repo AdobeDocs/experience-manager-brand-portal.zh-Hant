@@ -7,7 +7,7 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 exl-id: 4a8f7fbd-7485-421d-a8db-755324d2dbef
-source-git-commit: 60104481e8f0b883fbf2cf25c1562e8376882e54
+source-git-commit: 4c701781e7dc62b9d2b018fd13b1ae9616bbb840
 workflow-type: tm+mt
 source-wordcount: '1495'
 ht-degree: 0%
@@ -148,7 +148,7 @@ Brand Portal使用者存取**貢獻**&#x200B;資料夾，並上傳&#x200B;**新�
 
 **問題：在Experience Manager中定期執行的匯入工作的頻率為何？**
 
-**回答：**&#x200B;在Experience Manager Assets中，每5分鐘執行一次輪詢。
+**回答：**&#x200B;在Experience Manager Assets中，每五分鐘會執行輪詢。
 
 
 

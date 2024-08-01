@@ -1,14 +1,10 @@
 ---
 title: Brand Portal 中的 Asset Sourcing
-seo-title: Asset Sourcing in Brand Portal
 description: 深入瞭解Adobe Experience Manager Assets Brand Portal中發行的資產來源功能。
-seo-description: Get an insight into the asset sourcing feature released in the Adobe Experience Manager Assets Brand Portal.
-uuid: null
 content-type: reference
 contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-discoiquuid: null
 sub-product: assets
 topics: collaboration, content-velocity, sharing
 doc-type: feature-video
@@ -17,7 +13,7 @@ audience: author, marketer
 version: 6.5
 kt: 3838
 exl-id: 2c132a7a-ed10-4856-8378-67939167ea60
-source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
+source-git-commit: 4c701781e7dc62b9d2b018fd13b1ae9616bbb840
 workflow-type: tm+mt
 source-wordcount: '647'
 ht-degree: 1%
@@ -26,7 +22,7 @@ ht-degree: 1%
 
 # 資產來源概觀 {#overview-asset-sourcing-in-bp}
 
-**Asset Sourcing**&#x200B;可讓Experience Manager Assets使用者（管理員/非管理員使用者）使用額外的&#x200B;**資產貢獻**&#x200B;屬性來建立新資料夾，確保所建立的新資料夾可供Brand Portal使用者提交資產。 這會自動觸發工作流程，在新建立的&#x200B;**貢獻**&#x200B;資料夾中建立兩個額外的子資料夾，稱為&#x200B;**SHARED**&#x200B;和&#x200B;**NEW**。 然後，管理員會透過上傳應新增至貢獻資料夾的資產型別簡介，以及一組基準資產來定義需求，並上傳至&#x200B;**SHARED**&#x200B;資料夾，以確保BP使用者擁有他們需要的參考資訊。 然後，管理員可以在將新建立的&#x200B;**貢獻**&#x200B;資料夾發佈到Brand Portal之前，授予作用中Brand Portal使用者對貢獻資料夾的存取權。 一旦使用者完成在&#x200B;**NEW**&#x200B;資料夾中新增內容，他們就可以將貢獻資料夾發佈回Experience Manager作者環境。 請注意，可能需要幾分鐘的時間來完成匯入，並在Experience Manager Assets中反映新發佈的內容。
+**Asset Sourcing**&#x200B;可讓Experience Manager Assets使用者（管理員/非管理員使用者）使用額外的&#x200B;**資產貢獻**&#x200B;屬性來建立新資料夾，確保所建立的新資料夾可供Brand Portal使用者提交資產。 這會自動觸發工作流程，在新建立的&#x200B;**貢獻**&#x200B;資料夾中建立兩個額外的子資料夾，稱為&#x200B;**SHARED**&#x200B;和&#x200B;**NEW**。 管理員會上傳應新增至貢獻資料夾的資產型別簡介，以定義需求。 他們上傳一組基準資產至&#x200B;**共用**&#x200B;資料夾，為Brand Portal使用者提供必要的參考資訊。 然後，管理員可以在將新建立的&#x200B;**貢獻**&#x200B;資料夾發佈到Brand Portal之前，授予作用中Brand Portal使用者對貢獻資料夾的存取權。 當使用者完成在&#x200B;**NEW**&#x200B;資料夾中新增內容時，他們可以發佈貢獻資料夾回Experience Manager作者環境。 請注意，可能需要幾分鐘的時間來完成匯入，並在Experience Manager Assets中反映新發佈的內容。
 
 此外，所有現有功能保持不變。 Brand Portal使用者可以從貢獻資料夾以及其他允許的資料夾中檢視、搜尋和下載資產。 管理員可以進一步共用貢獻資料夾、修改屬性並將資產新增至收藏集。
 
@@ -47,13 +43,13 @@ ht-degree: 1%
 >
 >Experience Manager Assets as a Cloud Service、Experience Manager Assets 6.5.9及更高版本上的「資產來源」功能預設為啟用。
 >
->現有設定仍可在舊版上繼續運作。
+>現有設定可在舊版上繼續運作。
 
 >[!NOTE]
 >
 >Experience Manager Assets 6.5.4有一個已知問題。Brand Portal使用者升級至Adobe Developer Console時，無法將貢獻資料夾的資產發佈至Experience Manager Assets。
 >
->Experience Manager Assets 6.5.5已修正此問題。您可以將您的Experience Manager Assets執行個體升級至最新的Service Pack，並在Adobe Developer Console上[升級您的設定](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65)。
+>Experience Manager Assets 6.5.5已修正此問題。您可以將您的Experience Manager Assets執行個體升級至最新的Service Pack，並在Adobe Developer Console上[升級您的設定](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal#upgrade-integration-65)。
 
 <!--
 
@@ -112,23 +108,23 @@ Experience Manager Assets管理員可上傳包含Experience Manager Assets中有
 
 >[!NOTE]
 >
->CSV檔案的格式與Admin Console對大量使用者匯入的支援相同。 電子郵件、名字和姓氏為必填欄位。
+>CSV檔案的格式與大量使用者匯入的Admin Console中支援的格式相同。 電子郵件、名字和姓氏為必填欄位。
 
-管理員可以在Admin Console中新增使用者，請參閱[管理使用者](brand-portal-adding-users.md)以取得詳細資訊。 在Admin Console中新增使用者後，可將這些使用者新增至Brand Portal使用者設定檔，然後指派許可權以存取貢獻資料夾。
+管理員可以在Admin Console中新增使用者。 請移至[管理使用者](brand-portal-adding-users.md)以取得詳細資訊。 在Admin Console中新增使用者後，這些使用者可以新增至Brand Portal使用者設定檔，然後指派許可權以存取貢獻資料夾。
 
 **若要上傳Brand Portal使用者清單：**
 
 1. 登入您的Experience Manager Assets執行個體。
-1. 從&#x200B;**工具**&#x200B;面板，瀏覽至&#x200B;**[!UICONTROL Assets]** > **[!UICONTROL Brand Portal使用者]**。
+1. 從[!UICONTROL 工具]面板，瀏覽至&#x200B;**[!UICONTROL Assets]** > **[!UICONTROL Brand Portal使用者]**。
 
 1. Brand Portal上傳貢獻者視窗隨即開啟。
-從本機電腦瀏覽並上傳包含作用中Brand Portal使用者清單的**組態(.csv)檔案**。
+從您的本機電腦瀏覽並上傳包含作用中Brand Portal使用者清單的**組態(.csv)檔案**。
 1. 按一下「**[!UICONTROL 儲存]**」。
 
    ![](assets/upload-user-list2.png)
 
 
-管理員可在設定貢獻資料夾時，從此使用者清單提供特定使用者的存取權。 只有指派給貢獻資料夾的使用者才能存取貢獻資料夾，並從Brand Portal將資產發佈至Experience Manager Assets。
+管理員可在設定貢獻資料夾時，從此使用者清單提供特定使用者的存取權。 只有指派給貢獻資料夾的使用者才能存取貢獻資料夾，並從Brand Portal將資產發佈到Experience Manager Assets。
 
 ## 另請參閱 {#reference-articles}
 

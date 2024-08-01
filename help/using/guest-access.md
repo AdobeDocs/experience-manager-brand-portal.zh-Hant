@@ -1,18 +1,14 @@
 ---
 title: Brand Portal的訪客存取權
-seo-title: Guest Access to Brand Portal
 description: 允許訪客存取，並省下在未驗證的情況下上線許多使用者的工作量。
-seo-description: Allow guest access and save the effort to onboard numerous users without authentication.
-uuid: edb4378d-1710-44a2-97a6-594d99f62fff
 contentOwner: VG
 topic-tags: introduction
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-discoiquuid: b9e9fe7b-0373-42d1-851b-7c76b47657c2
 exl-id: ecce0a45-abae-41c4-9ea7-5dfdcf19e5ea
-source-git-commit: 0670b8d372fd2dc5bdb1d0a928601e3e09a6dcf9
+source-git-commit: 4c701781e7dc62b9d2b018fd13b1ae9616bbb840
 workflow-type: tm+mt
-source-wordcount: '1040'
+source-wordcount: '1048'
 ht-degree: 0%
 
 ---
@@ -21,8 +17,8 @@ ht-degree: 0%
 
 Experience Manager Assets Brand Portal允許訪客存取入口網站。 訪客使用者不需要認證即可進入入口網站，且可以存取入口網站的公開資產（和集合）。 訪客工作階段中的使用者可以將資產新增至Lightbox （私人集合）並下載相同的資產，直到其工作階段持續存在，或除非訪客使用者選擇[[!UICONTROL 結束工作階段]](#exit-guest-session)。 訪客使用者工作階段會維持15分鐘作用中。
 
-來賓存取功能可讓組織快速[與預期對象共用](../using/brand-portal-sharing-folders.md#how-to-share-folders)核准的資產，而不需要將其加入。 Brand Portal 6.4.2之後已可同時為多位訪客使用者提供服務，佔每個組織使用者配額總數的10%。 允許訪客存取可節省時間，以管理在Brand Portal上具有有限功能的使用者並瞭解其上線分數。\
-組織可以使用系統管理工具面板中&#x200B;**[!UICONTROL 存取]**&#x200B;設定的&#x200B;**[!UICONTROL 允許訪客存取]**&#x200B;選項，啟用（或停用）組織的Brand Portal帳戶上的訪客存取。
+訪客存取功能可讓組織快速[與預定對象共用](../using/brand-portal-sharing-folders.md#how-to-share-folders)核准的資產，而不需要將其加入。 Brand Portal 6.4.2之後已可同時為多位訪客使用者提供服務，佔每個組織使用者配額總數的10%。 允許訪客存取可節省時間，以管理在Brand Portal上具有有限功能的使用者並瞭解其上線分數。\
+組織可以使用系統管理工具面板中&#x200B;**[!UICONTROL 存取]**&#x200B;設定的&#x200B;**[!UICONTROL 允許訪客存取]**&#x200B;選項，啟用（或停用）組織Brand Portal帳戶的訪客存取。
 
 <!--
 Comment Type: annotation
@@ -35,20 +31,20 @@ Removed the first para: "AEM Assets Brand Portal allows public users to enter th
 
 ## 開始來賓工作階段 {#begin-guest-session}
 
-若要以匿名方式進入Brand Portal，請選取&#x200B;**[!UICONTROL 按一下此處]** （與&#x200B;**[!UICONTROL 訪客存取相對應）？Brand Portal歡迎畫面上的]**。 輸入驗證碼安全性檢查以授予使用Brand Portal的存取權。
+若要以匿名方式進入Brand Portal，請在Brand Portal的歡迎畫面中選取&#x200B;**[!UICONTROL 按一下這裡]** （對應&#x200B;**[!UICONTROL `Guest Access?`]**）。 輸入驗證碼安全性檢查以授予使用Brand Portal的存取權。
 
 ![](assets/bp-login-screen.png)
 
 ## 來賓工作階段持續時間 {#guest-session-duration}
 
 訪客使用者工作階段會維持15分鐘作用中。
-這表示**[!UICONTROL Lightbox]**&#x200B;的狀態會從工作階段開始時間保留15分鐘，之後目前的來賓工作階段會重新啟動，因此Lightbox狀態會遺失。
+此程式會將**[!UICONTROL Lightbox]**&#x200B;的狀態從工作階段開始時間保留15分鐘。 之後，目前的來賓工作階段會重新啟動，導致Lightbox狀態遺失。
 
-例如，某個訪客使用者在1500小時登入Brand Portal，並在15:05小時將資產新增至&#x200B;**[!UICONTROL Lightbox]**&#x200B;進行下載。 如果使用者未在15:15小時（登入後15分鐘內）之前下載&#x200B;**[!UICONTROL Lightbox]**&#x200B;集合（或其資產），則使用者必須重新啟動工作階段。 **[!UICONTROL Lightbox]**&#x200B;是空的，這表示如果工作階段遺失，已上傳的資產就無法再使用。
+例如，某個訪客使用者在1500小時登入Brand Portal，並在15:05小時將資產新增至&#x200B;**[!UICONTROL Lightbox]**&#x200B;進行下載。 如果使用者未在15:15小時（登入後15分鐘內）之前下載&#x200B;**[!UICONTROL Lightbox]**&#x200B;集合（或其資產），則使用者必須重新啟動工作階段。 **[!UICONTROL Lightbox]**&#x200B;是空的，這表示如果工作階段遺失，已上傳的資產將無法再使用。
 
 ## 允許並行來賓工作階段 {#concurrent-guest-sessions-allowed}
 
-每個組織的同時來賓工作階段數限製為使用者配額總數的10%。 這表示對於使用者配額為200人的組織而言，最多可同時工作20名訪客使用者。 第21位使用者被拒絕存取，而且只有在20位作用中來賓使用者的工作階段結束時，才能以來賓身分存取。
+每個組織的同時來賓工作階段數限製為使用者配額總數的10%。 這表示對於使用者配額為200的組織，最多可同時工作20個訪客使用者。 第21位使用者被拒絕存取，而且只有在20位作用中來賓使用者的工作階段結束時，才能以來賓身分存取。
 
 >[!NOTE]
 >
@@ -62,7 +58,8 @@ Removed the first para: "AEM Assets Brand Portal allows public users to enter th
 
 ![](assets/disabled-folder-hierarchy1.png)
 
-不過，如果系統管理員已啟用[啟用資料夾階層](../using/brand-portal-general-configuration.md#main-pars-header-1621071021)設定，訪客使用者在登入Brand Portal時，會看到資料夾樹狀結構（從根資料夾開始）和共用資料夾排列在其各自的父資料夾中。
+
+如果管理員啟用[啟用資料夾階層](../using/brand-portal-general-configuration.md#main-pars-header-1621071021)，訪客使用者在登入Brand Portal時，會從父資料夾中的根資料夾和共用資料夾看到資料夾樹狀結構。
 
 這些父資料夾是虛擬資料夾，無法對它們執行任何動作。 您可以使用鎖定圖示來辨識這些虛擬資料夾。
 
@@ -74,7 +71,7 @@ Removed the first para: "AEM Assets Brand Portal allows public users to enter th
 
 ![](assets/enabled-hierarchy1.png) ![](assets/hierarchy1-nonadmin.png) ![](assets/hierarchy-nonadmin.png) ![](assets/hierarchy2-nonadmin.png)
 
-**[!UICONTROL 檢視設定]**&#x200B;選項可讓訪客使用者調整&#x200B;**[!UICONTROL 卡片檢視]**&#x200B;中的卡片大小，或是在&#x200B;**[!UICONTROL 清單檢視]**&#x200B;中顯示的欄。
+**[!UICONTROL 檢視設定]**&#x200B;選項可讓訪客使用者調整&#x200B;**[!UICONTROL 卡片檢視]**&#x200B;中的卡片大小，或調整要在&#x200B;**[!UICONTROL 清單檢視]**&#x200B;中顯示的欄位。
 
 ![](assets/nav-guest-user.png)
 
@@ -84,16 +81,16 @@ Removed the first para: "AEM Assets Brand Portal allows public users to enter th
 
 Brand Portal為來賓使用者提供&#x200B;**[!UICONTROL 總覽]**&#x200B;選項，以便檢視所選資產/資料夾的&#x200B;**[!UICONTROL 資產屬性]**。 **[!UICONTROL 總覽]**&#x200B;選項可見：
 
-* 在頂端的工具列中，選取資產/資料夾。
+* 在工具列的頂端，選取資產或資料夾時。
 * 在下拉式清單中選取「邊欄選取器」 。
 
-在選取資產/資料夾時選取&#x200B;**[!UICONTROL 總覽]**&#x200B;選項後，使用者可以看到資產建立的標題、路徑和時間。 而在資產詳細資訊頁面上選取&#x200B;**[!UICONTROL 總覽]**&#x200B;選項可讓使用者檢視資產的中繼資料。
+當您在選取資產或資料夾時選取&#x200B;**[!UICONTROL 概觀]**&#x200B;選項時，使用者可以看到資產建立的標題、路徑和時間。 而在資產詳細資訊頁面上，選取&#x200B;**[!UICONTROL 總覽]**&#x200B;選項可讓使用者檢視資產的中繼資料。
 
 ![](assets/overview-option-1.png)
 
 ![](assets/overview-rail-selector-1.png)
 
-左側邊欄中的&#x200B;**[!UICONTROL 導覽]**&#x200B;選項可讓您從檔案導覽至收藏集，然後再導覽回訪客工作階段，讓使用者可以瀏覽檔案或收藏集中的資產。
+左側邊欄中的&#x200B;**[!UICONTROL 導覽]**&#x200B;選項可讓您從檔案導覽至集合，然後返回客體工作階段，讓使用者可以瀏覽檔案或集合中的資產。
 
 **[!UICONTROL 篩選器]**&#x200B;選項可讓訪客使用者使用管理員設定的搜尋述詞來篩選資產檔案和資料夾。
 
@@ -126,7 +123,7 @@ Brand Portal為來賓使用者提供&#x200B;**[!UICONTROL 總覽]**&#x200B;選�
 
 ![](assets/download-on-guest.png)
 
-在[!UICONTROL 下載]對話方塊上選取&#x200B;**[!UICONTROL 啟用加速下載]**&#x200B;可讓您[增強下載效能](../using/accelerated-download.md)。
+在[!UICONTROL 下載]對話方塊中選取&#x200B;**[!UICONTROL 啟用加速下載]**&#x200B;可讓您[增強下載效能](../using/accelerated-download.md)。
 
 ## 退出來賓工作階段 {#exit-guest-session}
 

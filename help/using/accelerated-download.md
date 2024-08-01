@@ -1,18 +1,14 @@
 ---
 title: 加快Brand Portal下載速度
-seo-title: Speed up the Brand Portal downloads
 description: 增強從Brand Portal和共用連結下載的效能。
-seo-description: Enhance download performance from Brand Portal and the shared links.
-uuid: 2871137e-6471-49a7-872a-841bd92543d1
 contentOwner: Vishabh Gupta
 topic-tags: download-install, download assets
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
 exl-id: cf28df58-c6dd-4b12-8279-01351892009f
-source-git-commit: ce765700aaecba4bfff7b55effb05f981b94bdec
+source-git-commit: f931f6576c05d82cea61bda00322425abc9e8d43
 workflow-type: tm+mt
-source-wordcount: '999'
+source-wordcount: '1009'
 ht-degree: 3%
 
 ---
@@ -89,7 +85,7 @@ Adobe Experience Manager Assets Brand Portal可讓您整合IBM® Aspera Connect 
 
 1. **[!UICONTROL 下載]**&#x200B;對話方塊會開啟，其中列出所有選取的資產。
 
-   若要在下載資產時保留Brand Portal資料夾階層，請選取&#x200B;**[!UICONTROL 為每個資產建立個別資料夾]**&#x200B;核取方塊。
+   若要在下載資產時保留Brand Portal資料夾階層，請選取&#x200B;**[!UICONTROL `Create separate folder for each asset`]**&#x200B;核取方塊。
 
    下載按鈕會反映所選專案的計數。 套用完規則後，按一下&#x200B;**[!UICONTROL 下載專案]**。 若要進一步瞭解如何套用規則，請參閱[下載資產](../using/brand-portal-download-assets.md#download-assets)。
 
@@ -97,13 +93,13 @@ Adobe Experience Manager Assets Brand Portal可讓您整合IBM® Aspera Connect 
 
 1. 預設會在&#x200B;**[!UICONTROL 下載設定]**&#x200B;中啟用&#x200B;**[!UICONTROL 快速下載]**&#x200B;設定。 因此，系統會顯示確認方塊，以使用IBM® Aspera Connect下載資產。
 
-   如果您是第一次下載資產，而且瀏覽器中未安裝IBM® Aspera Connect，或是現有版本已過期，系統會提示您安裝Aspera下載加速器(`https://www.ibm.com/docs/en/aspera-connect/3.9.9`)。
+   如果您是第一次下載資產，且瀏覽器中未安裝IBM® Aspera Connect，系統會提示您進行安裝。 如果現有版本已過期，系統也會提示您安裝[Aspera下載加速器](https://www.ibm.com/support/fixcentral/swg/selectFixes?parent=ibm%7EOther%20software&amp;product=ibm/Other+software/IBM+Aspera+Connect&amp;release=3.9.9&amp;platform=All&amp;function=all)。
 
    ![](assets/aspera-not-launched.png)
 
 1. **安裝Aspera Connect使用者端**
 
-   若要安裝IBM® Aspera Connect使用者端安裝程式，請從IBM® Aspera Connect使用者端應用程式的.msi檔案執行安裝程式，然後遵循安裝精靈。
+   若要安裝IBM® Aspera Connect使用者端安裝程式，請從IBM® Aspera Connect使用者端應用程式的.msi檔案執行安裝程式，然後依照安裝精靈操作。
 
    ![](assets/aspera-download-1.png)
 
@@ -193,7 +189,7 @@ Microsoft® Edge會在增強保護模式(EPM)中執行，以防止在相同的�
 
 ## Aspera Connect使用者端喜好設定 {#aspera-connect-client-preferences}
 
-在IBM® Aspera Connect使用者端偏好設定中可設定一些實用的偏好設定，方法是按一下圖示並選取&#x200B;**[!UICONTROL 偏好設定]**。
+在IBM® Aspera Connect使用者端偏好設定中可設定一些實用的偏好設定，方法是以滑鼠右鍵按一下圖示並選取&#x200B;**[!UICONTROL 偏好設定]**。
 
 ![](assets/download_assets_frombrandportalimg19.png)
 
@@ -201,7 +197,7 @@ Microsoft® Edge會在增強保護模式(EPM)中執行，以防止在相同的�
 
 ![](assets/aspera-preferences.png)
 
-此外，Aspera Connect使用者端可標示為在系統啟動時自動啟動，因此連線使用者端正在執行中，並且可供下載，以更快開始。
+此外，也可以標籤Aspera Connect使用者端，使其在系統啟動時自動啟動。 而且，Connect使用者端會執行並可供下載，以更快開始下載。
 
 ![](assets/aspera-automaticallylaunch.png)
 
