@@ -8,10 +8,10 @@ breadcrumb-title: Brand Portal 指南
 user-guide-description: 使用 Experience Manager Assets Brand Portal，將經過核准的品牌和產品資產安全地散發給外部代理商、合作夥伴、內部團隊和經銷商進行下載，以符合行銷需求。
 feature: Brand Portal
 role: User
-source-git-commit: 3ef765c6b6127c1f3f19d27ee1fd74fbe2dc52af
+source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 31%
+source-wordcount: '252'
+ht-degree: 34%
 
 ---
 
@@ -26,13 +26,13 @@ ht-degree: 31%
    + [常見問題](/help/using/brand-portal-faqs.md)
    + [支援的檔案格式](/help/using/brand-portal-supported-formats.md)
    + [Brand Portal的訪客存取權](/help/using/guest-access.md)
-   + [透過Experience Manager Assets瞭解Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/home.html)
+   + [透過Experience Manager Assets瞭解Brand Portal](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/home)
    + [在Brand Portal上瀏覽資產](/help/using/browse-assets-brand-portal.md)
 + 從Experience Manager Assets到Brand Portal {#publish}的Publish
-   + [使用Brand Portal設定Experience Manager Assets](/help/using/configure-aem-assets-with-brand-portal.md)
-   + [將資產發佈至 Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/brand-portal-publish-assets.html)
-   + [將資料夾發佈至 Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/brand-portal-publish-folder.html)
-   + [將集合發佈至 Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/brand-portal-publish-collection.html)
+   + [透過 Brand Portal 設定 Experience Manager Assets](/help/using/configure-aem-assets-with-brand-portal.md)
+   + [將資產發佈至 Brand Portal](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/brandportal/brand-portal-publish-assets)
+   + [將資料夾發佈至 Brand Portal](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/brandportal/brand-portal-publish-folder)
+   + [將集合發佈至 Brand Portal](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/brandportal/brand-portal-publish-collection)
    + [疑難排解平行發佈至Brand Portal的問題](/help/using/troubleshoot-parallel-publishing.md)
    + [Brand Portal的Publish標籤](/help/using/brand-portal-publish-tags.md)
    + [Publish預設集、結構和Brand Portal的Facet](/help/using/publish-schema-search-facets-presets.md)
@@ -59,7 +59,7 @@ ht-degree: 31%
    + [首次登入體驗](/help/using/brand-portal-onboarding.md)
    + [管理使用者、群組和使用者角色](/help/using/brand-portal-adding-users.md)
    + [自訂壁紙、標題和電子郵件訊息](/help/using/brand-portal-branding.md)
-   + [使用中繼資料結構表單](/help/using/brand-portal-metadata-schemas.md)
+   + [使用中繼資料結構](/help/using/brand-portal-metadata-schemas.md)
    + [套用影像預設集或動態轉譯](/help/using/brand-portal-image-presets.md)
    + [使用報告](/help/using/brand-portal-reports.md)
 

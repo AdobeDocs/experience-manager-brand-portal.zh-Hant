@@ -7,9 +7,9 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 exl-id: 4a8f7fbd-7485-421d-a8db-755324d2dbef
-source-git-commit: 4c701781e7dc62b9d2b018fd13b1ae9616bbb840
+source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
 workflow-type: tm+mt
-source-wordcount: '1495'
+source-wordcount: '1500'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Brand Portal常見問題集專注於使用者在使用最新Experience Manager A
 
 **問題：現有的舊版OAuth端點(`https://legacy-oauth.cloud.adobe.io/login`)無法運作。 可能的原因是什麼？**
 
-**答案：**&#x200B;已棄用舊版OAuth設定。 將Experience Manager Assets作者執行個體升級至最新的Service Pack，並透過Adobe Developer Console進行設定。 如需詳細資訊，請參閱[使用Brand Portal設定Experience Manager Assets](configure-aem-assets-with-brand-portal.md)。 不過，若要讓舊版OAuth設定在升級前繼續運作，請將舊版OAuth端點更新為`https://hypnosisprod.ethos11-prod-or1.ethos.adobe.net/`。
+**答案：**&#x200B;已棄用舊版OAuth設定。 將Experience Manager Assets編寫執行個體升級至最新的Service Pack，並透過Adobe Developer Console進行設定。 如需詳細資訊，請參閱[使用Brand Portal設定Experience Manager Assets](configure-aem-assets-with-brand-portal.md)。 不過，若要讓舊版OAuth設定在升級前繼續運作，請將舊版OAuth端點更新為`https://hypnosisprod.ethos11-prod-or1.ethos.adobe.net/`。
 
 **問題：升級至Adobe Developer Console後，我無法將貢獻資料夾中的資產從Brand Portal發佈至Experience Manager Assets。 我的編寫執行個體在Experience Manager Assets 6.5.4上。可能的原因是什麼？**
 

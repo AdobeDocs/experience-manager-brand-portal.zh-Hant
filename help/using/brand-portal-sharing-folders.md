@@ -1,17 +1,13 @@
 ---
 title: 共用資料夾
-seo-title: Share folders
-description: Brand Portal不支援資產擷取，因此必須從預先設定的Brand Portal製作例項將資產發佈至Experience Manager Assets。 Brand Portal的非管理員使用者無法存取已發佈的資產，除非在使用Experience Manager執行個體設定復寫時已進行設定，且需要與他們共用。
-seo-description: Brand Portal does not support asset ingestion so assets must be published to Brand Portal from a pre-configured Experience Manager Assets Author instance. Published assets are not accessible to non-admin users of Brand Portal, unless configured while configuring replication with Experience Manager instance, and need to be shared with them.
-uuid: 340d0a49-b708-4f0e-9fb8-99c824942f34
+description: Brand Portal需要從預先設定的Experience Manager Assets Author例項發佈資產。 非管理員使用者只有在使用Experience Manager設定復寫期間完成設定後，才能存取已發佈的資產，且資產必須與其共用。
 content-type: reference
 topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-discoiquuid: 2332c16f-40be-4673-8cc6-2360d5b74116
 exl-id: d28cf927-60e8-437e-9cba-92f7e19020e7
-source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
+source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
 workflow-type: tm+mt
-source-wordcount: '1104'
+source-wordcount: '1090'
 ht-degree: 1%
 
 ---
@@ -32,17 +28,17 @@ Assets需要從預先設定的Experience Manager製作例項發佈至Brand Porta
 
 ### 在Brand Portal上與使用者群組共用資料夾 {#sharing-folders-with-user-groups-on-brand-portal}
 
-檔案夾資產的存取權取決於其父檔案夾的存取權，不論子檔案夾的設定為何。 此行為由AEM中的[ACL](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security.html)控制，因為子資料夾繼承其父資料夾的ACL。 例如，如果資料夾A包含資料夾B，其中包含資料夾C，則對資料夾A具有存取許可權的使用者群組（或使用者）也會對資料夾B和資料夾C具有相同的存取許可權。資料夾B是A的子資料夾，會繼承其ACL，而資料夾C是B的子資料夾，則會繼承其ACL。
+檔案夾資產的存取權取決於其父檔案夾的存取權，不論子檔案夾的設定為何。 AEM中的[ACL](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/security/security)會控管此行為，子資料夾會從其父資料夾繼承ACL。 例如，假設資料夾A包含資料夾B，其中包含資料夾C。接著，擁有資料夾A存取許可權的使用者群組（或使用者）也會擁有資料夾B和資料夾C的相同存取許可權。資料夾B是A的子資料夾，會繼承其ACL，而資料夾C是B的子資料夾，則會繼承其ACL。
 
-同樣地，僅擁有資料夾B存取許可權的使用者群組（或使用者）對資料夾C但不對資料夾A擁有相同的存取許可權。因此，建議組織安排其內容，以便將大部分公開的資產放在子資料夾中，並限制從子資料夾到根資料夾的存取。
+同樣地，只有存取資料夾B許可權的使用者群組（或使用者）對資料夾C而非資料夾A擁有相同的存取許可權。Adobe建議組織內容，以便將最公開的資產放在子資料夾中，允許從子資料夾一直限制存取根資料夾。
 
 ### 公用資料夾發佈 {#public-folder-publish}
 
-除非在設定Brand Portal復寫時選取&#x200B;**[!UICONTROL 公用資料夾Publish]**&#x200B;選項，否則非管理員使用者（例如編輯者和檢視者）無法存取從AEM Assets發佈至Brand Portal的資產。
+只有在AEM Assets復寫設定期間選取&#x200B;**[!UICONTROL 公用資料夾Publish]**&#x200B;選項時，非管理員使用者（例如編輯者和檢視者）才能存取從Brand Portal發佈至Brand Portal的資產。
 
 ![](assets/assetbpreplication.png)
 
-如果&#x200B;**[!UICONTROL 公用資料夾Publish]**&#x200B;選項已停用，系統管理員需要特別使用共用功能與非管理員使用者共用這些資產。
+如果&#x200B;**[!UICONTROL 公用資料夾Publish]**&#x200B;選項已停用，系統管理員必須特別使用共用功能與非管理員使用者共用這些資產。
 
 >[!NOTE]
 >
@@ -50,9 +46,9 @@ Assets需要從預先設定的Experience Manager製作例項發佈至Brand Porta
 
 ## 存取共用資料夾 {#access-to-shared-folders}
 
-下列矩陣會討論各種使用者角色的存取許可權以及共用/取消共用資產的許可權：
+下列矩陣討論各種使用者角色的存取許可權以及共用或取消共用資產的許可權：
 
-|               | 存取從AEM Assets發佈至Brand Portal的所有資料夾 | 存取共用資料夾 | 共用/取消共用資料夾許可權 |
+|               | 存取從AEM Assets發佈至Brand Portal的所有資料夾 | 存取共用資料夾 | 共用或取消共用資料夾許可權 |
 |---------------|-----------|-----------|------------|
 | 管理員 | 是 | 是 | 是 |
 | 編輯者 | 否* | 可以，但前提是與他們共用或與其所屬的群組共用 | 是，僅適用於與其共用或與其所屬的群組的資料夾 |
@@ -65,11 +61,11 @@ Assets需要從預先設定的Experience Manager製作例項發佈至Brand Porta
 
 ### 非管理員使用者對共用資料夾的存取權 {#non-admin-user-access-to-shared-folders}
 
-非管理員使用者只能存取在Brand Portal上與他們共用的資料夾。 不過，這些資料夾在登入時如何顯示在入口網站上，取決於&#x200B;**[!UICONTROL 啟用資料夾階層]**&#x200B;設定的設定。
+非管理員使用者只能存取在Brand Portal上與他們共用的資料夾。 但是，這些資料夾在登入時如何顯示在入口網站上，取決於&#x200B;**[!UICONTROL 啟用資料夾階層]**&#x200B;設定的設定。
 
 **如果設定已停用**
 
-非管理員使用者在登入Brand Portal時，會在登陸頁面上看到與他們共用的所有資料夾。
+非管理員使用者登入Brand Portal後，即可在登陸頁面上看見與其共用的所有資料夾。
 
 ![](assets/disabled-folder-hierarchy1-1.png)
 
@@ -95,7 +91,7 @@ Assets需要從預先設定的Experience Manager製作例項發佈至Brand Porta
 
    ![](assets/selectorrail.png)
 
-1. 從左側的Siderail選取&#x200B;**[!UICONTROL 檔案]**。
+1. 從左側的邊欄中，選取&#x200B;**[!UICONTROL 檔案]**。
 
    ![](assets/access_files.png)
 

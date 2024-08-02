@@ -1,18 +1,14 @@
 ---
 title: 共用集合
-seo-title: Share a collection
-description: Experience Manager Assets Brand Portal管理員可與授權使用者共用和取消共用集合或智慧型集合。 編輯者只能檢視和共用他們建立、與他們共用的收藏集和公開收藏集。
-seo-description: Experience Manager Assets Brand Portal Administrators can share and unshare a collection or a smart collection with authorized users. Editors can view and share only the collections created by them, shared with them, and public collections.
-uuid: 965f39cd-1378-42c1-a58a-01e1bf825aa3
+description: 瞭解Experience Manager Assets Brand Portal管理員如何與授權使用者共用和取消共用集合或智慧型集合。 編輯者只能檢視和共用他們建立、與他們共用的收藏集和公開收藏集。
 contentOwner: Vishabh Gupta
 content-type: reference
 topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-discoiquuid: f053013e-5981-419f-927e-b5bb1d47eae2
 exl-id: 29b877f6-4200-4299-9b8d-81d88f4e8221
-source-git-commit: 26c16668224d22f133419c13ea5fe4e24335a22f
+source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
 workflow-type: tm+mt
-source-wordcount: '664'
+source-wordcount: '671'
 ht-degree: 0%
 
 ---
@@ -23,13 +19,13 @@ ht-degree: 0%
 
 <!--The administrators can share and unshare a collection with the authorized Brand Portal users. Editors and viewers can view and share the collections created by them, shared with them, and public collections.-->
 
-收藏集會透過電子郵件以連結形式分享。 有權存取共用連結的每個人都可以開啟集合，而共用的電子郵件可以轉寄給任何人。 此外，[共用連結](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/share/brand-portal-link-share.html?lang=en)是暫時性的，僅可在有限期間存取。 或者，也可以邀請使用者成為集合的永久成員。 集合有下列使用者型別：
+收藏集會透過電子郵件以連結形式共用。 有權存取共用連結的每個人都可以開啟集合。 但是，共用的電子郵件可以轉寄給任何人。 此外，[共用連結](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/share/brand-portal-link-share)是暫時性的，僅可在有限期間存取。 或者，也可以邀請使用者成為集合的永久成員。 集合有下列使用者型別：
 
 * **管理員**&#x200B;可以與授權的Brand Portal使用者共用或取消共用集合。 他們可以邀請其他使用者加入特定的集合，並定義他們在該集合中的角色。 此外，管理員可以建立公開集合。
 
 * 允許&#x200B;**編輯器**&#x200B;建立和共用集合。 他們可以邀請其他使用者加入特定的集合，並定義他們在該集合中的角色。 此外，如果他們受邀以編輯者或擁有者的身分加入集合，則他們也可以共用集合。
 
-* **檢視者**&#x200B;只能建立私人集合。 即使他們受邀成為擁有者，仍不可共用集合。
+* **檢視者**&#x200B;只能建立私人集合。 即使受邀成為擁有者，他們也無法共用集合。
 
 >[!NOTE]
 >
@@ -53,7 +49,7 @@ ht-degree: 0%
 
      ![](assets/collection-console.png)
 
-1. 在&#x200B;**[!UICONTROL 集合設定]**&#x200B;對話方塊中，選取您要共用集合的使用者，並選取符合其全域角色的使用者角色。 例如，將編輯者角色指派給全域編輯者，將檢視者角色指派給全域檢視者。
+1. 在&#x200B;**[!UICONTROL 集合設定]**&#x200B;對話方塊中，選取您要共用集合的使用者，並選取符合其全域角色的使用者角色。 例如，將「編輯者」角色指派給全域編輯者，將「檢視者」角色指派給全域檢視者。
 
    或者，若要讓集合可供所有使用者使用，而不論其群組成員資格與角色為何，請選取&#x200B;**[!UICONTROL 公用集合]**&#x200B;核取方塊以將其設為公用。
 
@@ -63,7 +59,7 @@ ht-degree: 0%
 
    ![](assets/collection_sharingadduser.png)
 
-   編輯器無法將公用集合變更為非公用集合，因此在&#x200B;**[!UICONTROL 集合設定]**&#x200B;對話方塊中沒有&#x200B;**[!UICONTROL 公用集合]**&#x200B;核取方塊。
+   編輯人員無法將公用集合變更為非公用集合，因此在&#x200B;**[!UICONTROL 集合設定]**&#x200B;對話方塊中沒有&#x200B;**[!UICONTROL 公用集合]**&#x200B;核取方塊。
 
    ![](assets/collection-setting-editor.png)
 

@@ -1,18 +1,14 @@
 ---
 title: 發行說明
-seo-title: Release Notes
 description: 深入瞭解Adobe Experience Manager Assets Brand Portal 2024.02.0版本的功能、增強功能、已修正的嚴重問題和已知問題。
-seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2024.02.0 release.
-uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
 contentOwner: Kirandeep Kour
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 3a5be1897b90b1d913a5eb86fb1442e702a1c89d
+source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
 workflow-type: tm+mt
-source-wordcount: '1416'
+source-wordcount: '1429'
 ht-degree: 4%
 
 ---
@@ -40,7 +36,7 @@ Adobe Experience Manager (AEM) Assets Brand Portal可協助您輕鬆取得、控
 
 此版本包含下列錯誤修正：
 
-* 無法在土耳其語言環境中下載受DRM保護的數位資產。
+* 無法在土耳其地區設定中下載受DRM保護的數位資產。
 * 無法開啟和下載包含具有多行標題之資產的現有報表。
 * 當您使用動作列的[!UICONTROL 下載]按鈕下載資產時，最多可下載1000個資產。
 * 在內容樹狀結構中檢視時，PSD型別資產的名稱不正確。
@@ -98,7 +94,7 @@ Adobe Experience Manager (AEM) Assets Brand Portal可協助您輕鬆取得、控
 此版本包含下列已知問題：
 
 * 資產來源報表內容中的部分本地化。
-* 使用者設定檔的少數欄位無法在使用者設定檔上編輯。
+* 使用者個人資料的某些欄位在使用者個人資料上無法編輯。
 
 ### 2023 年 2 月發行版本 {#feb-2023}
 
@@ -128,7 +124,7 @@ Adobe Experience Manager (AEM) Assets Brand Portal可協助您輕鬆取得、控
 此版本包含下列已知問題：
 
 * 資產來源報表內容中的部分本地化。
-* 使用者設定檔的少數欄位無法在使用者設定檔上編輯。
+* 使用者個人資料的某些欄位在使用者個人資料上無法編輯。
 
 ### 2022 年 10 月版 {#oct-2022}
 
@@ -142,7 +138,8 @@ Adobe Experience Manager (AEM) Assets Brand Portal可協助您輕鬆取得、控
 
 >[!IMPORTANT]
 >
->AEM Assets Brand Portal中的Pulse通知將從2022年12月1日起終止。 您將會繼續收到下列事件的電子郵件通知，而非Pulse通知：
+>AEM Assets Brand Portal中的Pulse通知將從2022年12月1日起終止。 您會繼續收到下列事件的電子郵件通知，而非Pulse通知：
+>
 >* 透過連結共用資產
 >* 請求存取工作流程
 >* 共用貢獻資料夾
@@ -158,7 +155,7 @@ Adobe Experience Manager (AEM) Assets Brand Portal可協助您輕鬆取得、控
 
 * 當NUI無法在Experience Manager中處理資產時，Brand Portal會顯示不準確的資產匯入狀態。
 * 預覽動作失敗時，沒有通知可傳達失敗。
-* 修正了每個資產的totalUploadedSize屬性值不準確的問題。
+* 已修正每個資產的`totalUploadedSize`屬性不準確的值。
 * 當您按一下「下載所有專案」****&#x200B;並且資產有大量的轉譯專案可供使用時，Brand Portal會下載無效的.ZIP檔案。
 * Brand Portal使用者介面上某些字串的轉譯會遭到截斷。
 
@@ -174,7 +171,7 @@ Brand Portal現在每十二小時執行一次自動工作，以刪除發佈至AE
 
 * 當您下載的資料夾或集合包含具有顏色標籤的資產時，XML檔案也會一併下載。
 * 下載包含轉譯的視訊時，Brand Portal會建立無效的.ZIP檔案。
-* 當您在AEM作者上建立預設集和資產，並將其發佈到Brand Portal，然後在下載資產時選取動態轉譯時，您無法解壓縮下載的.ZIP檔案。
+* 當您在AEM作者上建立預設集和資產，然後將它們發佈到Brand Portal時，您可以在下載資產時選取動態轉譯。 不過，您無法解壓縮下載的.ZIP檔案。 此問題會導致無法存取下載的內容。
 * 從Brand Portal上提供的某些資料夾下載視訊資產時發生問題。
 * 當您使用電子郵件共用「貢獻」資料夾的URL時，檢視者和編輯者角色在使用階層連結存取其父資料夾時會遇到問題。
 * Sourcing已發佈報告顯示不正確的工單開始時間。
@@ -374,12 +371,12 @@ Brand Portal使用者介面提供下列語言版本：
 
 ## 認證平台 {#certified-platforms}
 
-若要確定哪些平台已認證可以使用此版本的Brand Portal執行，請參閱[技術需求](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/introduction/technical-requirements.html)的&#x200B;**編寫使用者介面的支援瀏覽器**&#x200B;區段表格中的&#x200B;**觸控最佳化UI支援**&#x200B;欄。
+若要檢視哪些平台已針對此Brand Portal版本進行認證，請檢視[技術需求](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/implementing/deploying/introduction/technical-requirements)的&#x200B;**支援的編寫使用者介面的瀏覽器**&#x200B;區段中的&#x200B;**觸控最佳化UI**&#x200B;支援。
 
 ## 連結 {#links}
 
 * adobe.com上的[Adobe Experience Manager產品頁面](https://business.adobe.com/in/products/experience-manager/adobe-experience-manager.html)
-* [Assets Brand Portal檔案](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/home.html)
+* [Assets Brand Portal檔案](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/home)
 
 ## 產品存取與支援（受限制的網站） {#product-access-and-support-restricted-sites}
 

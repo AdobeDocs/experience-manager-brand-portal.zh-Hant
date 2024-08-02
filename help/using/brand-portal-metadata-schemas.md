@@ -1,19 +1,15 @@
 ---
 title: 使用中繼資料結構表單
-seo-title: Use the metadata schema form
 description: 中繼資料結構描述會說明「屬性」頁面的配置，以及針對使用特定結構描述的資產所顯示的中繼資料屬性。 您套用至資產的結構描述會決定中繼資料欄位出現在其「屬性」頁面上。
-seo-description: A metadata schema describes the layout of the Properties page and the metadata properties displayed for assets that use the particular schema. The schema that you apply to an asset determines the metadata fields that appear on its Properties page.
-uuid: 1a944a3b-5152-425f-b1ea-bfe3331de928
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: administration
-discoiquuid: 500b46da-ef67-46a0-a069-192f4b1a0eca
 role: Admin
 exl-id: fbedff90-a6cb-4175-8308-817cc9f5b450
-source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
+source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
 workflow-type: tm+mt
-source-wordcount: '1719'
-ht-degree: 8%
+source-wordcount: '1622'
+ht-degree: 5%
 
 ---
 
@@ -45,7 +41,7 @@ ht-degree: 8%
 
 ## 編輯中繼資料結構表單 {#edit-a-metadata-schema-form}
 
-您可以編輯新新增或現有的中繼資料結構表單。 中繼資料結構表單包含衍生自其父項的內容，包括索引標籤和索引標籤內的表單專案。 您可以將這些表單專案對應或設定至中繼資料節點內的欄位。
+可以編輯任何新增或現有的中繼資料結構表單。 中繼資料結構表單包含衍生自其父項的內容，包括索引標籤和索引標籤內的表單專案。 您可以將這些表單專案對應或設定至中繼資料節點內的欄位。
 
 您可以將新的索引標籤或表單專案新增到中繼資料結構表單。 衍生的標籤和表單專案（來自父項）處於鎖定狀態。 您無法在子層級變更它們。
 
@@ -66,9 +62,9 @@ ht-degree: 8%
 
 1. 從頂端的工具列按一下&#x200B;**[!UICONTROL 編輯]**。
 
-   **[!UICONTROL 中繼資料結構描述編輯器]**&#x200B;頁面會開啟，左側會開啟&#x200B;**[!UICONTROL Basic]**&#x200B;標籤，右側會開啟&#x200B;**[!UICONTROL Build Form]**&#x200B;標籤。
+   **[!UICONTROL 中繼資料結構描述編輯器]**&#x200B;頁面開啟，並在左側開啟&#x200B;**[!UICONTROL Basic]**&#x200B;標籤。 在右側，**[!UICONTROL 組建表單]**&#x200B;索引標籤已開啟。
 
-1. 在&#x200B;**[!UICONTROL 中繼資料結構編輯器]**&#x200B;頁面中，將一個或多個元件從&#x200B;**[!UICONTROL 建置表單]**&#x200B;索引標籤中的元件型別清單拖曳到&#x200B;**[!UICONTROL 基本]**&#x200B;索引標籤，以自訂資產的&#x200B;**[!UICONTROL 屬性]**&#x200B;頁面。
+1. 在&#x200B;**[!UICONTROL 中繼資料結構編輯器]**&#x200B;頁面中，自訂資產的&#x200B;**[!UICONTROL 屬性]**&#x200B;頁面。 只要從&#x200B;**[!UICONTROL 建置表單]**&#x200B;索引標籤中的元件型別清單拖曳一或多個元件即可。 將它們拖曳至&#x200B;**[!UICONTROL 基本]**&#x200B;標籤。
 
    ![](assets/metadata-schemaeditor-page.png)
 
@@ -86,7 +82,7 @@ ht-degree: 8%
 | **[!UICONTROL 數字]** | 新增數字元件。 |
 | **[!UICONTROL 日期]** | 新增日期元件。 |
 | **[!UICONTROL 下拉式清單]** | 新增下拉式清單。 |
-| **[!UICONTROL 標準標籤]** | 新增標籤。 **注意：**&#x200B;如果管理員從Experience Manager Assets發佈中繼資料結構表單，而路徑不包含租使用者資訊，例如`/etc/tags/<custom_tag_namespace>`，則可能需要變更路徑值，例如`/etc/tags/mac/<tenant_id>/<custom_tag_namespace>`。 |
+| **[!UICONTROL 標準標籤]** | 新增標籤。 管理員可能需要變更路徑值。 例如，`/etc/tags/mac/<tenant_id>/<custom_tag_namespace>`，如果他們從Experience Manager Assets發佈中繼資料結構表單，其中路徑不包含租使用者資訊，例如，`/etc/tags/<custom_tag_namespace>`。 |
 | **[!UICONTROL 智慧標記]** | 如果您已購買並設定Experience Manager Assets智慧標籤附加元件，則會自動偵測標籤。 |
 | **[!UICONTROL 隱藏欄位]** | 新增隱藏欄位。 儲存資產時，會以POST引數的形式傳送。 |
 | **[!UICONTROL 資產參考者]** | 新增此元件以檢視資產所參考的資產清單。 |
@@ -108,9 +104,9 @@ ht-degree: 8%
 
 以下是此屬性的有效值：
 
-— `./jcr:content/metadata/dc:title`：將值儲存在資產的中繼資料節點，做為屬性[!UICONTROL `dc:title`]。
+— `./jcr:content/metadata/dc:title`：將值儲存在資產的中繼資料節點，做為屬性`dc:title`。
 
-— `./jcr:created`：在資產的節點顯示jcr屬性。 如果您在檢視屬性上設定這些屬性，建議您將它們標示為「停用編輯」，因為這些屬性受到保護。否則，當您儲存資產的屬性時，會出現「資產無法修改」錯誤。
+— `./jcr:created`：在資產的節點顯示jcr屬性。 如果您在檢視屬性上設定了這些屬性，Adobe建議您將其標示為「停用編輯」，因為這些屬性受到保護。 否則，當您儲存資產的屬性時，會出現「Assets無法修改」錯誤。
 
 * **[!UICONTROL 預留位置]**：使用此屬性為使用者提供中繼資料屬性的相關資訊。
 * **[!UICONTROL 必要]**：使用此屬性，在[屬性]頁面上將中繼資料屬性標示為必要。
@@ -196,10 +192,10 @@ Brand Portal僅可讓您刪除自訂結構表單。 它不允許您刪除預設�
 | **名稱** | **類型** | **值** |
 |---|---|---|
 | exposedmimetype | 字串 | image/jpeg |
-| mimetypes | 字串[] | image/png |
+| mime型別 | 字串[] | image/png |
 
 * **exposedmimetype**：要對應的現有表單名稱
-* **mimetypes**：使用&#x200B;**exposedmimetype**&#x200B;屬性中定義之表單的MIME型別清單
+* **mime型別**：使用&#x200B;**exposedmimetype**&#x200B;屬性中定義之表單的MIME型別清單
 
 Brand Portal對應下列MIME型別和結構表單：
 
@@ -214,29 +210,29 @@ Brand Portal對應下列MIME型別和結構表單：
 | video/quicktime | video/x-quicktime |
 | video/mpeg4 | video/mp4 |
 | video/avi | video/avi， video/msvideo， video/x-msvideo |
-| video/wmv | video/x-ms-wmv |
+| video/wmv | `video/x-ms-wmv` |
 | video/flv | video/x-flv |
 
 以下是預設中繼資料屬性的清單：
 
-* jcr:content/metadata/cq:tags
-* jcr:content/metadata/dc:format
-* jcr:content/metadata/dam:status
-* jcr：content/metadata/videoCodec
-* jcr：content/metadata/audioCodec
-* jcr：content/metadata/dc：title
-* jcr：content/metadata/dc：description
-* jcr：content/metadata/xmpMM：InstanceID
-* jcr：content/metadata/xmpMM：DocumentID
-* jcr：content/metadata/dam：sha1
-* jcr：content/metadata/dam：solutionContext
-* jcr：content/metadata/videoBitrate
-* jcr：content/metadata/audioBitrate
-* jcr：content/usages/usedBy
-* jcr:content/jcr:lastModified
-* jcr:content/metadata/prism:expirationDate
-* jcr：content/onTime
-* jcr：content/offTime
-* jcr:content/metadata/dam:size
-* jcr：content/metadata/tiff：ImageWidth
-* jcr：content/metadata/tiff：ImageLength
+* `jcr:content/metadata/cq:tags`
+* `jcr:content/metadata/dc:format`
+* `jcr:content/metadata/dam:status`
+* `jcr:content/metadata/videoCodec`
+* `jcr:content/metadata/audioCodec`
+* `jcr:content/metadata/dc:title`
+* `jcr:content/metadata/dc:description`
+* `jcr:content/metadata/xmpMM:InstanceID`
+* `jcr:content/metadata/xmpMM:DocumentID`
+* `jcr:content/metadata/dam:sha1`
+* `jcr:content/metadata/dam:solutionContext`
+* `jcr:content/metadata/videoBitrate`
+* `jcr:content/metadata/audioBitrate`
+* `jcr:content/usages/usedBy`
+* `jcr:content/jcr:lastModified`
+* `jcr:content/metadata/prism:expirationDate`
+* `jcr:content/onTime`
+* `jcr:content/offTime`
+* `jcr:content/metadata/dam:size`
+* `jcr:content/metadata/tiff:ImageWidth`
+* `jcr:content/metadata/tiff:ImageLength`

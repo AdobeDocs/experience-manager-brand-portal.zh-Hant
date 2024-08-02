@@ -6,9 +6,9 @@ topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 role: Admin
 exl-id: 212a1b3a-686f-4250-be06-b679b6039887
-source-git-commit: 1a3e51922fb658d9d05113b4b1f4d05a0b6555c0
+source-git-commit: 10f89ded6febb1a024cbe181fa48a290d90223f0
 workflow-type: tm+mt
-source-wordcount: '814'
+source-wordcount: '815'
 ht-degree: 1%
 
 ---
@@ -38,7 +38,7 @@ Experience Manager Assets管理員可建立影像預設集，這些預設集會�
 >
 >如果Experience Manager Assets Author執行個體以&#x200B;**Dynamic Media混合模式**&#x200B;執行，則會建立影像資產的金字塔TIFF轉譯並儲存在Experience Manager Assets存放庫中。
 >
->而如果Experience Manager Assets作者執行個體以&#x200B;**Dynamic Media Scene7模式**&#x200B;執行，則Scene7伺服器上存在影像資產的金字塔TIFF轉譯。
+>不過，如果Experience Manager Assets作者執行個體以&#x200B;**Dynamic Media Scene7模式**&#x200B;執行，則Scene7伺服器上存在影像資產的金字塔TIFF轉譯。
 >
 >將這類資產發佈至Brand Portal時，會套用影像預設集並顯示動態轉譯。
 

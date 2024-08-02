@@ -1,25 +1,21 @@
 ---
 title: 上傳資產，並將「貢獻」資料夾從Brand Portal發佈至Experience Manager Assets
-seo-title: Upload assets and publish the Contribution folder from Brand Portal to Experience Manager Assets
 description: 深入瞭解如何從Brand Portal上傳新資產以及將貢獻資料夾發佈至Experience Manager Assets。
-seo-description: Get an insight into uploading new assets and publishing the contribution folder from Brand Portal to Experience Manager Assets.
-uuid: null
 content-type: reference
 contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-discoiquuid: null
 exl-id: 7dcf445d-97ed-4fa5-959c-c4c48e325766
-source-git-commit: 606f4389780025f5cf92b11bf8cac464e36be44a
+source-git-commit: 10f89ded6febb1a024cbe181fa48a290d90223f0
 workflow-type: tm+mt
-source-wordcount: '1475'
+source-wordcount: '1470'
 ht-degree: 0%
 
 ---
 
 # Publish貢獻資料夾至Experience Manager Assets {#using-asset-souring-in-bp}
 
-具有適當許可權的Brand Portal使用者可上傳多個資產或包含多個資產的檔案夾至貢獻檔案夾。 不過，Brand Portal使用者只能將資產上傳至&#x200B;**NEW**&#x200B;資料夾。 **共用**&#x200B;資料夾用於基準資產（參考內容）的分發，Brand Portal使用者在建立貢獻的新資產時可使用此資料。
+具有適當許可權的Brand Portal使用者可上傳多個資產或包含多個資產的檔案夾至貢獻檔案夾。 不過，Brand Portal使用者只能將資產上傳至&#x200B;**NEW**&#x200B;資料夾。 **共用**&#x200B;資料夾用於分發Brand Portal使用者在建立貢獻的新資產時所使用的基準資產（參考內容）。
 
 擁有貢獻資料夾存取許可權的Brand Portal使用者可以執行下列活動：
 
@@ -29,14 +25,14 @@ ht-degree: 0%
 
 ## 下載資產需求 {#download-asset-requirements}
 
-當Brand Portal使用者共用貢獻資料夾時，Experience Manager Assets使用者會自動收到電子郵件/脈衝通知，好讓他們下載簡短（資產需求）檔案，以及從&#x200B;**共用**&#x200B;資料夾下載基準資產（參考內容），以確保他們瞭解資產需求。
+當Brand Portal使用者共用貢獻資料夾時，Experience Manager Assets使用者會自動收到電子郵件和脈衝通知。 此工作流程可讓他們從&#x200B;**共用**&#x200B;資料夾下載簡短（資產需求）檔案和基準資產（參考內容），以瞭解資產需求。
 
 Brand Portal使用者會執行下列活動來下載資產需求：
 
-* **下載簡介**：下載附加至貢獻資料夾的簡介（資產需求檔案），其中包含資產相關資訊，例如資產型別、用途、支援的格式、最大資產大小等。
-* **下載基準線資產**：下載可用於瞭解所需資產型別的基準線資產。 Brand Portal使用者可參照這些資產，以建立新的資產來貢獻。
+* **下載簡介** — 下載附加至貢獻資料夾的簡介（資產需求檔案）。 它包含資產相關資訊，例如資產型別、用途、支援的格式、資產大小上限等。
+* **下載基準線資產** — 下載基準線資產，其可用於瞭解所需的資產型別。 Brand Portal使用者可參照這些資產，以建立新的資產來貢獻。
 
-Brand Portal儀表板會反映Brand Portal使用者允許的所有現有資料夾，以及新共用的貢獻資料夾。 在此範例中，Brand Portal使用者僅能存取新建立的貢獻資料夾，其他現有資料夾不會與使用者共用。
+Brand Portal儀表板會反映Brand Portal使用者允許的所有現有資料夾，以及新共用的貢獻資料夾。 在此範例中，Brand Portal使用者僅擁有新建立貢獻資料夾的存取權。 沒有其他現有資料夾與該使用者共用。
 
 **若要下載資產需求：**
 
@@ -53,7 +49,7 @@ Brand Portal儀表板會反映Brand Portal使用者允許的所有現有資料�
    ![](assets/download.png)
 
 1. 返回Brand Portal控制面板。
-1. 按一下以開啟貢獻資料夾，您可以在貢獻資料夾中看到兩個子資料夾 — **[!UICONTROL SHARED]**&#x200B;和&#x200B;**[!UICONTROL NEW]**。 共用資料夾包含管理員共用的所有基準資產（參考內容）。
+1. 按一下貢獻資料夾以開啟它。 您可以在貢獻資料夾中看到兩個子資料夾： **[!UICONTROL SHARED]**&#x200B;和&#x200B;**[!UICONTROL NEW]**。 共用資料夾包含管理員共用的所有基準資產（參考內容）。
 1. 您可以下載包含本機電腦上所有基準資產的&#x200B;**[!UICONTROL SHARED]**資料夾。
 或者，您可以開啟**[!UICONTROL 共用]**&#x200B;資料夾，然後按一下&#x200B;**下載**&#x200B;圖示來下載個別檔案/資料夾。
 
@@ -63,22 +59,21 @@ Brand Portal儀表板會反映Brand Portal使用者允許的所有現有資料�
 
 瀏覽簡報（資產需求檔案），並參閱基準資產，以瞭解資產需求。 現在，您可以建立新的貢獻資產，並將其上傳至貢獻資料夾。
 
-
 ## 將資產上傳至貢獻資料夾 {#upload-new-assets-to-contribution-folder}
 
 處理完資產需求後，Brand Portal使用者可以為貢獻建立新資產，並將這些資產上傳至貢獻資料夾中的新資料夾。 使用者可將多個資產上傳至資產貢獻資料夾。 不過，一次只能建立一個資料夾。
 
 >[!NOTE]
 >
->Brand Portal使用者可以將資產（每個檔案大小最多&#x200B;**2** GB）上傳至「新增」資料夾。
+>Brand Portal使用者可將資產（每個檔案大小最多2 GB）上傳至NEW資料夾。
 >
->任何Brand Portal租使用者的最大上傳限製為&#x200B;**10** GB，累積套用至所有貢獻資料夾。
+>任何Brand Portal租使用者的最大上傳限製為10 GB，會累計套用至所有貢獻資料夾。
 >
 >上傳至Brand Portal的資產不會處理轉譯，也不會包含預覽。
 
 >[!NOTE]
 >
->建議在發佈貢獻資料夾至Experience Manager Assets後發佈上傳空間，以供其他Brand Portal使用者貢獻內容。
+>Adobe建議您在發佈貢獻資料夾至Experience Manager Assets後發佈上傳空間，以供其他Brand Portal使用者貢獻內容。
 >
 >如果需要將Brand Portal租使用者的上傳限制延長到&#x200B;**10** GB以上，請聯絡客戶支援服務，指定需求。
 
@@ -109,9 +104,9 @@ Brand Portal儀表板會反映Brand Portal使用者允許的所有現有資料�
 
 Brand Portal使用者可以將「貢獻」資料夾發佈到Experience Manager Assets，而不需要存取Experience Manager作者例項。
 
-確保您已完成資產需求，並在貢獻資料夾內的&#x200B;**NEW**&#x200B;資料夾中上傳新建立的資產。
+確保您已通過資產要求，並在貢獻資料夾內的&#x200B;**NEW**&#x200B;資料夾中上傳新建立的資產。
 
-**要發佈貢獻資料夾：**
+**若要發佈貢獻資料夾：**
 
 1. 登入您的Brand Portal執行個體。
 
@@ -128,13 +123,13 @@ Brand Portal使用者可以將「貢獻」資料夾發佈到Experience Manager A
 
 1. **完成** — 當貢獻資料夾成功發佈至Brand Portal時，會傳送通知給Experience Manager Assets使用者和Brand Portal管理員。
 
-將新建立的資產發佈到Experience Manager Assets後，Brand Portal使用者可以將其從「新增」資料夾中刪除。 然而，Brand Portal管理員可以從「新增」和「共用」資料夾中刪除資產。
+將新建立的資產發佈到Experience Manager Assets後，Brand Portal使用者可以將其從「新增」資料夾中刪除。 不過，Brand Portal管理員可以從「新增」和「共用」資料夾中刪除資產。
 
 一旦達到建立貢獻資料夾的目標，Brand Portal管理員可以刪除貢獻資料夾，以釋出上傳空間給其他使用者。
 
 ## 發佈工作狀態 {#publishing-job-status}
 
-管理員可透過兩種報表來檢視從Brand Portal發佈至Experience Manager Assets的資產貢獻資料夾狀態。
+管理員可以使用兩個報表，檢視從Brand Portal發佈至Experience Manager Assets的資產貢獻資料夾狀態。
 
 * 在Brand Portal中，導覽至&#x200B;**[!UICONTROL 工具]** > **[!UICONTROL 資產貢獻狀態]**。 此報表會反映發佈工作流程不同階段的所有發佈工作狀態。
 

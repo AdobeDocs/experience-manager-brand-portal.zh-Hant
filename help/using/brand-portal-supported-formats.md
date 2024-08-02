@@ -1,18 +1,14 @@
 ---
 title: 支援的檔案格式
-seo-title: Supported file formats
 description: 如矩陣所示，每個Experience Manager Assets Brand Portal都支援特定的檔案格式。
-seo-description: Each Experience Manager Assets Brand Portal supports specific file formats, as indicated in the matrix.
-uuid: c92ada3a-6fc3-4ef2-88ff-8e67a50c8c95
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
-discoiquuid: fe1c2df8-39f4-4d5c-91d1-7b6cd4f1f589
 exl-id: fa5d87a8-dc45-4c8a-8a96-ac7ec793952b
-source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
+source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
 workflow-type: tm+mt
 source-wordcount: '649'
-ht-degree: 62%
+ht-degree: 63%
 
 ---
 
@@ -59,8 +55,8 @@ ht-degree: 62%
 | MIDI | ✓ | 不適用 | ✓ | 不適用 | 不適用 | ✓ | ✕ (A) | ✕ (A) |
 | 3GP | ✓ | 不適用 | ✓ | 不適用 | 不適用 | ✓ | ✕ (A) | ✕ (A) |
 | MP3 | ✓ | 不適用 | ✓ | 不適用 | ✕ (A) | ✓ | ✕ (A) | ✕ (A) |
-| Mp4 | ✓ | 不適用 | ✓ | 不適用 | ✓ | ✓ | ✕ (A) | ✕ (A) |
-| Mpg | ✓ | 不適用 | ✓ | 不適用 | 不適用 | ✓ | ✕ (A) | ✕ (A) |
+| MP4 | ✓ | 不適用 | ✓ | 不適用 | ✓ | ✓ | ✕ (A) | ✕ (A) |
+| MPG | ✓ | 不適用 | ✓ | 不適用 | 不適用 | ✓ | ✕ (A) | ✕ (A) |
 | OGA | ✓ | 不適用 | ✓ | 不適用 | ✕ (A) | ✓ | ✕ (A) | ✕ (A) |
 | OGG | ✓ | 不適用 | ✓ | 不適用 | ✓ | ✓ | ✕ (A) | ✕ (A) |
 | RA | ✓ | 不適用 | ✓ | 不適用 | 不適用 | ✓ | ✕ (A) | ✕ (A) |
