@@ -6,9 +6,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: administration
 role: Admin
 exl-id: fbedff90-a6cb-4175-8308-817cc9f5b450
-source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
+source-git-commit: e01be07e7e791c6d406744148a77fd44d2479734
 workflow-type: tm+mt
-source-wordcount: '1622'
+source-wordcount: '1603'
 ht-degree: 5%
 
 ---
@@ -75,7 +75,7 @@ ht-degree: 5%
 **[!UICONTROL 建置表單]**&#x200B;索引標籤會列出您可在結構描述表單中使用的專案。 **[!UICONTROL 設定]**&#x200B;索引標籤提供您在&#x200B;**[!UICONTROL 建置表單]**&#x200B;索引標籤中選取之每個專案的屬性。 下表列出&#x200B;**[!UICONTROL 建置表單]**&#x200B;索引標籤中可用的表單專案：
 
 | 元件名稱 | 說明 |
-|---------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|----|----|
 | **[!UICONTROL 區段標題]** | 新增區段標題以取得常用元件清單。 |
 | **[!UICONTROL 單行文字]** | 新增單行文字屬性。 它會儲存為字串。 |
 | **[!UICONTROL 多值文字]** | 新增多值文字屬性。 它會儲存為字串陣列。 |
@@ -87,8 +87,9 @@ ht-degree: 5%
 | **[!UICONTROL 隱藏欄位]** | 新增隱藏欄位。 儲存資產時，會以POST引數的形式傳送。 |
 | **[!UICONTROL 資產參考者]** | 新增此元件以檢視資產所參考的資產清單。 |
 | **[!UICONTROL 資產引用]** | 新增以顯示參照資產的資產清單。 |
-| **[!UICONTROL 資產評等]** | 在資產發佈至Brand Portal之前，從Experience Manager Assets新增資產的平均評等。 |
 | **[!UICONTROL 內容中繼資料]** | 新增以控制其他中繼資料索引標籤在資產屬性頁面中的顯示。 |
+
+<!--| **[!UICONTROL Asset Rating]** |  Average rating of an asset added from Experience Manager Assets before it is published to Brand Portal. |-->
 
 >[!NOTE]
 >
@@ -106,7 +107,7 @@ ht-degree: 5%
 
 — `./jcr:content/metadata/dc:title`：將值儲存在資產的中繼資料節點，做為屬性`dc:title`。
 
-— `./jcr:created`：在資產的節點顯示jcr屬性。 如果您在檢視屬性上設定了這些屬性，Adobe建議您將其標示為「停用編輯」，因為這些屬性受到保護。 否則，當您儲存資產的屬性時，會出現「Assets無法修改」錯誤。
+— `./jcr:created`：在資產的節點顯示jcr屬性。 如果您已在檢視屬性上設定這些屬性，Adobe建議您將其標示為「停用編輯」，因為這些屬性受到保護。 否則，當您儲存資產的屬性時，會出現「Assets無法修改」錯誤。
 
 * **[!UICONTROL 預留位置]**：使用此屬性為使用者提供中繼資料屬性的相關資訊。
 * **[!UICONTROL 必要]**：使用此屬性，在[屬性]頁面上將中繼資料屬性標示為必要。
@@ -115,7 +116,7 @@ ht-degree: 5%
 * **[!UICONTROL 描述]**：使用此屬性為中繼資料元件新增簡短描述。
 * **[!UICONTROL 刪除圖示]**：按一下此圖示，即可從結構表單中刪除元件。
 
-![](assets/delete_icon_editmetadataschemaform.png)
+  ![](assets/delete_icon_editmetadataschemaform.png)
 
 >[!NOTE]
 >
@@ -129,9 +130,9 @@ ht-degree: 5%
 
 * 若要在結構表單上新增索引標籤，請按一下&#x200B;**[!UICONTROL +]**。 依預設，新索引標籤的名稱為「Unnamed-1」。 您可以從&#x200B;**[!UICONTROL 設定]**&#x200B;標籤修改名稱。
 
-![](assets/add-tab-metadata-form.png)
+  ![](assets/add-tab-metadata-form.png)
 
-* 若要刪除標籤，請按一下&#x200B;**[!UICONTROL x]**。 按一下[儲存]儲存變更。****
+* 若要刪除標籤，請按一下&#x200B;**[!UICONTROL x]**。 按一下「**[!UICONTROL 儲存]**」以儲存變更。
 
 ## 將中繼資料結構套用至資料夾 {#apply-a-metadata-schema-to-a-folder}
 
@@ -181,7 +182,7 @@ Brand Portal僅可讓您刪除自訂結構表單。 它不允許您刪除預設�
 
 ### 為MIME型別新增表單 {#adding-new-forms-for-mime-types}
 
-除了預設表單之外，您還可以為各種MIME型別的資產新增自訂表單，或在適當的表單型別下建立新表單。 例如，若要新增影像/png子類型 **[!UICONTROL 的新範本]** ，請在「影像」表單下建立表單。方案表單的標題是子類型名稱。在此範例中，標題為&quot;png&quot;。
+除了預設表單之外，您還可以為各種MIME型別的資產新增自訂表單，或在適當的表單型別下建立新表單。 例如，若要新增影像/png子類型 **[!UICONTROL 的新範本]** ，請在「影像」表單下建立表單。結構描述表單的標題是子類型名稱。在此範例中，標題為&quot;png&quot;。
 
 #### 針對各種MIME型別使用現有結構描述範本 {#using-an-existing-schema-template-for-various-mime-types}
 
