@@ -10,10 +10,10 @@ topics: collaboration, content-velocity, sharing
 doc-type: feature-video
 activity: use
 audience: author, marketer
-version: 6.5
+version: Experience Manager 6.5
 kt: 3838
 exl-id: 2c132a7a-ed10-4856-8378-67939167ea60
-source-git-commit: 4c701781e7dc62b9d2b018fd13b1ae9616bbb840
+source-git-commit: aea49037eddb1558f85e567cd35eb434eee617ba
 workflow-type: tm+mt
 source-wordcount: '647'
 ht-degree: 1%
@@ -32,7 +32,7 @@ ht-degree: 1%
 
 ## 先決條件 {#prerequisites}
 
-* Experience Manager Assetsas a Cloud Service執行個體，Experience Manager Assets 6.5.2或更新版本。
+* Experience Manager Assets as a Cloud Service例項，Experience Manager Assets 6.5.2或更新版本。
 * 確認您的Experience Manager Assets執行個體已使用Brand Portal進行設定。 請參閱[使用Brand Portal設定Experience Manager Assets](../using/configure-aem-assets-with-brand-portal.md)。
 
 <!--
@@ -108,9 +108,9 @@ Experience Manager Assets管理員可上傳包含Experience Manager Assets中有
 
 >[!NOTE]
 >
->CSV檔案的格式與大量使用者匯入的Admin Console中支援的格式相同。 電子郵件、名字和姓氏為必填欄位。
+>CSV檔案的格式與Admin Console對大量使用者匯入支援的格式相同。 電子郵件、名字和姓氏為必填欄位。
 
-管理員可以在Admin Console中新增使用者。 請移至[管理使用者](brand-portal-adding-users.md)以取得詳細資訊。 在Admin Console中新增使用者後，這些使用者可以新增至Brand Portal使用者設定檔，然後指派許可權以存取貢獻資料夾。
+管理員可以在Admin Console中新增使用者。 請移至[管理使用者](brand-portal-adding-users.md)以取得詳細資訊。 在Admin Console中新增使用者後，可將這些使用者新增至Brand Portal使用者設定檔，然後指派許可權以存取貢獻資料夾。
 
 **若要上傳Brand Portal使用者清單：**
 
@@ -130,4 +130,4 @@ Experience Manager Assets管理員可上傳包含Experience Manager Assets中有
 
 * [設定貢獻資料夾並發佈至Brand Portal](brand-portal-publish-contribution-folder-to-brand-portal.md)
 
-* [Publish貢獻資料夾至Experience Manager Assets](brand-portal-publish-contribution-folder-to-aem-assets.md)
+* [將貢獻資料夾發佈至Experience Manager Assets](brand-portal-publish-contribution-folder-to-aem-assets.md)
