@@ -13,7 +13,7 @@ audience: author, marketer
 version: Experience Manager 6.5
 kt: 3838
 exl-id: 2c132a7a-ed10-4856-8378-67939167ea60
-source-git-commit: aea49037eddb1558f85e567cd35eb434eee617ba
+source-git-commit: aea8becdf9493b1d465f1b1cb818c85f8943bedb
 workflow-type: tm+mt
 source-wordcount: '647'
 ht-degree: 1%
@@ -122,7 +122,6 @@ Experience Manager Assets管理員可上傳包含Experience Manager Assets中有
 1. 按一下「**[!UICONTROL 儲存]**」。
 
    ![](assets/upload-user-list2.png)
-
 
 管理員可在設定貢獻資料夾時，從此使用者清單提供特定使用者的存取權。 只有指派給貢獻資料夾的使用者才能存取貢獻資料夾，並從Brand Portal將資產發佈到Experience Manager Assets。
 
