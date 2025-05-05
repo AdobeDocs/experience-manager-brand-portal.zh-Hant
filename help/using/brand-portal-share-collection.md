@@ -19,7 +19,7 @@ ht-degree: 0%
 
 <!--The administrators can share and unshare a collection with the authorized Brand Portal users. Editors and viewers can view and share the collections created by them, shared with them, and public collections.-->
 
-收藏集會透過電子郵件以連結形式共用。 有權存取共用連結的每個人都可以開啟集合。 但是，共用的電子郵件可以轉寄給任何人。 此外，[共用連結](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/share/brand-portal-link-share)是暫時性的，僅可在有限期間存取。 或者，也可以邀請使用者成為集合的永久成員。 集合有下列使用者型別：
+收藏集會透過電子郵件以連結形式共用。 有權存取共用連結的每個人都可以開啟集合。 但是，共用的電子郵件可以轉寄給任何人。 此外，[共用連結](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-brand-portal/using/share/brand-portal-link-share)是暫時性的，僅可在有限期間存取。 或者，也可以邀請使用者成為集合的永久成員。 集合有下列使用者型別：
 
 * **管理員**&#x200B;可以與授權的Brand Portal使用者共用或取消共用集合。 他們可以邀請其他使用者加入特定的集合，並定義他們在該集合中的角色。 此外，管理員可以建立公開集合。
 

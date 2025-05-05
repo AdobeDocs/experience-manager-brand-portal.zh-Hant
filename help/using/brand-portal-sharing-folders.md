@@ -28,7 +28,7 @@ Assets需要從預先設定的Experience Manager製作例項發佈至Brand Porta
 
 ### 在Brand Portal上與使用者群組共用資料夾 {#sharing-folders-with-user-groups-on-brand-portal}
 
-檔案夾資產的存取權取決於其父檔案夾的存取權，不論子檔案夾的設定為何。 AEM中的[ACL](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/security/security)會控管此行為，子資料夾會從其父資料夾繼承ACL。 例如，假設資料夾A包含資料夾B，其中包含資料夾C。接著，擁有資料夾A存取許可權的使用者群組（或使用者）也會擁有資料夾B和資料夾C的相同存取許可權。資料夾B是A的子資料夾，會繼承其ACL，而資料夾C是B的子資料夾，則會繼承其ACL。
+檔案夾資產的存取權取決於其父檔案夾的存取權，不論子檔案夾的設定為何。 AEM中的[ACL](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/security/security)會控管此行為，子資料夾會從其父資料夾繼承ACL。 例如，假設資料夾A包含資料夾B，其中包含資料夾C。接著，擁有資料夾A存取許可權的使用者群組（或使用者）也會擁有資料夾B和資料夾C的相同存取許可權。資料夾B是A的子資料夾，會繼承其ACL，而資料夾C是B的子資料夾，則會繼承其ACL。
 
 同樣地，只有存取資料夾B許可權的使用者群組（或使用者）對資料夾C而非資料夾A擁有相同的存取許可權。Adobe建議組織內容，以便將最公開的資產放在子資料夾中，允許從子資料夾一直限制存取根資料夾。
 

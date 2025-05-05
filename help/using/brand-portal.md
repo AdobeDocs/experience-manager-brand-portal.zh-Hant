@@ -127,8 +127,8 @@ Experience Manager Assets品牌入口網站允許 [客人存取](#request-access
 除了上述工作之外，AEM Assets中的作者還可以執行下列工作：
 
 * [使用Brand Portal設定AEM Assets](../using/configure-aem-assets-with-brand-portal.md)
-* [將資料夾發佈至 Brand Portal](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/brandportal/brand-portal-publish-folder)
-* [將集合發佈至 Brand Portal](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/brandportal/brand-portal-publish-collection)
+* [將資料夾發佈至 Brand Portal](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/assets/brandportal/brand-portal-publish-folder)
+* [將集合發佈至 Brand Portal](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/assets/brandportal/brand-portal-publish-collection)
 
 ## Brand Portal URL的替代別名 {#tenant-alias-for-portal-url}
 

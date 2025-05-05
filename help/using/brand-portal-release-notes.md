@@ -391,7 +391,7 @@ Brand Portal使用者介面提供下列語言版本：
 ## 連結 {#links}
 
 * adobe.com上的[Adobe Experience Manager產品頁面](https://business.adobe.com/in/products/experience-manager/adobe-experience-manager.html)
-* [Assets Brand Portal檔案](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/home)
+* [Assets Brand Portal檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-brand-portal/using/home)
 
 ## 產品存取與支援（受限制的網站） {#product-access-and-support-restricted-sites}
 

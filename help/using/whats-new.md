@@ -97,19 +97,19 @@ Brand Portal 2021.08.0是內部版本，為企業和團隊客戶匯入企業設�
 
 ### 參考文章 {#reference-articles}
 
-* [介紹Adobe設定檔](https://helpx.adobe.com/enterprise/kb/introducing-adobe-profiles.html)
+* [介紹Adobe設定檔](https://helpx.adobe.com/tw/enterprise/kb/introducing-adobe-profiles.html)
 
-* [管理Adobe設定檔](https://helpx.adobe.com/enterprise/using/manage-adobe-profiles.html)
+* [管理Adobe設定檔](https://helpx.adobe.com/tw/enterprise/using/manage-adobe-profiles.html)
 
-* [更新使用者和管理員的登入體驗](https://helpx.adobe.com/enterprise/using/storage-for-business.html#new-admin-sign-in-exp)
+* [更新使用者和管理員的登入體驗](https://helpx.adobe.com/tw/enterprise/using/storage-for-business.html#new-admin-sign-in-exp)
 
-* 移轉期間[登入限制](https://helpx.adobe.com/enterprise/kb/account-temporarily-unavailable.html)
+* 移轉期間[登入限制](https://helpx.adobe.com/tw/enterprise/kb/account-temporarily-unavailable.html)
 
-* [在Admin Console中管理使用者](https://helpx.adobe.com/enterprise/using/manage-users-individually.html)
+* [在Admin Console中管理使用者](https://helpx.adobe.com/tw/enterprise/using/manage-users-individually.html)
 
-* [管理企業使用者的產品設定檔](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html#assign-users)
+* [管理企業使用者的產品設定檔](https://helpx.adobe.com/tw/enterprise/using/manage-product-profiles.html#assign-users)
 
-* [網域信任](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/set-up-identity.html#directory-trusting)
+* [網域信任](https://helpx.adobe.com/tw/enterprise/admin-guide.html/enterprise/using/set-up-identity.html#directory-trusting)
 
 
 <!--   
@@ -187,7 +187,7 @@ Asset Sourcing功能現在可在AEM Assetsas a Cloud Service上使用。 此功�
 
 過去，Asset Sourcing僅適用於AEM Assets （內部部署和託管服務）。
 
-請參閱Brand Portal[&#128279;](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/brand-portal-asset-sourcing)中的資產來源。
+請參閱Brand Portal[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/brand-portal-asset-sourcing)中的資產來源。
 
 ### 資產下載 {#asset-download-setting}
 
@@ -208,7 +208,7 @@ Earlier, all the asset renditions were directly downloaded in a zip folder in ca
 
 ![](assets/download-settings-new.png)
 
-請參閱[從Brand Portal](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/download/brand-portal-download-assets)下載資產。
+請參閱[從Brand Portal](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-brand-portal/using/download/brand-portal-download-assets)下載資產。
 <!--
 ### Download using Share link {#download-using-share-link}
 
@@ -251,7 +251,7 @@ If any of the **[!UICONTROL Custom Rendition]** or **[!UICONTROL System Renditio
 * 為每個資產建立個別的資料夾。
 * 下載選取的資產及其轉譯。
 
-對於獨立資產、多個資產、包含資產的資料夾、已授權或未授權的資產，以及透過共用連結下載資產時，下載工作流程都是一致的。 檢視從Brand Portal[&#128279;](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/download/brand-portal-download-assets)下載資產的步驟。
+對於獨立資產、多個資產、包含資產的資料夾、已授權或未授權的資產，以及透過共用連結下載資產時，下載工作流程都是一致的。 檢視從Brand Portal[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-brand-portal/using/download/brand-portal-download-assets)下載資產的步驟。
 
 ![下載對話方塊](assets/download-dialog-box.png)
 
@@ -301,7 +301,7 @@ The user can clear the check boxes to exclude the renditions which are not requi
 * 如果只開啟&#x200B;**[!UICONTROL 下載原始資產]**&#x200B;設定，使用者只能從資產詳細資訊頁面檢視及下載原始資產。
 * 如果只開啟&#x200B;**[!UICONTROL 下載轉譯]**&#x200B;設定，使用者可以檢視原始資產，但無法下載。 不過，使用者可以檢視及下載資產轉譯。
 
-請參閱[設定資產下載](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/download/brand-portal-download-assets#configure-download-permissions)。
+請參閱[設定資產下載](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-brand-portal/using/download/brand-portal-download-assets#configure-download-permissions)。
 
 ![檢視 — 下載 — 許可權](assets/download-permissions.png)
 
@@ -400,7 +400,7 @@ Brand Portal管理員可啟用任何組合以設定資產下載。
 | **AEM版本** | **新組態** | **升級組態** |
 |---|---|---|
 | **AEM Assets as a Cloud Service** | [建立設定](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/brand-portal/configure-aem-assets-with-brand-portal) | - |
-| **AEM 6.5 （6.5.4.0和更新版本）** | [建立設定](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal) | [升級組態](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal#upgrade-integration-65) |
+| **AEM 6.5 （6.5.4.0和更新版本）** | [建立設定](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal) | [升級組態](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal#upgrade-integration-65) |
 
 >[!NOTE]
 >
@@ -808,7 +808,7 @@ Brand Portal現在會在即將進行的維護活動前幾天顯示通知橫幅�
 
 ![](assets/bp_maintenance_notification-1.png)
 
-如需詳細資訊，請參閱[Brand Portal維護通知](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/introduction/brand-portal)。
+如需詳細資訊，請參閱[Brand Portal維護通知](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-brand-portal/using/introduction/brand-portal)。
 
 ### 增強使用連結共用功能共用的授權資產 {#enhancement-for-licensed-assets-shared-using-the-link-share-feature}
 

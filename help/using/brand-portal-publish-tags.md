@@ -16,7 +16,7 @@ ht-degree: 2%
 
 瞭解如何從Experience Manager Assets發佈標籤至Brand Portal。
 
-標籤對於組織資產以及增強與其相關聯之資產的可搜尋性很有用。 標籤可視為附加資產的關鍵字或標籤（中繼資料），並可讓您透過搜尋結果快速找到資產。 若要瞭解如何在Experience Manager Assets中指派標籤給資產，請參閱[使用標籤來組織資產](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/managing/organize-assets)。
+標籤對於組織資產以及增強與其相關聯之資產的可搜尋性很有用。 標籤可視為附加資產的關鍵字或標籤（中繼資料），並可讓您透過搜尋結果快速找到資產。 若要瞭解如何在Experience Manager Assets中指派標籤給資產，請參閱[使用標籤來組織資產](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/assets/managing/organize-assets)。
 
 當資產（和集合）與標籤相關聯時，標籤(與AEM中的資產和集合相關聯)會自動發佈至Brand Portal。Brand Portal 發佈的標籤有助於讓搜尋找到關聯的資產。
 
@@ -47,7 +47,7 @@ ht-degree: 2%
      *（必要）*&#x200B;標籤的顯示標題。
    * **[!UICONTROL 名稱]**
 
-     *（必要）*&#x200B;標籤的名稱。 如果未指定，則會從標題建立有效的節點名稱。 請參閱 [TagID](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/tagging/framework)。
+     *（必要）*&#x200B;標籤的名稱。 如果未指定，則會從標題建立有效的節點名稱。 請參閱 [TagID](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/implementing/developing/platform/tagging/framework)。
    * **說明**
 
      *（選擇性）*&#x200B;標籤的說明。
@@ -64,7 +64,7 @@ ht-degree: 2%
 
 1. **將標籤附加至資產（或集合）**。
 
-   選取資產（或集合），然後使用該資產的「屬性」區段或「管理標籤」區段附加所需的標籤。 若要進一步瞭解如何在AEM Assets中指派標籤給資產，請移至[使用標籤來組織資產](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/managing/organize-assets)。
+   選取資產（或集合），然後使用該資產的「屬性」區段或「管理標籤」區段附加所需的標籤。 若要進一步瞭解如何在AEM Assets中指派標籤給資產，請移至[使用標籤來組織資產](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/assets/managing/organize-assets)。
 
 1. **Publish資產（或集合）至Brand Portal**。\
    將資產（或集合）發佈至Brand Portal時，Brand Portal上也提供附加標籤。

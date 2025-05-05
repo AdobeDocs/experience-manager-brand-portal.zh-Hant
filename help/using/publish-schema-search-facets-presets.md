@@ -81,7 +81,7 @@ ht-degree: 0%
 
 ## Publish搜尋Facet至Brand Portal {#publish-search-facets-to-brand-portal}
 
-搜尋表單為Brand Portal上的使用者提供[多面向搜尋](../using/brand-portal-search-facets.md)的功能。 搜尋Facet可為Brand Portal上的搜尋提供更精細的粒度。 搜尋表單中新增的所有[述詞](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/search-facets)都可供使用者作為搜尋篩選中的搜尋Facet。
+搜尋表單為Brand Portal上的使用者提供[多面向搜尋](../using/brand-portal-search-facets.md)的功能。 搜尋Facet可為Brand Portal上的搜尋提供更精細的粒度。 搜尋表單中新增的所有[述詞](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/assets/administer/search-facets)都可供使用者作為搜尋篩選中的搜尋Facet。
 
 ![](assets/property-predicate-removed.png)
 ![](assets/search-form.png)

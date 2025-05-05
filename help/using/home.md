@@ -45,8 +45,8 @@ Brand Portal 解決方案的工作流程如下圖所示。
 | [支援的檔案格式](brand-portal-supported-formats.md) | Brand Portal 支援的檔案格式，可供預覽和下載。 |
 | [將資產發佈至 Brand Portal](brand-portal-sharing-folders.md) | 如何將資料夾、集合、連結、預設集、結構、Facet 和標記發佈至 Brand Portal。 |
 | [Brand Portal中的資產來源](brand-portal-asset-sourcing.md) | 如何在AEM Assets中設定Asset Sourcing、在Brand Portal中上傳資產，並將貢獻資料夾發佈回AEM Assets。 |
-| [Brand Portal功能影片](https://experienceleague.adobe.com/?lang=en&amp;tag=Brand+Portal#recommended/solutions/experience-manager) | 透過影片教學課程，瞭解如何使用Experience Manager Assets Brand Portal。 |
+| [Brand Portal功能影片](https://experienceleague.adobe.com/zh-hant?lang=en&amp;tag=Brand+Portal#recommended/solutions/experience-manager) | 透過影片教學課程，瞭解如何使用Experience Manager Assets Brand Portal。 |
 
 ### 實用資源
 
-* [透過AEM Assets瞭解Brand Portal](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/home)
+* [透過AEM Assets瞭解Brand Portal](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-brand-portal/using/home)

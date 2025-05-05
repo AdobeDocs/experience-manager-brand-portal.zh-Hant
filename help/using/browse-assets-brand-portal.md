@@ -56,7 +56,7 @@ Brand Portal左上角的邊欄選擇器下拉式清單，可顯示導覽至資�
 * 大小
 * 尺寸
 
-您可以按一下卡片來向下瀏覽階層（注意避免快速動作），或使用標頭[&#128279;](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/authoring/essentials/basic-handling)中的階層連結來再次向上瀏覽。
+您可以按一下卡片來向下瀏覽階層（注意避免快速動作），或使用標頭[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/sites/authoring/essentials/basic-handling)中的階層連結來再次向上瀏覽。
 
 ![](assets/cardquickactions.png)
 
@@ -106,7 +106,7 @@ Brand Portal左上角的邊欄選擇器下拉式清單，可顯示導覽至資�
 * 顯示資產階層的資料夾路徑
 * 在Brand Portal上發佈資產的日期
 
-路徑欄可讓您輕鬆識別資料夾階層中的資產位置。 您可以按一下資源名稱來向下瀏覽階層，然後使用標頭[&#128279;](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/authoring/essentials/basic-handling)中的階層連結來向上瀏覽。
+路徑欄可讓您輕鬆識別資料夾階層中的資產位置。 您可以按一下資源名稱來向下瀏覽階層，然後使用標頭[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/sites/authoring/essentials/basic-handling)中的階層連結來向上瀏覽。
 
 <!--
 Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:05.096-0400" type="annotation">Removed:- "Selecting assets in list view To select all items in the list, use the checkbox at the upper left of the list. When all items in the list are selected, this check box appears checked. To deselect all, click the checkbox. When only some items are selected, it appears with a minus sign. To select all, click the checkbox. To deselect all, click the checkbox again. You can change the order of items using the dotted vertical bar at the far right of each item in the list. Click the vertical selection bar and drag the item to a new position in the list."

@@ -29,7 +29,7 @@ Brand Portal常見問題集專注於使用者在使用最新Experience Manager A
 
 **答案：**&#x200B;是，透過Adobe Developer Console將貢獻資料夾的資產發佈至Experience Manager Assets 6.5.4時，出現已知問題。
 
-Experience Manager Assets 6.5.5已修正此問題。您可以將您的Experience Manager Assets執行個體升級至最新的Service Pack，並在Adobe Developer Console上[升級您的設定](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal#upgrade-integration-65)。
+Experience Manager Assets 6.5.5已修正此問題。您可以將您的Experience Manager Assets執行個體升級至最新的Service Pack，並在Adobe Developer Console上[升級您的設定](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal#upgrade-integration-65)。
 
 
 **問題：我在Experience Manager Assets中看不到從Brand Portal發佈的貢獻資料夾內容。 可能的原因是什麼？**

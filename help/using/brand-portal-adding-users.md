@@ -170,7 +170,7 @@ Comment Type: draft
 
 ## 提供管理員許可權給使用者 {#provide-administrator-privileges-to-users}
 
-您可以授予Brand Portal使用者系統管理員或產品管理員許可權。 但是，請避免在[!UICONTROL 角色]中指派其他可用的管理Admin Console。 例如，產品設定檔管理員、使用者群組管理員和支援管理員。 請參閱[系統管理角色](https://helpx.adobe.com/enterprise/using/admin-roles.html)。
+您可以授予Brand Portal使用者系統管理員或產品管理員許可權。 但是，請避免在[!UICONTROL 角色]中指派其他可用的管理Admin Console。 例如，產品設定檔管理員、使用者群組管理員和支援管理員。 請參閱[系統管理角色](https://helpx.adobe.com/tw/enterprise/using/admin-roles.html)。
 
 >[!NOTE]
 >
