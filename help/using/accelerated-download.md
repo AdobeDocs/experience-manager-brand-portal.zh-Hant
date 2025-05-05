@@ -182,7 +182,7 @@ Microsoft® Edge會在增強保護模式(EPM)中執行，以防止在相同的�
 
 若要在Microsoft® Edge上使用加速下載功能，請從信任的網站清單中移除Brand Portal網站。
 
-1. 開啟[控制檯] （**[!UICONTROL Window鍵+ X]**，然後選取[控制檯] ****）。
+1. 開啟[控制檯] （**[!UICONTROL Window鍵+ X]**，然後選取[控制檯] **&#x200B;**）。
 1. 移至&#x200B;**[!UICONTROL 網路和網際網路]** > **[!UICONTROL 網際網路選項]**。 按一下「**[!UICONTROL 安全性]**」標籤。
 1. 按一下&#x200B;**[!UICONTROL 信任的網站區域]**，然後按一下&#x200B;**[!UICONTROL 網站]**。
 1. 從清單中移除Brand Portal網站。

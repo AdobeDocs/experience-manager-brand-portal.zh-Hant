@@ -38,7 +38,7 @@ Removed the first para: "AEM Assets Brand Portal allows public users to enter th
 ## 來賓工作階段持續時間 {#guest-session-duration}
 
 訪客使用者工作階段會維持15分鐘作用中。
-此程式會將**[!UICONTROL Lightbox]**&#x200B;的狀態從工作階段開始時間保留15分鐘。 之後，目前的來賓工作階段會重新啟動，導致Lightbox狀態遺失。
+此程式會將&#x200B;**[!UICONTROL Lightbox]**&#x200B;的狀態從工作階段開始時間保留15分鐘。 之後，目前的來賓工作階段會重新啟動，導致Lightbox狀態遺失。
 
 例如，某個訪客使用者在1500小時登入Brand Portal，並在15:05小時將資產新增至&#x200B;**[!UICONTROL Lightbox]**&#x200B;進行下載。 如果使用者未在15:15小時（登入後15分鐘內）之前下載&#x200B;**[!UICONTROL Lightbox]**&#x200B;集合（或其資產），則使用者必須重新啟動工作階段。 **[!UICONTROL Lightbox]**&#x200B;是空的，這表示如果工作階段遺失，已上傳的資產將無法再使用。
 

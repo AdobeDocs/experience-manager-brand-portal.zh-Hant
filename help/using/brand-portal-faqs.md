@@ -91,7 +91,7 @@ Experience Manager Assets 6.5.5已修正此問題。您可以將您的Experience
 
 **問題：誰可以建立「貢獻」資料夾？**
 
-**回答：**&#x200B;任何有權在Experience Manager Assets中建立資料夾的Experience Manager Assets使用者都可以建立&#x200B;**貢獻**&#x200B;資料夾。 若要建立&#x200B;**貢獻**&#x200B;資料夾，請建立&#x200B;**資產貢獻**型別的資料夾。
+**回答：**&#x200B;任何有權在Experience Manager Assets中建立資料夾的Experience Manager Assets使用者都可以建立&#x200B;**貢獻**&#x200B;資料夾。 若要建立&#x200B;**貢獻**&#x200B;資料夾，請建立&#x200B;**資產貢獻**&#x200B;型別的資料夾。
 此資料夾會與作用中的Brand Portal使用者共用，以獲得貢獻。
 
 
@@ -99,7 +99,7 @@ Experience Manager Assets 6.5.5已修正此問題。您可以將您的Experience
 **問題：「貢獻」資料夾包含什麼？**
 
 **答案：** **貢獻**&#x200B;資料夾包含兩個子資料夾&#x200B;**NEW**&#x200B;和&#x200B;**SHARED**。 最初，NEW資料夾是空白的，而SHARED資料夾則包含Brand Portal使用者的參考內容（可重複使用的資產）。
-Brand Portal使用者存取**貢獻**&#x200B;資料夾，並上傳&#x200B;**新增**&#x200B;資料夾的內容。
+Brand Portal使用者存取&#x200B;**貢獻**&#x200B;資料夾，並上傳&#x200B;**新增**&#x200B;資料夾的內容。
 
 
 

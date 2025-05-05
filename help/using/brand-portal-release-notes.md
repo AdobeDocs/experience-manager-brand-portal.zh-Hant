@@ -171,7 +171,7 @@ Adobe Experience Manager (AEM) Assets Brand Portal可協助您輕鬆取得、控
 * 當NUI無法在Experience Manager中處理資產時，Brand Portal會顯示不準確的資產匯入狀態。
 * 預覽動作失敗時，沒有通知可傳達失敗。
 * 已修正每個資產的`totalUploadedSize`屬性不準確的值。
-* 當您按一下「下載所有專案」****&#x200B;並且資產有大量的轉譯專案可供使用時，Brand Portal會下載無效的.ZIP檔案。
+* 當您按一下「下載所有專案」**&#x200B;**&#x200B;並且資產有大量的轉譯專案可供使用時，Brand Portal會下載無效的.ZIP檔案。
 * Brand Portal使用者介面上某些字串的轉譯會遭到截斷。
 
 ### 2022 年 5 月版 {#may-2022}

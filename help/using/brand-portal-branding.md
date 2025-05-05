@@ -39,7 +39,7 @@ Brand Portal管理員可以對向使用者顯示的介面進行有限的自訂�
 
    執行下列任一項作業：
 
-   * 若要從您的電腦上傳影像，請按一下[上傳]。**** 導覽至所需的影像並上傳。
+   * 若要從您的電腦上傳影像，請按一下[上傳]。**&#x200B;** 導覽至所需的影像並上傳。
    * 若要使用現有的Brand Portal影像，請按一下&#x200B;**[!UICONTROL 從現有選取]**。 使用資產選擇器選擇影像。
 
    ![](assets/asset-picker.png)
@@ -62,7 +62,7 @@ Brand Portal管理員可以對向使用者顯示的介面進行有限的自訂�
 
    ![](assets/chlimage_1-2.png)
 
-   * 按一下[儲存]儲存變更。****
+   * 按一下[儲存]儲存變更。**&#x200B;**
 
 ## 自訂標題 {#customize-the-header}
 
@@ -90,10 +90,10 @@ Brand Portal管理員可以對向使用者顯示的介面進行有限的自訂�
 
    ![](assets/asset-picker-header.png)
 
-1. 若要在頁首影像中包含URL，請在&#x200B;**[!UICONTROL 影像URL]**方塊中指定。 您可以指定外部或內部URL。 內部連結也可以是相對連結，例如，
+1. 若要在頁首影像中包含URL，請在&#x200B;**[!UICONTROL 影像URL]**&#x200B;方塊中指定。 您可以指定外部或內部URL。 內部連結也可以是相對連結，例如，
    [!UICONTROL `/mediaportal.html/content/dam/mac/tenant_id/tags`]。
 此連結會將使用者導向至標籤資料夾。
-若要儲存變更，請從頂端的工具列按一下**[!UICONTROL [儲存]。]**
+若要儲存變更，請從頂端的工具列按一下&#x200B;**[!UICONTROL [儲存]。]**
 
    ![](assets/configure_brandingheaderimageurl.png)
 
@@ -112,7 +112,7 @@ Brand Portal管理員可以對向使用者顯示的介面進行有限的自訂�
 
    ![](assets/chlimage_1-5.png)
 
-   * 按一下[儲存]儲存變更。****
+   * 按一下[儲存]儲存變更。**&#x200B;**
 
 ## 自訂電子郵件訊息 {#customize-the-email-messaging}
 

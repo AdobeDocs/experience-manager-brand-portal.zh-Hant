@@ -31,7 +31,7 @@ ht-degree: 2%
 若要在AEM上建立標籤、在Brand Portal上發佈標籤，並將標籤與適當的資產（或集合）相關聯，請按照以下步驟操作：
 
 1. **建立標籤**
-使用管理許可權登入AEM Author執行個體，並從全域導覽存取**[!UICONTROL AEM標籤]**&#x200B;主控台：
+使用管理許可權登入AEM Author執行個體，並從全域導覽存取&#x200B;**[!UICONTROL AEM標籤]**&#x200B;主控台：
 
    1. 選取&#x200B;**[!UICONTROL 工具]**
 
@@ -43,10 +43,13 @@ ht-degree: 2%
 1. 指定下列設定：
 
    * **[!UICONTROL 標題]**
+
      *（必要）*&#x200B;標籤的顯示標題。
    * **[!UICONTROL 名稱]**
+
      *（必要）*&#x200B;標籤的名稱。 如果未指定，則會從標題建立有效的節點名稱。 請參閱 [TagID](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/implementing/developing/platform/tagging/framework)。
    * **說明**
+
      *（選擇性）*&#x200B;標籤的說明。
    * **標籤路徑**
 標籤的JCR路徑。
@@ -82,5 +85,5 @@ AEM Assets Brand Portal可讓您根據關鍵字標籤，讓特定資產成為搜
 
 1. 儲存變更。
 1. 將資產Publish至Brand Portal。
-1. 登入Brand Portal。 檢視資產的&#x200B;**[!UICONTROL 屬性]**&#x200B;區段中的&#x200B;**[!UICONTROL 進階]**索引標籤。
+1. 登入Brand Portal。 檢視資產的&#x200B;**[!UICONTROL 屬性]**&#x200B;區段中的&#x200B;**[!UICONTROL 進階]**&#x200B;索引標籤。
 請注意，**[!UICONTROL Search Promote]**&#x200B;關鍵字也會顯示在該資產的屬性中。

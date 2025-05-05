@@ -41,7 +41,7 @@ Comment Type: draft
 
 >[!NOTE]
 >
->無權存取Brand Portal的新使用者可以從Brand Portal的登入畫面請求存取權。 如需詳細資訊，請參閱[要求存取Brand Portal](../using/brand-portal.md#request-access-to-brand-portal)。 在通知區域收到存取權要求通知後，請按一下相關的通知，然後按一下[授與存取權]。**** 或者，您也可以按照收到的存取要求電子郵件中的連結進行操作。 接下來，若要透過[Adobe[!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview)新增使用者，請遵循下列程式中的步驟4-7。
+>無權存取Brand Portal的新使用者可以從Brand Portal的登入畫面請求存取權。 如需詳細資訊，請參閱[要求存取Brand Portal](../using/brand-portal.md#request-access-to-brand-portal)。 在通知區域收到存取權要求通知後，請按一下相關的通知，然後按一下[授與存取權]。**&#x200B;** 或者，您也可以按照收到的存取要求電子郵件中的連結進行操作。 接下來，若要透過[Adobe[!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview)新增使用者，請遵循下列程式中的步驟4-7。
 
 >[!NOTE]
 >
@@ -194,7 +194,7 @@ Comment Type: draft
    ![在Admin Console中新增使用者](assets/admin_console_adduseruserpage.png)
 
 1. 在使用者設定檔頁面中，找出底部的&#x200B;**[!UICONTROL 管理許可權]**&#x200B;區段，然後選擇&#x200B;**[!UICONTROL 省略符號(...) >編輯管理許可權]**。
-   Admin Console](assets/admin_console_editadminrights.png)中的![管理員許可權
+   Admin Console![&#128279;](assets/admin_console_editadminrights.png)中的管理員許可權
 
 1. 在[!UICONTROL 編輯管理員]頁面中，選取「系統管理員」或「產品管理員」。
 
@@ -212,7 +212,7 @@ Comment Type: draft
    >
    >Brand Portal不支援產品設定檔管理員（先前稱為設定管理員）許可權。 避免將產品設定檔管理員許可權指派給使用者。
 
-1. 檢閱管理員型別選取專案，然後按一下[儲存]。****
+1. 檢閱管理員型別選取專案，然後按一下[儲存]。**&#x200B;**
 
    >[!NOTE]
    >

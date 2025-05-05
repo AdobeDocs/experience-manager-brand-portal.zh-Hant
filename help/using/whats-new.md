@@ -187,7 +187,7 @@ Asset Sourcing功能現在可在AEM Assetsas a Cloud Service上使用。 此功�
 
 過去，Asset Sourcing僅適用於AEM Assets （內部部署和託管服務）。
 
-請參閱Brand Portal](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/brand-portal-asset-sourcing)中的[資產來源。
+請參閱Brand Portal[&#128279;](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/asset-sourcing-in-brand-portal/brand-portal-asset-sourcing)中的資產來源。
 
 ### 資產下載 {#asset-download-setting}
 
@@ -251,7 +251,7 @@ If any of the **[!UICONTROL Custom Rendition]** or **[!UICONTROL System Renditio
 * 為每個資產建立個別的資料夾。
 * 下載選取的資產及其轉譯。
 
-對於獨立資產、多個資產、包含資產的資料夾、已授權或未授權的資產，以及透過共用連結下載資產時，下載工作流程都是一致的。 檢視從Brand Portal](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/download/brand-portal-download-assets)下載資產的[步驟。
+對於獨立資產、多個資產、包含資產的資料夾、已授權或未授權的資產，以及透過共用連結下載資產時，下載工作流程都是一致的。 檢視從Brand Portal[&#128279;](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/download/brand-portal-download-assets)下載資產的步驟。
 
 ![下載對話方塊](assets/download-dialog-box.png)
 
@@ -759,7 +759,7 @@ Brand Portal 6.4.1為平台升級版本。 它引進了數項新功能和重要�
 ![](assets/navigatereport.png)
 
 **修改進入點以存取使用報告**
-「使用情況報表」現已與其他報表合併，且現在可從「資產報表」主控台檢視。 若要存取「資產報表」主控台，請從系統管理工具面板導覽至**建立/管理報表**。
+「使用情況報表」現已與其他報表合併，且現在可從「資產報表」主控台檢視。 若要存取「資產報表」主控台，請從系統管理工具面板導覽至&#x200B;**建立/管理報表**。
 
 ![](assets/accessassetreport.png)
 

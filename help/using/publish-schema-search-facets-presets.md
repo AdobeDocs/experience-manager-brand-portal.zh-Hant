@@ -108,11 +108,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->從Brand Portal ]**取消發佈**[!UICONTROL &#x200B;動作會保留Brand Portal上的預設搜尋表單，不會還原為發佈前使用的最後一個搜尋表單。
+>從Brand Portal **取消發佈**&#x200B;動作會保留Brand Portal上的預設搜尋表單，不會還原為發佈前使用的最後一個搜尋表單。
 
 ### 限制 {#limitations}
 
-1. 少數搜尋述詞不適用於Brand Portal上的搜尋篩選器。 當這些搜尋述詞作為搜尋表單的一部分從AEM Author執行個體發佈到Brand Portal時，即會被篩選掉。 因此，使用者可以在Brand Portal上看到較少已發佈表單中的述詞數量。 檢視Brand Portal](../using/brand-portal-search-facets.md#list-of-search-predicates)上適用於[篩選器的搜尋述詞。
+1. 少數搜尋述詞不適用於Brand Portal上的搜尋篩選器。 當這些搜尋述詞作為搜尋表單的一部分從AEM Author執行個體發佈到Brand Portal時，即會被篩選掉。 因此，使用者可以在Brand Portal上看到較少已發佈表單中的述詞數量。 檢視Brand Portal[&#128279;](../using/brand-portal-search-facets.md#list-of-search-predicates)上適用於篩選器的搜尋述詞。
 
 1. 對於[!UICONTROL 選項述詞]，如果使用者使用任何自訂路徑來讀取AEM Author執行個體上的選項，則它無法在Brand Portal上運作。 這些額外的路徑和選項沒有透過搜尋表單發佈至Brand Portal。 在此情況下，使用者可以在&#x200B;**[!UICONTROL 選項述詞]**&#x200B;內的&#x200B;**[!UICONTROL 新增選項]**&#x200B;中選取&#x200B;**[!UICONTROL 手動]**&#x200B;選項，以在Brand Portal中手動新增這些選項。
 

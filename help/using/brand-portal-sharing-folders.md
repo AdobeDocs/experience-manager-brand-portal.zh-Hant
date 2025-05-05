@@ -109,7 +109,7 @@ Assets需要從預先設定的Experience Manager製作例項發佈至Brand Porta
 
 1. 如果您不想向使用者顯示預設名稱，請在&#x200B;**[!UICONTROL 資料夾屬性]**&#x200B;主控台的&#x200B;**[!UICONTROL 資料夾標題]**&#x200B;欄位中指定資料夾標題。
 1. 從&#x200B;**[!UICONTROL 新增使用者]**&#x200B;清單中，選取您要共用資料夾的使用者或群組，然後按一下&#x200B;**[!UICONTROL 新增]**。
-若要只與訪客使用者共用資料夾，而不與其他使用者共用，請從**[!UICONTROL 成員]**&#x200B;下拉式清單中選取&#x200B;**[!UICONTROL 匿名使用者]**。
+若要只與訪客使用者共用資料夾，而不與其他使用者共用，請從&#x200B;**[!UICONTROL 成員]**&#x200B;下拉式清單中選取&#x200B;**[!UICONTROL 匿名使用者]**。
 
    ![](assets/only-anonymous.png)
 
@@ -135,7 +135,7 @@ Assets需要從預先設定的Experience Manager製作例項發佈至Brand Porta
 
    ![](assets/folder_propertiesunshare.png)
 
-1. 在警告訊息方塊中，按一下&#x200B;**[!UICONTROL 確認]**以確認取消共用。
+1. 在警告訊息方塊中，按一下&#x200B;**[!UICONTROL 確認]**&#x200B;以確認取消共用。
 按一下「**[!UICONTROL 儲存]**」。
 
 1. 使用您從共用清單移除之使用者的憑證登入Brand Portal。 該資料夾在Brand Portal介面中無法再供使用者使用。

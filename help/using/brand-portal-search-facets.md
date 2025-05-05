@@ -138,7 +138,7 @@ Brand Portal支援[已核准品牌資產的細微搜尋](../using/brand-portal-s
 
    ![](assets/search-form-delete-predicate.png)
 
-1. 若要儲存變更，請按一下工具列中的[完成]。****
+1. 若要儲存變更，請按一下工具列中的[完成]。**&#x200B;**
 1. 從&#x200B;**[!UICONTROL Assets]**&#x200B;使用者介面，按一下覆蓋圖示並選擇&#x200B;**[!UICONTROL 篩選器]**&#x200B;以瀏覽至&#x200B;**[!UICONTROL 篩選器]**&#x200B;面板。 **[!UICONTROL 屬性]**&#x200B;述詞已從面板中移除。
 
    ![](assets/property-predicate-removed.png)
