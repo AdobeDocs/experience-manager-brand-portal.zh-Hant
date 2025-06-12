@@ -37,7 +37,7 @@ ht-degree: 6%
 >
 > * Brand Portal處於維護模式。 所有新產品創新都可在[Content Hub](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview)上取得。
 > * 如果您還是需要啟用Brand Portal，請聯絡您的Adobe代表，瞭解您的使用案例和其他特定要求的詳細資訊。
-> * Brand Portal不適用於[Assets Prime](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/assets-prime)或[Assets Ultimate](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/assets-ultimate-overview)。 不過，已能存取Assets as a Cloud Service的現有Brand Portal客戶在轉換至Assets Ultimate時，仍可繼續使用。
+> * Brand Portal不適用於[Assets Prime](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/assets-prime)或[Assets Ultimate](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/assets-ultimate-overview)。 不過，已能存取Assets as a Cloud Service的現有Brand Portal客戶在轉換至Assets Ultimate時，仍可繼續使用。
 
 <!--Experience Manager Assets as a Cloud Service is automatically configured with Brand Portal by activating Brand Portal from the Cloud Manager. The activation workflow creates the required configurations at the backend and activates Brand Portal on the same IMS org as of the Experience Manager Assets as a Cloud Service instance.-->
 
