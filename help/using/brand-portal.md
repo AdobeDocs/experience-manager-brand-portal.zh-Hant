@@ -20,8 +20,8 @@ ht-degree: 6%
 
 **Adobe Experience Manager (AEM) Assets Brand Portal**&#x200B;著重於行銷人員提供資產發佈和資產貢獻功能，與分散於全球各地的Brand Portal使用者有效合作的需求。
 
-資產散佈可讓您取得、控制經核准的創意資產，並安全地將其散佈至跨裝置的外部團體和內部業務使用者。 不過，資產貢獻可讓Brand Portal使用者將資產上傳到Brand Portal並發佈到Experience Manager Assets，而不需要存取作者環境。 在Brand Portal **中，貢獻功能稱為**Assets Sourcing。 同時，它改善了資產分銷的整體Brand Portal體驗和Brand Portal使用者（外部機構/團隊）的貢獻，加快資產上市時間，並降低不合規和未經授權存取的風險。
-請參閱Brand Portal](brand-portal-asset-sourcing.md)中的[資產來源。
+資產散佈可讓您取得、控制經核准的創意資產，並安全地將其散佈至跨裝置的外部團體和內部業務使用者。 不過，資產貢獻可讓Brand Portal使用者將資產上傳到Brand Portal並發佈到Experience Manager Assets，而不需要存取作者環境。 在Brand Portal **中，貢獻功能稱為**&#x200B;Assets Sourcing。 同時，它改善了資產分銷的整體Brand Portal體驗和Brand Portal使用者（外部機構/團隊）的貢獻，加快資產上市時間，並降低不合規和未經授權存取的風險。
+請參閱Brand Portal[&#128279;](brand-portal-asset-sourcing.md)中的資產來源。
 
 瀏覽器式入口網站環境可讓您以核准的格式輕鬆上傳、瀏覽、搜尋、預覽和匯出資產。
 
@@ -202,7 +202,7 @@ Brand Portal產品管理員會在其Brand Portal通知區域及收件匣中的�
 
 ![存取要求的通知](assets/bplogin_request_access_7.png)
 
-若要授與存取權，產品管理員需要按一下Brand Portal通知區域中的相關通知，然後按一下[授與存取權]。****
+若要授與存取權，產品管理員需要按一下Brand Portal通知區域中的相關通知，然後按一下[授與存取權]。**&#x200B;**
 或者，產品管理員也可以依照存取要求電子郵件中提供的連結，造訪Adobe [!UICONTROL Admin Console]，並將使用者新增至相關的產品設定。
 
 系統已將您重新導向至[Adobe [!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview)首頁。 使用Adobe [!UICONTROL Admin Console]建立使用者，並將他們指派給產品設定檔（先前稱為產品設定），這些設定檔在Brand Portal中顯示為群組。 如需在[!UICONTROL Admin Console]中新增使用者的詳細資訊，請參閱[新增使用者](brand-portal-adding-users.md#add-a-user) （請依照程式中的步驟4-7新增使用者）。
