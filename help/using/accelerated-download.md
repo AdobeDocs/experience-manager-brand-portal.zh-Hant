@@ -33,7 +33,7 @@ Adobe Experience Manager Assets Brand Portal可讓您整合IBM® Aspera Connect 
 
 * 導覽至&#x200B;**[!UICONTROL 工具]** > **[!UICONTROL 下載]**，並確認&#x200B;**[!UICONTROL 下載設定]**&#x200B;中已啟用&#x200B;**[!UICONTROL 快速下載]**&#x200B;設定。
 * 確定防火牆上的連線埠33001 （TCP和UDP）已開啟。
-* 使用系統管理員許可權([IBM® Aspera Connect Downloads](https://www.ibm.com/support/fixcentral/swg/selectFixes?parent=ibm%7EOther%20software&amp;product=ibm/Other+software/IBM+Aspera+Connect&amp;release=3.9.9&amp;platform=All&amp;function=all))，在瀏覽器的擴充功能中&#x200B;**安裝IBM® Aspera Connect 3.9.9**。
+* 使用系統管理員許可權([IBM® Aspera Connect Downloads](https://www.ibm.com/support/fixcentral/swg/selectFixes?parent=ibm%7EOther%20software&product=ibm/Other+software/IBM+Aspera+Connect&release=3.9.9&platform=All&function=all))，在瀏覽器的擴充功能中&#x200B;**安裝IBM® Aspera Connect 3.9.9**。
 
 >[!NOTE]
 >
@@ -93,7 +93,7 @@ Adobe Experience Manager Assets Brand Portal可讓您整合IBM® Aspera Connect 
 
 1. 預設會在&#x200B;**[!UICONTROL 下載設定]**&#x200B;中啟用&#x200B;**[!UICONTROL 快速下載]**&#x200B;設定。 因此，系統會顯示確認方塊，以使用IBM® Aspera Connect下載資產。
 
-   如果您是第一次下載資產，且瀏覽器中未安裝IBM® Aspera Connect，系統會提示您進行安裝。 如果現有版本已過期，系統也會提示您安裝[Aspera下載加速器](https://www.ibm.com/support/fixcentral/swg/selectFixes?parent=ibm%7EOther%20software&amp;product=ibm/Other+software/IBM+Aspera+Connect&amp;release=3.9.9&amp;platform=All&amp;function=all)。
+   如果您是第一次下載資產，且瀏覽器中未安裝IBM® Aspera Connect，系統會提示您進行安裝。 如果現有版本已過期，系統也會提示您安裝[Aspera下載加速器](https://www.ibm.com/support/fixcentral/swg/selectFixes?parent=ibm%7EOther%20software&product=ibm/Other+software/IBM+Aspera+Connect&release=3.9.9&platform=All&function=all)。
 
    ![](assets/aspera-not-launched.png)
 
