@@ -5,11 +5,11 @@ sub-product: experience manager brand portal
 audience: end-user
 user-guide-title: Adobe Experience Manager Assets Brand Portal
 breadcrumb-title: Brand Portal 指南
-user-guide-description: 使用 Experience Manager Assets Brand Portal，將經過核准的品牌和產品資產安全地散發給外部代理商、合作夥伴、內部團隊和經銷商進行下載，以符合行銷需求。
+user-guide-description: 使用 Experience Manager Assets Brand Portal，將經過核准的品牌和產品資產安全地分發給外部代理商、合作夥伴、內部團隊和經銷商，方便他們下載，以滿足行銷需求。
 feature: Brand Portal
 role: User
 source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 100%
 
