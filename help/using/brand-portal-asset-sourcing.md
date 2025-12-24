@@ -117,7 +117,7 @@ Experience Manager Assets管理員可上傳包含Experience Manager Assets中有
 1. 從[!UICONTROL 工具]面板，瀏覽至&#x200B;**[!UICONTROL Assets]** > **[!UICONTROL Brand Portal使用者]**。
 
 1. Brand Portal上傳貢獻者視窗隨即開啟。
-從您的本機電腦瀏覽並上傳包含作用中Brand Portal使用者清單的**組態(.csv)檔案**。
+從您的本機電腦瀏覽並上傳包含作用中Brand Portal使用者清單的&#x200B;**組態(.csv)檔案**。
 1. 按一下&#x200B;**[!UICONTROL 儲存]**。
 
    ![](assets/upload-user-list2.png)
