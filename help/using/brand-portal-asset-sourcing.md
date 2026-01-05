@@ -12,7 +12,7 @@ audience: author, marketer
 version: Experience Manager 6.5
 kt: 3838
 exl-id: 2c132a7a-ed10-4856-8378-67939167ea60
-source-git-commit: 9b8a415fa3a19e462ea797cfc9c3ea9b9323723e
+source-git-commit: 2865a95e52679e853c6b125e8b1de1c23e84d30d
 workflow-type: tm+mt
 source-wordcount: '647'
 ht-degree: 11%
@@ -117,7 +117,7 @@ Experience Manager Assets管理員可上傳包含Experience Manager Assets中有
 1. 從[!UICONTROL 工具]面板，瀏覽至&#x200B;**[!UICONTROL Assets]** > **[!UICONTROL Brand Portal使用者]**。
 
 1. Brand Portal上傳貢獻者視窗隨即開啟。
-從您的本機電腦瀏覽並上傳包含作用中Brand Portal使用者清單的&#x200B;**組態(.csv)檔案**。
+從您的本機電腦瀏覽並上傳包含作用中Brand Portal使用者清單的**組態(.csv)檔案**。
 1. 按一下&#x200B;**[!UICONTROL 儲存]**。
 
    ![](assets/upload-user-list2.png)
