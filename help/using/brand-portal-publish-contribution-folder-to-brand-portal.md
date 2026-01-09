@@ -1,19 +1,19 @@
 ---
 title: 設定貢獻資料夾並從Experience Manager Assets發佈至Brand Portal
-description: 深入瞭解如何從Experience Manager Assets設定貢獻資料夾並發佈至Brand Portal。
+description: 透過insight設定貢獻資料夾，並從Experience Manager Assets發佈至Brand Portal。
 content-type: reference
 contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 exl-id: 9acad588-977a-45de-b544-f2cc8874ba12
-source-git-commit: 9e51048d21c5b4a34696e668309657d2091a8b04
+source-git-commit: 8cde9e84262e25ff22d5b2d06e3c5df9cc2ae557
 workflow-type: tm+mt
-source-wordcount: '1033'
-ht-degree: 0%
+source-wordcount: '1057'
+ht-degree: 1%
 
 ---
 
-# 在Experience Manager Assets中設定貢獻資料夾 {#configure-contribution-folder}
+# 在 Experience Manager Assets 中設定貢獻資料夾 {#configure-contribution-folder}
 
 針對合作資產來源，Experience Manager Assets使用者（有許可權的管理員和非管理員使用者）可以建立&#x200B;**資產貢獻**&#x200B;型別的資料夾，確保建立的資料夾可供Brand Portal使用者提交資產。  此方法會自動觸發工作流程，在新建立的&#x200B;**貢獻**&#x200B;資料夾中建立兩個額外的子資料夾，稱為&#x200B;**SHARED**&#x200B;和&#x200B;**NEW**。
 
@@ -28,7 +28,7 @@ Experience Manager Assets使用者會在設定貢獻資料夾時執行下列活�
 * [建立貢獻資料夾](#create-contribution-folder)
 * [上傳資產需求並指派參與者](#configure-contribution-folder-properties)
 * [上傳基準資產](#uplad-new-assets-to-contribution-folder)
-* [從Experience Manager Assets到Brand Portal的Publish貢獻資料夾](#publish-contribution-folder-to-brand-portal)
+* [從Experience Manager Assets發佈貢獻資料夾到Brand Portal](#publish-contribution-folder-to-brand-portal)
 
 ## 建立貢獻資料夾 {#create-contribution-folder}
 
@@ -52,14 +52,15 @@ Experience Manager Assets管理員和具有建立新資料夾許可權的非管�
 
 1. 按一下&#x200B;**[!UICONTROL 建立]**&#x200B;以建立新資料夾。 **[!UICONTROL 建立資料夾]**&#x200B;對話方塊開啟。
 
-1. 輸入資料夾的&#x200B;**[!UICONTROL Title]**&#x200B;和&#x200B;**[!UICONTROL Name]**，並選取&#x200B;**[!UICONTROL 資產貢獻]**&#x200B;核取方塊。
+1. 輸入資料夾的&#x200B;**[!UICONTROL Title]**&#x200B;和&#x200B;**[!UICONTROL Name]**，並選取&#x200B;**[!UICONTROL 資產貢獻]**核取方塊。
 Adobe建議您使用不含任何空格的小寫字母來命名資料夾。
 
 1. 按一下「**[!UICONTROL 建立]**」。您會看到Experience Manager Assets存放庫中列出的貢獻資料夾。
 
    >[!NOTE]
    >
-   >非管理員使用者可以建立和共用資產貢獻資料夾，但無法修改或刪除它。
+   > * sourcing資料夾不得為空白，且必須至少包含一個資產，因為空白資料夾無法從Brand Portal發佈至AEM。
+   > * 非管理員使用者可以建立和共用資產貢獻資料夾，但無法修改或刪除它。
 
 
    ![](assets/create-contribution-folder.png)
@@ -97,7 +98,7 @@ Experience Manager Assets管理員會在設定貢獻資料夾的屬性時執行�
    ![](assets/upload.png)
 
 1. 在&#x200B;**[!UICONTROL 新增使用者]**&#x200B;欄位中，新增您要共用貢獻資料夾的Brand Portal使用者。 這些使用者可以使用Brand Portal介面存取內容並將其上傳至貢獻資料夾。
-1. 按一下「**[!UICONTROL 儲存]**」。
+1. 按一下&#x200B;**[!UICONTROL 儲存]**。
 
    ![](assets/contribution-folder-property3.png)
 
@@ -105,11 +106,11 @@ Experience Manager Assets管理員會在設定貢獻資料夾的屬性時執行�
 >
 >搜尋結果以Experience Manager Assets中設定的Brand Portal使用者清單為基礎。 確定您擁有更新的Brand Portal使用者清單。
 
-管理員可以從[!DNL Admin Console]下載`user.csv`檔案，並將其作為新增Brand Portal使用者的基礎範本。 移至[!UICONTROL 使用者]，然後按一下[!UICONTROL 將使用者清單匯出為csv]選項，即可下載`users.csv`檔案。 下列範例使用者列出新增使用者所需的屬性詳細資訊。 使用者專案的唯一必要屬性是`Email`，而所有其他屬性都是選用屬性。
+管理員可以從`user.csv`下載[!DNL Admin Console]檔案，並將其作為新增Brand Portal使用者的基礎範本。 移至[!UICONTROL 使用者]，然後按一下[!UICONTROL 將使用者清單匯出為csv]選項，即可下載`users.csv`檔案。 下列範例使用者列出新增使用者所需的屬性詳細資訊。 使用者專案的唯一必要屬性是`Email`，而所有其他屬性都是選用屬性。
 
 [取得檔案](assets/users.csv)
 
-## 將資產上傳至貢獻資料夾 {#uplad-new-assets-to-contribution-folder}
+## 將資產上傳到貢獻資料夾 {#uplad-new-assets-to-contribution-folder}
 
 Experience Manager Assets使用者會將一組基準資產上傳至&#x200B;**共用**&#x200B;資料夾，以確保Brand Portal的使用者擁有所需的資訊。
 
@@ -125,7 +126,7 @@ Experience Manager Assets使用者會將一組基準資產上傳至&#x200B;**共
 
    ![](assets/upload-new-assets1.png)
 
-1. 按一下[建立&#x200B;**&#x200B;**] > [檔案&#x200B;**&#x200B;**]，上傳包含多個資產的個別檔案或資料夾(.zip)。
+1. 按一下[建立&#x200B;****] > [檔案&#x200B;****]，上傳包含多個資產的個別檔案或資料夾(.zip)。
 
    ![](assets/upload-new-assets2.png)
 
@@ -136,7 +137,7 @@ Experience Manager Assets使用者會將一組基準資產上傳至&#x200B;**共
 將所有資產或資料夾上傳至「新增」資料夾後，將貢獻資料夾發佈至Experience Manager Assets。
 
 
-## Publish貢獻資料夾至Brand Portal {#publish-contribution-folder-to-brand-portal}
+## 將貢獻資料夾發佈至Brand Portal {#publish-contribution-folder-to-brand-portal}
 
 設定貢獻資料夾後，Experience Manager Assets使用者（管理員/非管理員使用者）可以從Experience Manager Assets將貢獻資料夾發佈到Brand Portal。 有權存取「貢獻」資料夾、在發佈動作完成時收到電子郵件或脈衝通知的Brand Portal使用者。
 
@@ -146,7 +147,7 @@ Experience Manager Assets使用者會將一組基準資產上傳至&#x200B;**共
 1. 登入您的Experience Manager Assets執行個體。
 
 1. 導覽至&#x200B;**[!UICONTROL Assets >檔案]**，並找出您要發佈至Brand Portal的貢獻資料夾。
-1. 選取貢獻資料夾，然後按一下&#x200B;**[!UICONTROL 快速Publish]** > **[!UICONTROL Publish到Brand Portal]**。
+1. 選取貢獻資料夾並按一下&#x200B;**[!UICONTROL 快速發佈]** > **[!UICONTROL 發佈至Brand Portal]**。
 
    ![](assets/publish-contribution-folder-to-bp.png)
 

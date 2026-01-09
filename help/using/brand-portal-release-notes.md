@@ -1,38 +1,49 @@
 ---
 title: 發行說明
-description: 深入了解 Adobe Experience Manager Assets Brand Portal 2024.10.0 版本中的功能、增強功能、已修正的重大問題和已知問題。
+description: 深入了解 Adobe Experience Manager Assets Brand Portal 2026.01.01 版本中的功能、增強功能、已修正的重大問題和已知問題。
 content-type: reference
-contentOwner: Kirandeep Kour
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 3f3065de994f5c38e604b52848b0a538c9efd7d1
-workflow-type: ht
-source-wordcount: '1533'
-ht-degree: 100%
+source-git-commit: ff2dc92ea112a95c90724f06f141221ffdef33a1
+workflow-type: tm+mt
+source-wordcount: '1595'
+ht-degree: 96%
 
 ---
 
 # 發行說明 {#release-notes}
 
-深入了解 Adobe Experience Manager Assets Brand Portal 2024.10.0 版本中的新功能、增強功能、已修正的重大問題和已知問題。
+深入了解 Adobe Experience Manager Assets Brand Portal 2026.01.01 版本中的新功能、增強功能、已修正的重大問題和已知問題。
 
 ## 發行資訊 {#release-information}
 
 | 產品 | Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| 版本 | 2024.10.0 |
-| 日期 | 2024 年 10 月 |
+| 版本 | 2026.01.01 |
+| 日期 | 2026年1月 |
 
 ## 概觀 {#overview}
 
 Adobe Experience Manager (AEM) Assets Brand Portal 能協助您橫跨多種裝置輕鬆地取得和控制已核准的創意資產，並安全地向外部對象及內部業務使用者分發這些資產。其能協助提高資產共用的效率、縮短資產的上市時間，以及降低不合規和未經授權存取的風險。Brand Portal 讓使用者能夠隨時隨地以公司核准的格式瀏覽、搜尋、預覽、下載和匯出資產。
 
-## 2024.10.0 新增功能 {#whats-new-in-2024.10.0}
+## 2026.01.01 新增功能 {#whats-new-in-2026.01.01}
 
 ### 已修正重大問題 {#critical-issues-fixed}
 
-#### 錯誤修正 {#bug-fixes}
+#### 增強功能 {#enhancements}
+
+此版本包含下列增強功能:
+
+* 在「管理工具」面板>「動態媒體設定」中，您現在可以使用&#x200B;**[!UICONTROL 重設]**&#x200B;按鈕來清除任何變更、重設密碼，以及將設定還原成預設狀態。
+
+* Brand Portal會在發佈至AEM前驗證來源資料夾，確保資料夾中至少包含一個資產，協助防止發佈不完整。
+
+## 舊版本
+
+### 2024 年 10 月版本 {#oct-2024}
+
+**錯誤修正和增強功能**
 
 此版本包含下列錯誤修正:
 
@@ -44,8 +55,6 @@ Adobe Experience Manager (AEM) Assets Brand Portal 能協助您橫跨多種裝�
 * 無法下載名稱中帶有特殊字元的影片。
 * 從 [!DNL Adobe Experience Manager Assets] 發佈至 Brand Portal 和取消發佈資產的操作未正確運作。
 * 無法播放從 Brand Portal 下載的影片。
-
-## 舊版本
 
 ### 2024 年 2 月發行版本 {#feb-2024}
 
@@ -199,8 +208,8 @@ Brand Portal 現在每隔十二小時便會自動執行工作，刪除所有發�
 * 多頁面 PDF 已移除額外的「**[!UICONTROL 檢視頁面]**」選項，因為使用者現在可以從 Adobe Document Cloud 檢視器檢視 PDF 頁面。
 * 使用者無法搜尋、導覽或開啟資料夾。使用者介面反映錯誤訊息：`Failed to load data`。
 * **[!UICONTROL 轉譯]**&#x200B;面板未列出發佈至 Brand Portal 之資產的所有靜態轉譯。
-* **[!UICONTROL 轉譯]**&#x200B;面板列出資產的智慧裁剪轉譯，但使用者無法預覽或下載智慧裁剪轉譯。
-* 下載對話框列出所選資產的智慧裁剪轉譯，但使用者無法下載智慧裁剪轉譯。
+* **[!UICONTROL 轉譯]**&#x200B;面板列出資產的智慧裁切轉譯，但使用者無法預覽或下載智慧裁切轉譯。
+* 下載對話框列出所選資產的智慧裁切轉譯，但使用者無法下載智慧裁切轉譯。
 * 非管理員使用者在下載資產時只能取得原始資產轉譯。未下載系統和自訂轉譯。
 * 套用搜尋篩選器以下載資產時，下載對話框中的 `Download` 按鈕已停用且不允許使用者下載資產。
 * 當 `Smart Tags` 和 (或) `Color Tags` 啟用後，下載對話框會列出做為轉譯的 `json` 檔案，並把這些 `json` 檔案下載成歸檔 zip 資料夾。
