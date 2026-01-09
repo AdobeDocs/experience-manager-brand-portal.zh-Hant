@@ -32,7 +32,7 @@ Brand Portal使用者可以：
 * [Dynamic Media混合式設定](#configure-dm-hybrid-settings)
 如果Experience Manager Author例項以Dynamic Media — 混合模式執行。
 * [Dynamic Media [!DNL Scene7] 設定](#configure-dm-scene7-settings)
-如果Experience Manager Author執行個體是在Dynamic Media - **[!DNL Scene7]**模式下執行。
+如果Experience Manager Author執行個體是在Dynamic Media - **[!DNL Scene7]**&#x200B;模式下執行。
 根據您在Brand Portal租使用者所復寫的Experience Manager Author例項中設定的設定，設定任一設定。
 
 >[!NOTE]
@@ -73,7 +73,7 @@ Brand Portal存放庫不會儲存視訊編碼並從&#x200B;**[!DNL Scene7]**&#x2
 
   套用[視訊編碼](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/video-profiles)並將包含豐富媒體資產的資料夾從Experience Manager製作執行個體發佈到Brand Portal。
 
-* 如果啟用安全預覽，則在SPS中允許清單輸出IP ****
+* 如果啟用安全預覽，則在SPS中允許清單輸出IP **&#x200B;**
 
   如果使用Dynamic Media-**[!DNL Scene7]** （為公司啟用[安全預覽](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public)），則建議&#x200B;**[!DNL Scene7]**&#x200B;公司管理員[允許列出使用SPS (](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public#testing-the-secure-testing-service)Scene7 **[!UICONTROL Publishing System) Flash UI之個別區域的公用輸出IP]**。
 
@@ -112,8 +112,8 @@ Brand Portal存放庫不會儲存視訊編碼並從&#x200B;**[!DNL Scene7]**&#x2
 
 ### Dynamic Media Scene7模式的允許清單公開輸出IP
 
-如果Dynamic Media **[!UICONTROL Scene7]** — 已啟用[安全預覽](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public) — 用於提供視訊資產至Brand Portal，則&#x200B;**[!UICONTROL Scene7]**會建立用於中繼環境或內部應用程式的專用影像伺服器。 對此伺服器的任何請求都會檢查原始IP位址。 如果傳入的請求不在核准的IP位址清單中，則會傳回失敗回應。
-因此，**[!UICONTROL Scene7]**&#x200B;公司管理員會透過&#x200B;**[!UICONTROL SPS]** (Scene7 Publishing System) Flash UI，為其公司的&#x200B;**[!UICONTROL Secure Testing]**環境設定核准的IP位址清單。 請確定您個別區域（來自以下區域）的輸出IP已新增至該核准清單。
+如果Dynamic Media **[!UICONTROL Scene7]** — 已啟用[安全預覽](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public) — 用於提供視訊資產至Brand Portal，則&#x200B;**[!UICONTROL Scene7]**&#x200B;會建立用於中繼環境或內部應用程式的專用影像伺服器。 對此伺服器的任何請求都會檢查原始IP位址。 如果傳入的請求不在核准的IP位址清單中，則會傳回失敗回應。
+因此，**[!UICONTROL Scene7]**&#x200B;公司管理員會透過&#x200B;**[!UICONTROL SPS]** (Scene7 Publishing System) Flash UI，為其公司的&#x200B;**[!UICONTROL Secure Testing]**&#x200B;環境設定核准的IP位址清單。 請確定您個別區域（來自以下區域）的輸出IP已新增至該核准清單。
 若要允許列出任一輸出IP，請參閱[準備您的帳戶以進行安全測試服務](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public#testing-the-secure-testing-service)。
 輸出IP如下：
 
@@ -155,7 +155,7 @@ Brand Portal存放庫不會儲存視訊編碼並從&#x200B;**[!DNL Scene7]**&#x2
 
 2. 從系統管理工具面板中，選取&#x200B;**[!UICONTROL Dynamic Media組態]**&#x200B;圖磚。
 
-   在Brand Portal![上的[!UICONTROL DM ]Scene 7](assets/DMS7-Tile.png)設定
+   在Brand Portal![上的[!UICONTROL DM &#x200B;]Scene 7](assets/DMS7-Tile.png)設定
 
    **[!UICONTROL 編輯Dynamic Media組態]**&#x200B;頁面隨即顯示。
 
