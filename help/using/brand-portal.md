@@ -241,4 +241,4 @@ Brand Portal產品管理員會在其Brand Portal通知區域及收件匣中的�
 * [Adobe Customer Support]()
 -->
 
-* [AEM論壇](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community)
+* [AEM論壇](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community?profile.language=zh-Hant)
