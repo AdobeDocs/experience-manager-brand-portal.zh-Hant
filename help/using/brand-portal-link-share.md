@@ -1,5 +1,5 @@
 ---
-title: 以連結形式共用資產
+title: 以連結方式共用資產
 description: 瞭解Adobe Experience Manager Assets Brand Portal管理員如何與授權的內部使用者和外部實體（包括合作夥伴和廠商）共用多個資產的連結。 編輯者只能檢視和共用他們共用的資產。
 contentOwner: bdhar
 content-type: reference
@@ -7,20 +7,21 @@ topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f3573219-3c58-47ba-90db-62b003d8b9aa
 exl-id: 9d254e95-a4fc-468d-ae1f-9690ddd3b4a1
-source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
+source-git-commit: 6194eb5697ef48c9693c00a7a51322ef4827cdc3
 workflow-type: tm+mt
-source-wordcount: '1063'
-ht-degree: 6%
+source-wordcount: '969'
+ht-degree: 5%
 
 ---
 
-# 以連結形式共用資產 {#share-assets-as-a-link}
+# 以連結方式共用資產 {#share-assets-as-a-link}
 
 Adobe Experience Manager Assets Brand Portal管理員可與已獲授權的內部使用者和外部實體（包括合作夥伴和廠商）共用多個資產的連結。 編輯者只能檢視和共用他們共用的資產。
 
 透過連結共用資產是一種便利的方式，可供外部對象使用，因為接收者不必登入Brand Portal即可存取資產。
 
-<!-- Link sharing access is restricted to editors and administrators. 
+<!-- 
+Link sharing access is restricted to editors and administrators. 
 -->
 
 如需詳細資訊，請參閱[管理使用者、群組和使用者角色](../using/brand-portal-adding-users.md#manage-user-roles)。
@@ -65,7 +66,7 @@ Adobe Experience Manager Assets Brand Portal管理員可與已獲授權的內部
 
 ## 從共用連結下載資產 {#download-assets-from-shared-links}
 
-按一下電子郵件中的連結以存取共用資產。 「AEM連結共用」頁面隨即開啟。
+按一下電子郵件中的連結以存取共用資產。 AEM連結共用頁面隨即開啟。
 
 若要下載共用資產：
 
@@ -81,7 +82,7 @@ Adobe Experience Manager Assets Brand Portal管理員可與已獲授權的內部
 
    ![下載對話方塊](assets/download-dialog-box-new.png)
 
-1. 預設會在&#x200B;**[!UICONTROL 下載設定]**&#x200B;中啟用&#x200B;**[!UICONTROL 快速下載]**&#x200B;設定。 因此，會顯示確認方塊，以繼續使用IBM® Aspera Connect下載。
+1. 預設會在&#x200B;**[!UICONTROL 下載設定]**&#x200B;中啟用&#x200B;**[!UICONTROL 快速下載]**&#x200B;設定。 因此，會顯示確認方塊，以繼續使用® Aspera Connect下載。
 
    若要繼續使用&#x200B;**[!UICONTROL 快速下載]**，請按一下&#x200B;**[!UICONTROL 允許]**。
 
@@ -131,67 +132,67 @@ Adobe Experience Manager Assets Brand Portal管理員可與已獲授權的內部
 |--------------|-------------------|-----------------|
 | PNG | ✓ | ✓ |
 | GIF | ✓ | ✓ |
-| TIFF | ✓ | ✕ (A) |
+| TIFF | ✓ | ✕ |
 | JPEG | ✓ | ✓ |
-| BMP | ✓ | ✕ (A) |
+| BMP | ✓ | ✕ |
 | PNM* | 不適用 | 不適用 |
 | PGM* | 不適用 | 不適用 |
 | PBM* | 不適用 | 不適用 |
 | PPM* | 不適用 | 不適用 |
-| PSD | ✓ | ✕ (A) |
-| EPS | 不適用 | ✕ (A) |
-| DNG | ✓ | ✕ (A) |
-| PICT | ✓ | ✕ (A) |
-| PSB* | ✓ | ✕ (A) |
+| PSD | ✓ | ✕ |
+| EPS | 不適用 | ✕ |
+| DNG | ✓ | ✕ |
+| PICT | ✓ | ✕ |
+| PSB* | ✓ | ✕ |
 | JPG | ✓ | ✓ |
-| AI | ✓ | ✕ (A) |
-| DOC | ✕ (A) | ✕ (A) |
-| DOCX | ✕ (A) | ✕ (A) |
-| ODT* | ✕ (A) | ✕ (A) |
-| PDF | ✓ | ✕ (A) |
-| HTML | ✕ (A) | ✕ (A) |
-| RTF | ✕ (A) | ✕ (A) |
-| TXT | ✓ | ✕ (A) |
-| XLS | ✕ (A) | ✕ (A) |
-| XLSX | ✕ (A) | ✕ (A) |
-| ODS | ✕ (A) | ✕ (A) |
-| PPT | ✓ | ✕ (A) |
-| PPTX | ✕ (A) | ✕ (A) |
-| ODP | ✕ (A) | ✕ (A) |
-| INDD | ✓ | ✕ (A) |
-| PS | ✕ (A) | ✕ (A) |
-| QXP | ✕ (A) | ✕ (A) |
-| ePub | ✓ | ✕ (A) |
-| AAC | ✕ (A) | ✕ (A) |
-| MIDI | ✕ (A) | ✕ (A) |
-| 3GP | ✕ (A) | ✕ (A) |
-| MP3 | ✕ (A) | ✕ (A) |
-| MP4 | ✕ (A) | ✕ (A) |
-| OGA | ✕ (A) | ✕ (A) |
-| OGG | ✕ (A) | ✕ (A) |
-| RA | ✕ (A) | ✕ (A) |
-| WAV | ✕ (A) | ✕ (A) |
-| WMA | ✕ (A) | ✕ (A) |
-| DVI | ✕ (A) | ✕ (A) |
-| FLV | ✕ (A) | ✕ (A) |
-| M4V | ✕ (A) | ✕ (A) |
-| MPG | ✕ (A) | ✕ (A) |
-| OGV | ✕ (A) | ✕ (A) |
-| MOV | ✕ (A) | ✕ (A) |
-| WMV | ✕ (A) | ✕ (A) |
-| SWF | ✕ (A) | ✕ (A) |
-| TGZ | 不適用 | ✕ (A) |
-| JAR | ✓ | ✕ (A) |
-| RAR | 不適用 | ✕ (A) |
-| TAR | 不適用 | ✕ (A) |
-| ZIP | ✓ | ✕ (A) |
+| AI | ✓ | ✕ |
+| DOC | ✕ | ✕ |
+| DOCX | ✕ | ✕ |
+| ODT* | ✕ | ✕ |
+| PDF | ✓ | ✕ |
+| HTML | ✕ | ✕ |
+| RTF | ✕ | ✕ |
+| TXT | ✓ | ✕ |
+| XLS | ✕ | ✕ |
+| XLSX | ✕ | ✕ |
+| ODS | ✕ | ✕ |
+| PPT | ✓ | ✕ |
+| PPTX | ✕ | ✕ |
+| ODP | ✕ | ✕ |
+| INDD | ✓ | ✕ |
+| PS | ✕ | ✕ |
+| QXP | ✕ | ✕ |
+| ePub | ✓ | ✕ |
+| AAC | ✕ | ✕ |
+| MIDI | ✕ | ✕ |
+| 3GP | ✕ | ✕ |
+| MP3 | ✕ | ✕ |
+| MP4 | ✕ | ✕ |
+| OGA | ✕ | ✕ |
+| OGG | ✕ | ✕ |
+| RA | ✕ | ✕ |
+| WAV | ✕ | ✕ |
+| WMA | ✕ | ✕ |
+| DVI | ✕ | ✕ |
+| FLV | ✕ | ✕ |
+| M4V | ✕ | ✕ |
+| MPG | ✕ | ✕ |
+| OGV | ✕ | ✕ |
+| MOV | ✕ | ✕ |
+| WMV | ✕ | ✕ |
+| SWF | ✕ | ✕ |
+| TGZ | 不適用 | ✕ |
+| JAR | ✓ | ✕ |
+| RAR | 不適用 | ✕ |
+| TAR | 不適用 | ✕ |
+| ZIP | ✓ | ✕ |
 
 下列圖例說明矩陣中使用的符號：
 
-| 符號 | 含義 |
+| 代碼 | 含義 |
 |---|---|
 | ✓ | 此檔案格式支援此功能 |
-| ✕ (A) | 此檔案格式不支援此功能 |
+| ✕ | 此檔案格式不支援此功能 |
 | 不適用 | 此功能不適用於此檔案格式 |
 | &#42; | 此功能需要在AEM製作例項上提供此檔案格式的附加支援，但在資產發佈至Brand Portal後則不需要在Brand Portal上提供 |
 

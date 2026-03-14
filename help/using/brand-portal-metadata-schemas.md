@@ -6,10 +6,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: administration
 role: Admin
 exl-id: fbedff90-a6cb-4175-8308-817cc9f5b450
-source-git-commit: e01be07e7e791c6d406744148a77fd44d2479734
+source-git-commit: 6194eb5697ef48c9693c00a7a51322ef4827cdc3
 workflow-type: tm+mt
-source-wordcount: '1603'
-ht-degree: 5%
+source-wordcount: '1617'
+ht-degree: 6%
 
 ---
 
@@ -101,7 +101,7 @@ ht-degree: 5%
 
 * **[!UICONTROL 欄位標籤]**：在資產的「屬性」頁面上顯示的中繼資料屬性名稱。
 
-* **[!UICONTROL 對應至屬性]**：此屬性的值提供資產節點的相對路徑/名稱，此資產節點會儲存在CRX存放庫中。 它以「**」開頭。/**」，因為表示路徑在資產的節點下。
+* **[!UICONTROL 對應至屬性]**：此屬性的值提供資產節點的相對路徑/名稱，此資產節點會儲存在CRX存放庫中。 它以&quot;**./**&quot;開頭，因為表示路徑在資產的節點下。
 
 以下是此屬性的有效值：
 
@@ -124,7 +124,7 @@ ht-degree: 5%
 
 #### 在結構表單中新增或刪除索引標籤 {#add-or-delete-a-tab-in-the-schema-form}
 
-預設結構描述表單包含&#x200B;**[!UICONTROL 基本]**&#x200B;和&#x200B;**[!UICONTROL 進階]**&#x200B;標籤。 結構編輯器可讓您新增或刪除索引標籤。
+預設結構描述表單包含&#x200B;**[!UICONTROL 基本]**&#x200B;和&#x200B;**[!UICONTROL 進階]**&#x200B;標籤。 結構描述編輯器可讓您新增或刪除標籤。
 
 ![](assets/add_delete_tabs_metadataschemaform.png)
 
@@ -182,7 +182,7 @@ Brand Portal僅可讓您刪除自訂結構表單。 它不允許您刪除預設�
 
 ### 為MIME型別新增表單 {#adding-new-forms-for-mime-types}
 
-除了預設表單之外，您還可以為各種MIME型別的資產新增自訂表單，或在適當的表單型別下建立新表單。 例如，若要新增影像/png子類型 **[!UICONTROL 的新範本]** ，請在「影像」表單下建立表單。結構描述表單的標題是子類型名稱。在此範例中，標題為&quot;png&quot;。
+除了預設表單之外，您還可以為各種MIME型別的資產新增自訂表單，或在適當的表單型別下建立新表單。 例如，若要新增影像/png子類型 **[!UICONTROL 的新範本]** ，請在「影像」表單下建立表單。 結構描述表單的標題是子類型名稱。 在此範例中，標題為&quot;png&quot;。
 
 #### 針對各種MIME型別使用現有結構描述範本 {#using-an-existing-schema-template-for-various-mime-types}
 

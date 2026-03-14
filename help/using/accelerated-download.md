@@ -6,9 +6,9 @@ topic-tags: download-install, download assets
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 exl-id: cf28df58-c6dd-4b12-8279-01351892009f
-source-git-commit: f931f6576c05d82cea61bda00322425abc9e8d43
+source-git-commit: 6194eb5697ef48c9693c00a7a51322ef4827cdc3
 workflow-type: tm+mt
-source-wordcount: '1009'
+source-wordcount: '1078'
 ht-degree: 3%
 
 ---
@@ -33,11 +33,11 @@ Adobe Experience Manager Assets Brand Portal可讓您整合IBM® Aspera Connect 
 
 * 導覽至&#x200B;**[!UICONTROL 工具]** > **[!UICONTROL 下載]**，並確認&#x200B;**[!UICONTROL 下載設定]**&#x200B;中已啟用&#x200B;**[!UICONTROL 快速下載]**&#x200B;設定。
 * 確定防火牆上的連線埠33001 （TCP和UDP）已開啟。
-* 使用系統管理員許可權([IBM® Aspera Connect Downloads](https://www.ibm.com/support/fixcentral/swg/selectFixes?parent=ibm%7EOther%20software&product=ibm/Other+software/IBM+Aspera+Connect&release=3.9.9&platform=All&function=all))，在瀏覽器的擴充功能中&#x200B;**安裝IBM® Aspera Connect 3.9.9**。
+* 使用系統管理員許可權([® Aspera Connect Downloads](https://www.ibm.com/support/fixcentral/swg/selectFixes?parent=ibm%7EOther%20software&product=ibm/Other+software/IBM+Aspera+Connect&release=3.9.9&platform=All&function=all))，在瀏覽器的擴充功能中&#x200B;**安裝IBM® Aspera Connect 3.9.9**。
 
 >[!NOTE]
 >
->IBM® Aspera Connect有已知問題。 快速下載不適用於IBM® Aspera Connect 3.10版及更新版本。
+>® Aspera Connect有已知問題。 快速下載不適用於® Aspera Connect 3.10版及更新版本。
 
 ## 下載網域 {#download-domains}
 
@@ -91,31 +91,31 @@ Adobe Experience Manager Assets Brand Portal可讓您整合IBM® Aspera Connect 
 
    ![下載對話方塊](assets/download-dialog-box-new.png)
 
-1. 預設會在&#x200B;**[!UICONTROL 下載設定]**&#x200B;中啟用&#x200B;**[!UICONTROL 快速下載]**&#x200B;設定。 因此，系統會顯示確認方塊，以使用IBM® Aspera Connect下載資產。
+1. 預設會在&#x200B;**[!UICONTROL 下載設定]**&#x200B;中啟用&#x200B;**[!UICONTROL 快速下載]**&#x200B;設定。 因此，系統會顯示確認方塊，以使用® Aspera Connect下載資產。
 
-   如果您是第一次下載資產，且瀏覽器中未安裝IBM® Aspera Connect，系統會提示您進行安裝。 如果現有版本已過期，系統也會提示您安裝[Aspera下載加速器](https://www.ibm.com/support/fixcentral/swg/selectFixes?parent=ibm%7EOther%20software&product=ibm/Other+software/IBM+Aspera+Connect&release=3.9.9&platform=All&function=all)。
+   如果您是第一次下載資產，且瀏覽器中未安裝® Aspera Connect，系統會提示您進行安裝。 如果現有版本已過期，系統也會提示您安裝[Aspera下載加速器](https://www.ibm.com/support/fixcentral/swg/selectFixes?parent=ibm%7EOther%20software&product=ibm/Other+software/IBM+Aspera+Connect&release=3.9.9&platform=All&function=all)。
 
    ![](assets/aspera-not-launched.png)
 
 1. **安裝Aspera Connect使用者端**
 
-   若要安裝IBM® Aspera Connect使用者端安裝程式，請從IBM® Aspera Connect使用者端應用程式的.msi檔案執行安裝程式，然後依照安裝精靈操作。
+   若要安裝® Aspera Connect使用者端安裝程式，請從IBM® Aspera Connect使用者端應用程式的.msi檔案執行安裝程式，然後依照安裝精靈操作。
 
    ![](assets/aspera-download-1.png)
 
 1. 成功安裝使用者端後，請重新整理瀏覽器頁面，並再次起始下載步驟。
 
-1. 若要繼續使用&#x200B;**[!UICONTROL 快速下載]**，請按一下&#x200B;**[!UICONTROL 允許]**。 所有選取的轉譯都會使用IBM® Aspera Connect下載到zip資料夾中。
+1. 若要繼續使用&#x200B;**[!UICONTROL 快速下載]**，請按一下&#x200B;**[!UICONTROL 允許]**。 所有選取的轉譯都會使用® Aspera Connect下載到zip資料夾中。
 
    成功完成下載後，對話方塊會顯示資產下載至使用者系統的位置。
 
    ![](assets/aspera-download-2.png)
 
-   如果您不想要使用IBM® Aspera Connect，請按一下&#x200B;**[!UICONTROL 拒絕]**。 如果&#x200B;**[!UICONTROL 快速下載]**&#x200B;被拒絕或失敗，系統會填入「錯誤」訊息。 按一下&#x200B;**[!UICONTROL 正常下載]**&#x200B;按鈕以繼續下載資產。
+   如果您不想要使用® Aspera Connect，請按一下&#x200B;**[!UICONTROL 拒絕]**。 如果&#x200B;**[!UICONTROL 快速下載]**&#x200B;被拒絕或失敗，系統會填入「錯誤」訊息。 按一下&#x200B;**[!UICONTROL 正常下載]**&#x200B;按鈕以繼續下載資產。
 
 >[!NOTE]
 >
->如果管理員已關閉&#x200B;**[!UICONTROL 快速下載]**&#x200B;設定，則選取的轉譯會直接下載到zip資料夾中，而不使用IBM® Aspera Connect。
+>如果管理員已關閉&#x200B;**[!UICONTROL 快速下載]**&#x200B;設定，則選取的轉譯會直接下載到zip資料夾中，而不使用® Aspera Connect。
 
 <!-- 
 On successful completion of the download, a dialog box shows the location where assets are downloaded onto the user's system. If there is a failure, it shows error.
@@ -174,22 +174,22 @@ On successful completion of the download, a dialog box shows the location where 
    >There is a known limitation in Aspera Connect client application that no prompt to select download location appears if **[!UICONTROL Always ask me where to save downloaded files]** is enabled under the tab **[!UICONTROL Transfers]** within **[!UICONTROL Preferences]**. Before any download begins, provide the location in the text box **[!UICONTROL Save downloaded files to]**.
 -->
 
-## 在Microsoft® Edge瀏覽器上使用檔案加速器 {#using-file-accelerator-on-microsoft-edge-browser}
+## 在® Edge瀏覽器上使用檔案加速器 {#using-file-accelerator-on-microsoft-edge-browser}
 
-Microsoft® Edge會在增強保護模式(EPM)中執行，以防止在相同的私人網路或受信任的網站上與Aspera Connect伺服器通訊。 因此，每次建立與伺服器的連線時，都會顯示快顯視窗。
+® Edge會在增強保護模式(EPM)中執行，以防止在相同的私人網路或受信任的網站上與Aspera Connect伺服器通訊。 因此，每次建立與伺服器的連線時，都會顯示快顯視窗。
 
 ![](assets/switchapps-msedge.png)
 
-若要在Microsoft® Edge上使用加速下載功能，請從信任的網站清單中移除Brand Portal網站。
+若要在® Edge上使用加速下載功能，請從信任的網站清單中移除Brand Portal網站。
 
-1. 開啟[控制檯] （**[!UICONTROL Window鍵+ X]**，然後選取[控制檯] **&#x200B;**）。
+1. 開啟[控制檯] （**[!UICONTROL Window鍵+ X]**，然後選取[控制檯] ****）。
 1. 移至&#x200B;**[!UICONTROL 網路和網際網路]** > **[!UICONTROL 網際網路選項]**。 按一下「**[!UICONTROL 安全性]**」標籤。
 1. 按一下&#x200B;**[!UICONTROL 信任的網站區域]**，然後按一下&#x200B;**[!UICONTROL 網站]**。
 1. 從清單中移除Brand Portal網站。
 
 ## Aspera Connect使用者端喜好設定 {#aspera-connect-client-preferences}
 
-在IBM® Aspera Connect使用者端偏好設定中可設定一些實用的偏好設定，方法是以滑鼠右鍵按一下圖示並選取&#x200B;**[!UICONTROL 偏好設定]**。
+在® Aspera Connect使用者端偏好設定中可設定一些實用的偏好設定，方法是以滑鼠右鍵按一下圖示並選取&#x200B;**[!UICONTROL 偏好設定]**。
 
 ![](assets/download_assets_frombrandportalimg19.png)
 
@@ -205,7 +205,7 @@ Microsoft® Edge會在增強保護模式(EPM)中執行，以防止在相同的�
 
 如果加速下載對您無效，請嘗試下列建議：
 
-1. 檢查連線埠是否未被封鎖。 使用Google搜尋來尋找可讓您根據使用的作業系統檢查連線埠是否遭到封鎖的選項。 <!-- THIS URL IS 404 AND DOES NOT REDIRECT [https://test-connect.asperasoft.com](https://test-connect.asperasoft.com/) from your computer. -->
+1. 檢查連線埠是否未被封鎖。 使用Google搜尋來尋找可讓您根據使用的作業系統檢查連線埠是否遭到封鎖的選項。  <!-- THIS URL IS 404 AND DOES NOT REDIRECT [https://test-connect.asperasoft.com](https://test-connect.asperasoft.com/) from your computer. -->
 
    如果連線埠狀況不正常，請連絡您的網路群組，並確定連線埠33001 （TCP和UDP）在防火牆中未被封鎖。
 
@@ -213,7 +213,9 @@ Microsoft® Edge會在增強保護模式(EPM)中執行，以防止在相同的�
 
    如果頻寬是幾個(1-10 Mbps)或以Kbps為單位，請使用Aspera偏好設定並嘗試將頻寬限製為等於可用頻寬。
 
-   <!-- The URL in this step is giving a 404 error. 1. To confirm whether the downloads from Aspera demo server are working, use [https://demo.asperasoft.com/aspera/user](https://demo.asperasoft.com/aspera/user).  
-   (login:  asperaweb , password:  demoaspera ) -->
+   <!-- 
+   The URL in this step is giving a 404 error. 1. To confirm whether the downloads from Aspera demo server are working, use [https://demo.asperasoft.com/aspera/user](https://demo.asperasoft.com/aspera/user).  
+   (login:  asperaweb , password:  demoaspera ) 
+   -->
 
 1. 如果上述的疑難排解步驟都無法運作，請取消選取「啟用加速下載」選項，並使用一般下載。
