@@ -6,10 +6,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 topic-tags: download-install
 exl-id: 08d6a0fb-061e-4bef-b8e2-bb8522e7482e
-source-git-commit: ce9cf89dc3fdfe1f147096b42233aa3f599dcf43
+source-git-commit: 3800baf10e1186b8f49fc7eb6afcb0edfb29769a
 workflow-type: tm+mt
-source-wordcount: '1196'
-ht-degree: 2%
+source-wordcount: '1379'
+ht-degree: 1%
 
 ---
 
@@ -57,17 +57,17 @@ Brand Portal存放庫不會儲存視訊編碼並從&#x200B;**[!DNL Scene7]**&#x2
 
 * **在Dynamic Media模式中啟動Experience Manager Author**
 
-  在[Dynamic Media - [!DNL Scene7] 模式](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/assets/dynamic/config-dms7#enabling-dynamic-media-in-scene-mode)或[Dynamic Media — 混合模式](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/assets/dynamic/config-dynamic)中啟動Experience Manager Author執行個體(已設定Brand Portal)，或
+  在[Dynamic Media - [!DNL Scene7] 模式](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/assets/dynamic/config-dms7#enabling-dynamic-media-in-scene-mode)或[Dynamic Media — 混合模式](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/assets/dynamic/config-dynamic)中啟動Experience Manager Author執行個體（已設定Brand Portal），或
 
 * **在Experience Manager作者執行個體上設定Dynamic Media雲端服務**
 
-  根據Experience Manager Author執行所在的Dynamic Media模式（Scene7模式或混合模式），從[Tools[!DNL Scene7]在Experience Manager Author上設定](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/assets/dynamic/config-dms7#configuring-dynamic-media-cloud-services)Dynamic Media雲端服務（[模式）](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/assets/dynamic/config-dms7#configuring-dynamic-media-cloud-services)或&#x200B;**Dynamic Media雲端服務（混合模式）** | **雲端服務** | **動態媒體**。
+  根據Experience Manager Author執行所在的Dynamic Media模式（Scene7模式或混合模式），從&#x200B;**Tools** | **雲端服務** | **Dynamic Media**&#x200B;在Experience Manager Author上設定[Dynamic Media雲端服務（[!DNL Scene7]模式）](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/assets/dynamic/config-dms7#configuring-dynamic-media-cloud-services)或[Dynamic Media雲端服務（混合模式）](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/assets/dynamic/config-dms7#configuring-dynamic-media-cloud-services)。
 
 * **在Brand Portal上設定Dynamic Media**
 
   根據Experience Manager Author上的Dynamic Media雲端設定，從Brand Portal管理工具設定[Dynamic Media設定](#configure-dm-hybrid-settings)或[[!DNL Scene7] 設定](#configure-dm-scene7-settings)。
 
-  請確定已在Dynamic Media - [Scene7](#separate-tenants)模式和Dynamic Media — 混合模式中設定的Experience Manager Author執行個體使用&#x200B;**[!UICONTROL 個個別的Brand Portal租使用者]**。 如果您使用Dynamic Media **[!UICONTROL S7]**&#x200B;和Dynamic Media Hybrid的功能，此方法尤其重要。
+  請確定已在Dynamic Media - **[!UICONTROL Scene7]**&#x200B;模式和Dynamic Media — 混合模式中設定的Experience Manager Author執行個體使用[個個別的Brand Portal租使用者](#separate-tenants)。 如果您使用Dynamic Media **[!UICONTROL S7]**&#x200B;和Dynamic Media Hybrid的功能，此方法尤其重要。
 
 * **將視訊編碼套用至Brand Portal的發佈資料夾**
 
@@ -75,7 +75,7 @@ Brand Portal存放庫不會儲存視訊編碼並從&#x200B;**[!DNL Scene7]**&#x2
 
 * 如果啟用安全預覽，則在SPS中允許清單輸出IP **&#x200B;**
 
-  如果使用Dynamic Media-**[!DNL Scene7]** （為公司啟用[安全預覽](https://experienceleague.adobe.com/zh-hant/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public)），則建議&#x200B;**[!DNL Scene7]**&#x200B;公司管理員[允許列出使用SPS (](https://experienceleague.adobe.com/zh-hant/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public#testing-the-secure-testing-service)Scene7 **[!UICONTROL Publishing System) Flash UI之個別區域的公用輸出IP]**。
+  如果使用Dynamic Media-**[!DNL Scene7]** （為公司啟用[安全預覽](https://experienceleague.adobe.com/zh-hant/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public)），則建議&#x200B;**[!DNL Scene7]**&#x200B;公司管理員[允許列出使用SPS (**[!UICONTROL Scene7]** Publishing System) Flash UI之個別區域的公用輸出IP](https://experienceleague.adobe.com/zh-hant/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public#testing-the-secure-testing-service)。
 
   輸出IP如下：
 
@@ -83,7 +83,7 @@ Brand Portal存放庫不會儲存視訊編碼並從&#x200B;**[!DNL Scene7]**&#x2
   |--- |--- |
   | 不適用 | 130.248.160.68、20.94.203.130 |
   | EMEA | 185.34.189.3、51.132.146.75 |
-  | APAC | 63.140.44.54 |
+  | APAC | 172.82.240.74, 172.82.240.75 |
 
   若要允許列出任一輸出IP，請參閱[準備您的帳戶以進行安全測試服務](https://experienceleague.adobe.com/zh-hant/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public#testing-the-secure-testing-service)。
 
@@ -120,7 +120,7 @@ Brand Portal存放庫不會儲存視訊編碼並從&#x200B;**[!DNL Scene7]**&#x2
 | **地區** | **輸出IP** |
 |--- |--- |
 | 不適用 | 130.248.160.68、20.94.203.130 |
-| EMEA | 51.132.146.75，130.248.244.202，130.248.244.203，130.248.244.204，130.248.244.210，130.248.244.211，130.248.244.212 |
+| EMEA | 51.132.146.75, 130.248.244.202, 130.248.244.203, 130.248.244.204, 130.248.244.210, 130.248.244.211, 130.248.244.212 |
 | APAC | 63.140.44.54 |
 
 ## 設定Dynamic Media （混合）設定 {#configure-dm-hybrid-settings}
@@ -155,7 +155,7 @@ Brand Portal存放庫不會儲存視訊編碼並從&#x200B;**[!DNL Scene7]**&#x2
 
 2. 從系統管理工具面板中，選取&#x200B;**[!UICONTROL Dynamic Media組態]**&#x200B;圖磚。
 
-   在Brand Portal![上的[!UICONTROL DM &#x200B;]Scene 7](assets/DMS7-Tile.png)設定
+   在Brand Portal![&#128279;](assets/DMS7-Tile.png)上的DM [!UICONTROL Scene 7]設定
 
    **[!UICONTROL 編輯Dynamic Media組態]**&#x200B;頁面隨即顯示。
 
