@@ -6,9 +6,13 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 exl-id: 842656a6-1a2b-4b64-954d-1e663923a1a1
 TQID: https://experienceleague.adobe.com/5U3958LUe-Pw2LMcX9fEDKIYHU6IVQ-J4CeKlmBFuKo
-product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
 source-wordcount: 639
@@ -35,7 +39,7 @@ ht-degree: 3%
 若要在AEM上建立標籤、在Brand Portal上發佈標籤，並將標籤與適當的資產（或集合）相關聯，請按照以下步驟操作：
 
 1. **建立標籤**
-使用管理許可權登入AEM作者執行個體，並從全域導覽存取**[!UICONTROL AEM標籤]**&#x200B;主控台：
+使用管理許可權登入AEM作者執行個體，並從全域導覽存取&#x200B;**[!UICONTROL AEM標籤]**&#x200B;主控台：
 
    1. 選取&#x200B;**[!UICONTROL 工具]**
 
@@ -86,5 +90,5 @@ AEM Assets Brand Portal可讓您根據關鍵字標籤，讓特定資產成為搜
 
 1. 儲存變更。
 1. 將資產發佈至Brand Portal。
-1. 登入Brand Portal。 檢視資產的&#x200B;**[!UICONTROL 屬性]**&#x200B;區段中的&#x200B;**[!UICONTROL 進階]**索引標籤。
+1. 登入Brand Portal。 檢視資產的&#x200B;**[!UICONTROL 屬性]**&#x200B;區段中的&#x200B;**[!UICONTROL 進階]**&#x200B;索引標籤。
 請注意，**[!UICONTROL Search Promote]**&#x200B;關鍵字也會顯示在該資產的屬性中。

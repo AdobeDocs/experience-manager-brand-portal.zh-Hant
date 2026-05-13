@@ -7,8 +7,11 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 exl-id: 7dcf445d-97ed-4fa5-959c-c4c48e325766
 TQID: https://experienceleague.adobe.com/u5hGJpkNkUSrnC50ydHo4iERbyBn9uu4FItvZa-N34M
-product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
 source-wordcount: 1469
@@ -53,8 +56,8 @@ Brand Portal儀表板會反映Brand Portal使用者允許的所有現有資料�
 
 1. 返回Brand Portal控制面板。
 1. 按一下貢獻資料夾以開啟它。 您可以在貢獻資料夾中看到兩個子資料夾： **[!UICONTROL SHARED]**&#x200B;和&#x200B;**[!UICONTROL NEW]**。 共用資料夾包含管理員共用的所有基準資產（參考內容）。
-1. 您可以下載包含本機電腦上所有基準資產的&#x200B;**[!UICONTROL SHARED]**資料夾。
-或者，您可以開啟**[!UICONTROL 共用]**&#x200B;資料夾，然後按一下&#x200B;**下載**&#x200B;圖示來下載個別檔案/資料夾。
+1. 您可以下載包含本機電腦上所有基準資產的&#x200B;**[!UICONTROL SHARED]**&#x200B;資料夾。
+或者，您可以開啟&#x200B;**[!UICONTROL 共用]**&#x200B;資料夾，然後按一下&#x200B;**下載**&#x200B;圖示來下載個別檔案/資料夾。
 
    ![](assets/download.png)
 
@@ -92,7 +95,7 @@ Brand Portal儀表板會反映Brand Portal使用者允許的所有現有資料�
 
    ![](assets/upload-new-assets4.png)
 
-1. 按一下[建立&#x200B;****] > [檔案&#x200B;****]，上傳包含多個資產的個別檔案或資料夾(.zip)。
+1. 按一下[建立&#x200B;**&#x200B;**] > [檔案&#x200B;**&#x200B;**]，上傳包含多個資產的個別檔案或資料夾(.zip)。
 
    ![](assets/upload-new-assets5.png)
 
@@ -186,7 +189,7 @@ Brand Portal現在每十二小時執行一次自動作業，以掃描所有「�
 
 1. 選取工作並按一下[檢視] **[!UICONTROL 檢視報告]**。
 
-   檢視刪除工作中每個資產的詳細資訊。 報告中會包含如資產標題、大小、作者、刪除狀態和刪除時間等詳細資訊。 按一下「下載&#x200B;****」，以CSV格式下載工作的報告。
+   檢視刪除工作中每個資產的詳細資訊。 報告中會包含如資產標題、大小、作者、刪除狀態和刪除時間等詳細資訊。 按一下「下載&#x200B;**&#x200B;**」，以CSV格式下載工作的報告。
 
    報表中資產的刪除狀態可能具有以下值：
 

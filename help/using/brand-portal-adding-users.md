@@ -7,11 +7,18 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 role: Admin
 exl-id: 35b1fd75-f9e4-4145-80bd-84de091f8b2b
 TQID: https://experienceleague.adobe.com/CxUuu1tgxUNjW4TD-vgW-LGn2y9-4avL-mc9eykqBQM
-product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: cda65036-5305-4f01-89da-9b3506ae8c50id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
-subfeature_v2: id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: cda65036-5305-4f01-89da-9b3506ae8c50
+  - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+subfeature_v2:
+  - id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
 source-wordcount: 2233
@@ -47,7 +54,7 @@ Comment Type: draft
 
 >[!NOTE]
 >
->無權存取Brand Portal的新使用者可以從Brand Portal的登入畫面請求存取權。 如需詳細資訊，請參閱[要求存取Brand Portal](../using/brand-portal.md#request-access-to-brand-portal)。 在通知區域收到存取權要求通知後，請按一下相關的通知，然後按一下[授與存取權]。**** 或者，您也可以按照收到的存取要求電子郵件中的連結進行操作。 接下來，若要透過[Adobe [!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview)新增使用者，請遵循下列程式中的步驟4-7。
+>無權存取Brand Portal的新使用者可以從Brand Portal的登入畫面請求存取權。 如需詳細資訊，請參閱[要求存取Brand Portal](../using/brand-portal.md#request-access-to-brand-portal)。 在通知區域收到存取權要求通知後，請按一下相關的通知，然後按一下[授與存取權]。**&#x200B;** 或者，您也可以按照收到的存取要求電子郵件中的連結進行操作。 接下來，若要透過[Adobe [!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview)新增使用者，請遵循下列程式中的步驟4-7。
 
 >[!NOTE]
 >
@@ -218,7 +225,7 @@ Comment Type: draft
    >
    >Brand Portal不支援產品設定檔管理員（先前稱為設定管理員）許可權。 避免將產品設定檔管理員許可權指派給使用者。
 
-1. 檢閱管理員型別選取專案，然後按一下[儲存]。****
+1. 檢閱管理員型別選取專案，然後按一下[儲存]。**&#x200B;**
 
    >[!NOTE]
    >

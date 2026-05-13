@@ -7,8 +7,11 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 exl-id: 9acad588-977a-45de-b544-f2cc8874ba12
 TQID: https://experienceleague.adobe.com/o--c7CzIqcaLPuOVG81dQpALRa0wxI-Aul6F-pN-spI
-product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
 source-wordcount: 1063
@@ -55,7 +58,7 @@ Experience Manager Assets管理員和具有建立新資料夾許可權的非管�
 
 1. 按一下&#x200B;**[!UICONTROL 建立]**&#x200B;以建立新資料夾。 **[!UICONTROL 建立資料夾]**&#x200B;對話方塊開啟。
 
-1. 輸入資料夾的&#x200B;**[!UICONTROL Title]**&#x200B;和&#x200B;**[!UICONTROL Name]**，並選取&#x200B;**[!UICONTROL 資產貢獻]**核取方塊。
+1. 輸入資料夾的&#x200B;**[!UICONTROL Title]**&#x200B;和&#x200B;**[!UICONTROL Name]**，並選取&#x200B;**[!UICONTROL 資產貢獻]**&#x200B;核取方塊。
 Adobe建議您使用不含任何空格的小寫字母來命名資料夾。
 
 1. 按一下「**[!UICONTROL 建立]**」。 您會看到Experience Manager Assets存放庫中列出的貢獻資料夾。
@@ -129,7 +132,7 @@ Experience Manager Assets使用者會將一組基準資產上傳至&#x200B;**共
 
    ![](assets/upload-new-assets1.png)
 
-1. 按一下[建立&#x200B;****] > [檔案&#x200B;****]，上傳包含多個資產的個別檔案或資料夾(.zip)。
+1. 按一下[建立&#x200B;**&#x200B;**] > [檔案&#x200B;**&#x200B;**]，上傳包含多個資產的個別檔案或資料夾(.zip)。
 
    ![](assets/upload-new-assets2.png)
 

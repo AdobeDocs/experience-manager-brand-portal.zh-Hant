@@ -7,10 +7,16 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 role: Admin
 exl-id: 03d0292c-23c2-4ea0-9781-eb27768e6c33
 TQID: https://experienceleague.adobe.com/4p-phv75ZqbWNLAxXeZ-QEpZxSTgv-oV8AEIbue9Zvw
-product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2: id: cda65036-5305-4f01-89da-9b3506ae8c50
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: cda65036-5305-4f01-89da-9b3506ae8c50
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
 source-wordcount: 1010
@@ -44,7 +50,7 @@ ht-degree: 4%
 
    若要檢視報表，請按一下報表連結。 或者，選取報告，然後按一下工具列中的「檢視」圖示。
 
-   **[!UICONTROL 使用情況報表]**&#x200B;會顯示作用中Brand Portal使用者人數、所有資產所佔用的儲存空間，以及Brand Portal中資產總計計數的相關資訊。 Admin Console 中未指派至任何產品基本資料的 Brand Portal 使用者，會被視為非使用中的使用者，而不會反映在&#x200B;**[!UICONTROL 使用情況報告]**中。
+   **[!UICONTROL 使用情況報表]**&#x200B;會顯示作用中Brand Portal使用者人數、所有資產所佔用的儲存空間，以及Brand Portal中資產總計計數的相關資訊。 Admin Console 中未指派至任何產品基本資料的 Brand Portal 使用者，會被視為非使用中的使用者，而不會反映在&#x200B;**[!UICONTROL 使用情況報告]**&#x200B;中。
 報表也會顯示每個資訊量度的允許容量。
 
    ![](assets/usage-report.png)
@@ -118,7 +124,7 @@ ht-degree: 4%
    >
    >產生報表時，標題中的特殊字元`#`和`%`會以連字型大小(-)取代。
 
-1. 按一下[下一步]****，設定下載、到期和發佈報告的欄。
+1. 按一下[下一步]&#x200B;**&#x200B;**，設定下載、到期和發佈報告的欄。
 1. 視需要選取或取消選取適當的核取方塊。 例如，若要在&#x200B;**[!UICONTROL 下載]**&#x200B;報告中檢視使用者（已下載資產）的名稱，請選取&#x200B;**[!UICONTROL 下載者]**。 下圖說明如何在「下載」報表中選取預設欄。
 
    ![](assets/createdownloadreport.png)
@@ -136,7 +142,7 @@ ht-degree: 4%
 
       ![](assets/property-path.png)
 
-      若要新增更多自訂欄，請按一下[新增] ****&#x200B;並重複步驟2和3。
+      若要新增更多自訂欄，請按一下[新增] **&#x200B;**&#x200B;並重複步驟2和3。
 
 1. 按一下「**[!UICONTROL 建立]**」。 訊息會通知已啟動報表產生作業。
 
