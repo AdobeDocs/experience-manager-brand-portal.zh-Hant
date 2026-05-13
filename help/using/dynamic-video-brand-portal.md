@@ -6,9 +6,25 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 topic-tags: download-install
 exl-id: 08d6a0fb-061e-4bef-b8e2-bb8522e7482e
-source-git-commit: 3800baf10e1186b8f49fc7eb6afcb0edfb29769a
+TQID: https://experienceleague.adobe.com/LZ7QHhEUSQtnreqQNBHt89LDjuHGAEHKy-e4zh3xKjU
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: bd0d2470-932c-4269-8eca-6d939b72d9ef
+  - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+subfeature_v2:
+  - id: b112da9a-40c7-4e3d-8f68-114cdbd87ae4
+  - id: cf50b0d2-df62-495c-a741-4fa0284ca4fc
+  - id: d17d085a-e808-49dd-b9a6-85a996b999bd
+  - id: d8e79b3c-92b5-4c4d-a46c-5f16d63a14dc
+  - id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+  - id: ee69dd13-2aba-4eb0-912b-399e82368d73
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 1779df8cb07a952926d7680a8d69557fd184a56c
 workflow-type: tm+mt
-source-wordcount: '1379'
+source-wordcount: 1379
 ht-degree: 1%
 
 ---
@@ -61,7 +77,7 @@ Brand Portal存放庫不會儲存視訊編碼並從&#x200B;**[!DNL Scene7]**&#x2
 
 * **在Experience Manager作者執行個體上設定Dynamic Media雲端服務**
 
-  根據Experience Manager Author執行所在的Dynamic Media模式（Scene7模式或混合模式），從&#x200B;**Tools** | **雲端服務** | **Dynamic Media**&#x200B;在Experience Manager Author上設定[Dynamic Media雲端服務（[!DNL Scene7]模式）](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/assets/dynamic/config-dms7#configuring-dynamic-media-cloud-services)或[Dynamic Media雲端服務（混合模式）](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/assets/dynamic/config-dms7#configuring-dynamic-media-cloud-services)。
+  根據Experience Manager Author執行所在的Dynamic Media模式（Scene7模式或混合模式），從&#x200B;**Tools**&#x200B;在Experience Manager Author上設定[Dynamic Media雲端服務（[!DNL Scene7]模式）](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/assets/dynamic/config-dms7#configuring-dynamic-media-cloud-services)或[Dynamic Media雲端服務（混合模式）](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/assets/dynamic/config-dms7#configuring-dynamic-media-cloud-services) | **雲端服務** | **動態媒體**。
 
 * **在Brand Portal上設定Dynamic Media**
 

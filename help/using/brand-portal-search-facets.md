@@ -1,19 +1,31 @@
 ---
-title: 使用自訂搜尋多面向
+title: 使用自訂搜尋面向
 description: 管理員可以將搜尋述詞新增到篩選器面板，以自訂搜尋並使搜尋功能通用。
 content-type: reference
 topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 role: Admin
 exl-id: c07e1268-2c83-40ba-8dcd-5dade3a10141
-source-git-commit: 4c701781e7dc62b9d2b018fd13b1ae9616bbb840
+TQID: https://experienceleague.adobe.com/SYuZB0vfNFNK55QKcIQeROLmufoUIXMrgtXEPGkTo8A
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: cda65036-5305-4f01-89da-9b3506ae8c50
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: ce44533e-8ec8-4e11-a9e9-78b0fe561832
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
-source-wordcount: '1351'
-ht-degree: 7%
+source-wordcount: 1363
+ht-degree: 8%
 
 ---
 
-# 使用自訂搜尋多面向 {#use-custom-search-facets}
+# 使用自訂搜尋面向 {#use-custom-search-facets}
 
 管理員可以將搜尋述詞新增至[!UICONTROL 篩選器]面板，以自訂搜尋並使搜尋功能通用。
 
@@ -23,7 +35,7 @@ Brand Portal支援[已核准品牌資產的細微搜尋](../using/brand-portal-s
 
 >[!NOTE]
 >
->Experience Manager Assets可讓組織[從AEM Author](../using/publish-schema-search-facets-presets.md#publish-search-facets-to-brand-portal)將自訂搜尋表單發佈到Brand Portal，而不是在Brand Portal上重新建立相同的表單。
+>Experience Manager Assets可讓組織[將自訂搜尋表單從AEM Author](../using/publish-schema-search-facets-presets.md#publish-search-facets-to-brand-portal)發佈到Brand Portal，而不是在Brand Portal上重新建立相同的表單。
 
 ## 將搜尋述詞新增至篩選器面板 {#add-a-search-predicate}
 
@@ -60,7 +72,7 @@ Brand Portal支援[已核准品牌資產的細微搜尋](../using/brand-portal-s
 
    >[!NOTE]
    >
-   >選取&#x200B;**[!UICONTROL 部分搜尋]**&#x200B;核取方塊時，預設會選取&#x200B;**[!UICONTROL 忽略大小寫]**。
+   >選取「**[!UICONTROL 部分搜尋]**」核取方塊後，便會預設選取「**[!UICONTROL 忽略大小寫]**」。
 
 1. 在&#x200B;**[!UICONTROL 屬性名稱]**&#x200B;欄位中，開啟屬性選擇器並選取執行搜尋所依據的屬性。 或者，輸入屬性的名稱。 例如，輸入 `jcr :content/metadata/dc:title` 或 `./jcr:content/metadata/dc:title`。
 
@@ -85,10 +97,10 @@ Brand Portal支援[已核准品牌資產的細微搜尋](../using/brand-portal-s
 
 | **述詞名稱** | **說明** | **屬性** |
 |-------|-------|----------|
-| **[!UICONTROL 路徑瀏覽器]** | 在特定位置搜尋資產的搜尋述詞。 **注意：** *對於登入的使用者，篩選器上的路徑瀏覽器僅顯示與該使用者共用的資料夾（及其祖先）的內容結構。* <br>管理員使用者可以使用路徑瀏覽器導覽至任何資料夾，以搜尋該資料夾中的資產。 <br>而非管理員使用者可以透過在路徑瀏覽器中導覽至資料夾（可由他們存取）來搜尋該資料夾中的資產。 | <ul><li>欄位標籤</li><li>路徑</li><li>說明</li></ul> |
+| **[!UICONTROL 路徑瀏覽器]** | 在特定位置搜尋資產的搜尋述詞。 **注意：** *對於登入的使用者，篩選器上的路徑瀏覽器僅顯示與該使用者共用的資料夾（及其祖先）的內容結構。* <br> 管理員使用者可使用路徑瀏覽器導覽至任何資料夾，在該資料夾中搜尋資產。<br> 而非管理員使用者則可在路徑瀏覽器中導覽至資料夾（可由他們存取），在該資料夾中搜尋資產。 | <ul><li>欄位標籤</li><li>路徑</li><li>說明</li></ul> |
 | **[!UICONTROL 屬性]** | 根據特定中繼資料屬性搜尋資產。 **注意：** *選取部分搜尋時，預設會選取[忽略大小寫]*。 | <ul><li>欄位標籤</li><li>預留位置</li><li>屬性名稱</li><li>部分搜尋</li><li>忽略大小寫</li><li> 說明</li></ul> |
 | **[!UICONTROL 多值屬性]** | 類似屬性述詞，但允許多個輸入值，以分隔符號（預設為逗號）分隔符合任何輸入值的資產會傳回結果中。 | <ul><li>欄位標籤</li><li>預留位置</li><li>屬性名稱</li><li>分隔符號支援</li><li>忽略大小寫</li><li>說明</li></ul> |
-| **[!UICONTROL 標籤]** | 根據標籤搜尋資產的搜尋述詞。 您可以設定Path屬性以填入Tags清單中的各種標籤。 管理員可能需要變更路徑值，例如[!UICONTROL /`etc/tags/mac/<tenant_id>/<custom_tag_namespace>`]。 如果他們從AEM發佈搜尋表單，其中路徑不包含租使用者資訊，例如[!UICONTROL `/etc/tags/<custom_tag_namespace>`]，則必須這樣做。 | <ul><li>欄位標籤</li><li>屬性名稱</li><li>路徑</li><li>說明</li></ul> |
+| **[!UICONTROL 標籤]** | 根據標籤搜尋資產的搜尋述詞。 您可以設定Path屬性以填入Tags清單中的各種標籤。 管理員可能需要變更路徑值，例如[!UICONTROL /`etc/tags/mac/<tenant_id>/<custom_tag_namespace>`]。 如果他們從AEM發佈搜尋表單，而路徑不包含租使用者資訊（例如，[!UICONTROL `/etc/tags/<custom_tag_namespace>`]），則為必要。 | <ul><li>欄位標籤</li><li>屬性名稱</li><li>路徑</li><li>說明</li></ul> |
 | **[!UICONTROL 路徑]** | 在特定位置搜尋資產的搜尋述詞。 | <ul><li>欄位標籤</li><li>路徑</li><li>說明</li></ul> |
 | **[!UICONTROL 相對日期]** | 根據資產的相對建立日期來搜尋資產的搜尋述詞。 | <ul><li>欄位標籤</li><li>屬性名稱</li><li>相對日期</li></ul> |
 | **[!UICONTROL 範圍]** | 搜尋述詞，用於搜尋位於指定屬性值範圍內的資產。 在「篩選器」面板中，您可以指定範圍的最小和最大屬性值。 | <ul><li>欄位標籤</li><li>屬性名稱</li><li>說明</li></ul> |
@@ -105,7 +117,7 @@ Brand Portal支援[已核准品牌資產的細微搜尋](../using/brand-portal-s
 
 >[!NOTE]
 >
->* 請勿使用&#x200B;**[!UICONTROL 選項述詞]**、**[!UICONTROL Publish狀態述詞]**&#x200B;和&#x200B;**[!UICONTROL 評等述詞]**，因為這些述詞在Brand Portal中無法運作。
+>* 請勿使用&#x200B;**[!UICONTROL 選項述詞]**、**[!UICONTROL 發佈狀態述詞]**&#x200B;和&#x200B;**[!UICONTROL 評等述詞]**，因為這些述詞在Brand Portal中無法運作。
 >* Brand Portal不支援資料夾型別述詞`(nt:folder type)`，這可能會導致效能問題。 若出現在已發佈的自訂搜尋表單中，則可透過編輯搜尋表單將其刪除。
 
 ## 刪除搜尋述詞 {#delete-a-search-predicate}

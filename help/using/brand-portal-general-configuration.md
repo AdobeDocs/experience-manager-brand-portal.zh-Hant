@@ -7,14 +7,27 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 role: Admin
 exl-id: 5607be8e-0a7f-4692-b71b-5f66eb9ac5ee
-source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
+TQID: https://experienceleague.adobe.com/W08soCNQvrQy3ZttX4Oa2m-dvmTSxyeTpPmHNLedgPA
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: cda65036-5305-4f01-89da-9b3506ae8c50
+  - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+subfeature_v2:
+  - id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 0%
+source-wordcount: 396
+ht-degree: 1%
 
 ---
 
-# 管理一般租使用者組態 {#administer-general-tenant-configurations}
+# 管理一般租用戶設定 {#administer-general-tenant-configurations}
 
 Experience Manager Assets Brand Portal可讓組織為特定租使用者設定下列功能：
 
@@ -40,7 +53,7 @@ Experience Manager Assets Brand Portal可讓組織為特定租使用者設定下
 若要啟用或停用這些設定，請執行下列動作：
 
 1. 以管理員許可權登入。
-1. 選取Experience Manager標誌以從頂部的工具列存取管理工具。
+1. 選取Experience Manager標誌，從頂部的工具列存取管理工具。
 1. 從系統管理工具面板，選取&#x200B;**[!UICONTROL 一般]**&#x200B;以開啟&#x200B;**[!UICONTROL 一般設定]**&#x200B;頁面。
 1. 使用各自的切換開關來啟用或停用任何「一般」設定。
 1. **[!UICONTROL 儲存]**&#x200B;變更。

@@ -6,10 +6,21 @@ topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 role: Admin
 exl-id: 03d0292c-23c2-4ea0-9781-eb27768e6c33
-source-git-commit: 133ea1fc342e4460e7d0661205c7411a509143eb
+TQID: https://experienceleague.adobe.com/4p-phv75ZqbWNLAxXeZ-QEpZxSTgv-oV8AEIbue9Zvw
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: cda65036-5305-4f01-89da-9b3506ae8c50
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
-source-wordcount: '1010'
-ht-degree: 0%
+source-wordcount: 1010
+ht-degree: 4%
 
 ---
 
@@ -19,7 +30,7 @@ ht-degree: 0%
 
 報表管理介面是直覺式的，並包含存取已儲存報表的精細選項和控制項。 您可以從「資產報表」頁面檢視、下載或刪除報表，所有先前產生的報表都會列於此處。
 
-## 檢視報表 {#view-reports}
+## 檢視報告 {#view-reports}
 
 若要檢視報表，請執行下列步驟：
 
@@ -35,11 +46,11 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >使用情況報告是在Brand Portal中產生的預設報告。 無法建立或刪除。 不過，您可以建立、下載及刪除「下載」、「到期日」、「Publish」、「`Link Share`」和使用者登入報告。
+   >使用情況報告是在Brand Portal中產生的預設報告。 無法建立或刪除。 不過，您可以建立、下載及刪除「下載」、「到期日」、「發佈」、`Link Share`和使用者登入報告。
 
    若要檢視報表，請按一下報表連結。 或者，選取報告，然後按一下工具列中的「檢視」圖示。
 
-   **[!UICONTROL 使用情況報表]**&#x200B;會顯示作用中Brand Portal使用者人數、所有資產所佔用的儲存空間，以及Brand Portal中資產總計計數的相關資訊。 未指派給Admin Console中任何產品設定檔的Brand Portal使用者會被視為非作用中使用者，不會反映在&#x200B;**[!UICONTROL 使用情況報表]**&#x200B;中。
+   **[!UICONTROL 使用情況報表]**&#x200B;會顯示作用中Brand Portal使用者人數、所有資產所佔用的儲存空間，以及Brand Portal中資產總計計數的相關資訊。 Admin Console 中未指派至任何產品基本資料的 Brand Portal 使用者，會被視為非使用中的使用者，而不會反映在&#x200B;**[!UICONTROL 使用情況報告]**&#x200B;中。
 報表也會顯示每個資訊量度的允許容量。
 
    ![](assets/usage-report.png)
@@ -60,13 +71,13 @@ ht-degree: 0%
 
    ![](assets/expiration-report.png)
 
-   **[!UICONTROL Publish]**&#x200B;報告列出在指定時間範圍內從Experience Manager Assets發佈到Brand Portal的所有資產，並提供相關資訊。
+   **[!UICONTROL 發佈]**&#x200B;報告列出並在指定的時間範圍內提供從Experience Manager Assets發佈到Brand Portal的所有資產的相關資訊。
 
    ![](assets/publish-report.png)
 
    >[!NOTE]
    >
-   >Publish報表不會顯示內容片段的相關資訊，因為內容片段無法發佈至Brand Portal。
+   >發佈報表不會顯示有關內容片段的資訊，因為內容片段無法發佈至Brand Portal。
 
    **[!UICONTROL 連結共用]**&#x200B;報表會列出特定時間範圍內所有透過Brand Portal介面的連結共用的資產。 報告會詳細說明透過連結共用資產的時間、共用資產的使用者以及連結的到期日。 也會報告租使用者和使用者的共用連結數。 連結共用報表的欄無法自訂。
 
@@ -88,7 +99,7 @@ ht-degree: 0%
 * 發佈
 * 連結共用
 
-您可以自訂下載、到期和Publish報告中的欄以供檢視。 若要產生報表，請執行下列步驟：
+您可以自訂下載、到期和發佈報告中的欄以供檢視。 若要產生報表，請執行下列步驟：
 
 1. 從頂部的工具列中，按一下Experience Manager標誌以存取管理工具。
 
@@ -101,7 +112,7 @@ ht-degree: 0%
 
    ![](assets/crete-report.png)
 
-1. 設定報告詳細資訊。 指定&#x200B;**[!UICONTROL 下載]**、**[!UICONTROL 到期]**&#x200B;和&#x200B;**[!UICONTROL Publish]**&#x200B;報告的標題、說明、資料夾結構（報告需要執行並產生統計資料的位置）和日期範圍。
+1. 設定報告詳細資訊。 指定&#x200B;**[!UICONTROL 下載]**、**[!UICONTROL 到期]**&#x200B;和&#x200B;**[!UICONTROL 發佈]**&#x200B;報告的標題、說明、資料夾結構（報告需要執行並產生統計資料的位置）和日期範圍。
 
    ![](assets/create-report-page.png)
 
@@ -113,14 +124,14 @@ ht-degree: 0%
    >
    >產生報表時，標題中的特殊字元`#`和`%`會以連字型大小(-)取代。
 
-1. 按一下[下一步]&#x200B;**&#x200B;**，設定下載、到期和Publish報告的欄。
+1. 按一下[下一步]&#x200B;**&#x200B;**，設定下載、到期和發佈報告的欄。
 1. 視需要選取或取消選取適當的核取方塊。 例如，若要在&#x200B;**[!UICONTROL 下載]**&#x200B;報告中檢視使用者（已下載資產）的名稱，請選取&#x200B;**[!UICONTROL 下載者]**。 下圖說明如何在「下載」報表中選取預設欄。
 
    ![](assets/createdownloadreport.png)
 
    您也可以新增自訂欄到這些報表，以顯示更多符合自訂需求的資料。
 
-   若要將自訂欄新增至下載、Publish或到期報告，請執行下列動作：
+   若要將自訂欄新增至下載、發佈或到期報告，請執行下列動作：
 
    1. 若要顯示自訂資料行，請按一下[!UICONTROL 自訂資料行]內的&#x200B;**[!UICONTROL 新增]**。
    1. 在&#x200B;**[!UICONTROL 資料行名稱]**&#x200B;欄位中指定資料行名稱。
@@ -133,7 +144,7 @@ ht-degree: 0%
 
       若要新增更多自訂欄，請按一下[新增] **&#x200B;**&#x200B;並重複步驟2和3。
 
-1. 按一下「**[!UICONTROL 建立]**」。訊息會通知已啟動報表產生作業。
+1. 按一下「**[!UICONTROL 建立]**」。 訊息會通知已啟動報表產生作業。
 
 ## 下載報表 {#download-reports}
 

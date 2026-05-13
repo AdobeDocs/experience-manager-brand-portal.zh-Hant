@@ -12,16 +12,26 @@ audience: author, marketer
 version: Experience Manager 6.5
 kt: 3838
 exl-id: 2c132a7a-ed10-4856-8378-67939167ea60
-source-git-commit: 2865a95e52679e853c6b125e8b1de1c23e84d30d
+TQID: https://experienceleague.adobe.com/52tECcTrEZL6eSx--nL07mGMJ94Tf7B6ZlHQ8BlqNvY
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+subfeature_v2:
+  - id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
-source-wordcount: '647'
-ht-degree: 11%
+source-wordcount: 662
+ht-degree: 12%
 
 ---
 
 # 資產來源概觀 {#overview-asset-sourcing-in-bp}
 
-**Asset Sourcing**&#x200B;可讓Experience Manager Assets使用者（管理員/非管理員使用者）使用額外的&#x200B;**資產貢獻**&#x200B;屬性來建立新資料夾，確保所建立的新資料夾可供Brand Portal使用者提交資產。 這會自動觸發工作流程，在新建立的&#x200B;**貢獻**&#x200B;資料夾中建立兩個額外的子資料夾，稱為&#x200B;**SHARED**&#x200B;和&#x200B;**NEW**。 管理員會上傳應新增至貢獻資料夾的資產型別簡介，以定義需求。 他們上傳一組基準資產至&#x200B;**共用**&#x200B;資料夾，為Brand Portal使用者提供必要的參考資訊。 然後，管理員可以在將新建立的&#x200B;**貢獻**&#x200B;資料夾發佈到Brand Portal之前，授予作用中Brand Portal使用者對貢獻資料夾的存取權。 當使用者完成在&#x200B;**NEW**&#x200B;資料夾中新增內容時，他們可以發佈貢獻資料夾回Experience Manager作者環境。 請注意，可能需要幾分鐘的時間來完成匯入，並在Experience Manager Assets中反映新發佈的內容。
+**Asset Sourcing**&#x200B;可讓Experience Manager Assets使用者（管理員/非管理員使用者）使用額外的&#x200B;**資產貢獻**&#x200B;屬性來建立新資料夾，確保所建立的新資料夾可供Brand Portal使用者提交資產。 這會自動觸發工作流程，在新建立的&#x200B;**貢獻**&#x200B;資料夾中建立兩個額外的子資料夾，稱為&#x200B;**SHARED**&#x200B;和&#x200B;**NEW**。 管理員會上傳應新增至貢獻資料夾的資產型別簡介，以定義需求。 他們上傳一組基準資產至&#x200B;**共用**&#x200B;資料夾，為Brand Portal使用者提供必要的參考資訊。 然後，在將新建立的「**貢獻**」資料夾發佈至 Brand Portal 前，管理員可以把貢獻資料夾存取權授予使用中的 Brand Portal 使用者。 當使用者完成在&#x200B;**NEW**&#x200B;資料夾中新增內容時，他們可以發佈貢獻資料夾回Experience Manager作者環境。 請注意，可能需要幾分鐘的時間來完成匯入，並在Experience Manager Assets中反映新發佈的內容。
 
 此外，所有現有功能保持不變。 Brand Portal使用者可以從貢獻資料夾以及其他允許的資料夾中檢視、搜尋和下載資產。 而管理員可以進一步共用貢獻資料夾、修改屬性，以及將資產新增至集合中。
 
@@ -46,9 +56,9 @@ ht-degree: 11%
 
 >[!NOTE]
 >
->Experience Manager Assets 6.5.4有一個已知問題。Brand Portal使用者升級至Adobe Developer Console時，無法將貢獻資料夾的資產發佈至Experience Manager Assets。
+>Experience Manager Assets 6.5.4有一個已知問題。 Brand Portal使用者升級至Adobe Developer Console時，無法將貢獻資料夾的資產發佈至Experience Manager Assets。
 >
->此問題已在 Experience Manager Assets 6.5.5 中修正。您可以將 Experience Manager Assets 執行個體升級到最新 Service Pack，並在 Adobe Developer Console 上[升級您的設定](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal#upgrade-integration-65)。
+>Experience Manager Assets 6.5.5已修正此問題。 您可以將您的Experience Manager Assets執行個體升級至最新的Service Pack，並在Adobe Developer Console上[升級您的設定](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/assets/brandportal/configure-aem-assets-with-brand-portal#upgrade-integration-65)。
 
 <!--
 

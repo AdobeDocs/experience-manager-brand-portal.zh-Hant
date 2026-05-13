@@ -1,19 +1,29 @@
 ---
-title: 自訂壁紙、標題和電子郵件訊息
+title: 自訂背景圖案、頁首和電子郵件訊息
 description: Brand Portal管理員可以對向使用者顯示的介面進行有限的自訂。 您可以為Brand Portal登入頁面選擇特定的背景影像（桌布）。 您也可以新增標題影像和自訂資產共用電子郵件，以符合客戶的品牌。
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: administration
 role: Admin
 exl-id: 9f5c2a6a-8844-4ca4-b0d9-8f50b6164219
-source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
+TQID: https://experienceleague.adobe.com/hYCuP-z0l45Qc7ZXOjsgFptFF8QGhRp-62iDNFJ1x-o
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: cda65036-5305-4f01-89da-9b3506ae8c50
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
-source-wordcount: '761'
-ht-degree: 0%
+source-wordcount: 761
+ht-degree: 3%
 
 ---
 
-# 自訂壁紙、標題和電子郵件訊息 {#customize-wallpaper-header-and-email-message}
+# 自訂背景圖案、頁首和電子郵件訊息 {#customize-wallpaper-header-and-email-message}
 
 Brand Portal管理員可以對向使用者顯示的介面進行有限的自訂。 您可以為Brand Portal登入頁面選擇特定的背景影像（桌布）。 您也可以新增標題影像和自訂資產共用電子郵件，以符合客戶的品牌。
 
@@ -62,7 +72,7 @@ Brand Portal管理員可以對向使用者顯示的介面進行有限的自訂�
 
    ![](assets/chlimage_1-2.png)
 
-   * 按一下[儲存]儲存變更。**&#x200B;**
+   * 按一下「**[!UICONTROL 儲存]**」以儲存變更。
 
 ## 自訂標題 {#customize-the-header}
 
@@ -91,7 +101,7 @@ Brand Portal管理員可以對向使用者顯示的介面進行有限的自訂�
    ![](assets/asset-picker-header.png)
 
 1. 若要在頁首影像中包含URL，請在&#x200B;**[!UICONTROL 影像URL]**&#x200B;方塊中指定。 您可以指定外部或內部URL。 內部連結也可以是相對連結，例如，
-   [!UICONTROL `/mediaportal.html/content/dam/mac/tenant_id/tags`]。
+   [!UICONTROL `/mediaportal.html/content/dam/mac/tenant_id/tags`].
 此連結會將使用者導向至標籤資料夾。
 若要儲存變更，請從頂端的工具列按一下&#x200B;**[!UICONTROL [儲存]。]**
 
@@ -112,7 +122,7 @@ Brand Portal管理員可以對向使用者顯示的介面進行有限的自訂�
 
    ![](assets/chlimage_1-5.png)
 
-   * 按一下[儲存]儲存變更。**&#x200B;**
+   * 按一下「**[!UICONTROL 儲存]**」以儲存變更。
 
 ## 自訂電子郵件訊息 {#customize-the-email-messaging}
 

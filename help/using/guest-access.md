@@ -1,19 +1,33 @@
 ---
-title: Brand Portal的訪客存取權
+title: Brand Portal 的訪客存取權
 description: 允許訪客存取，並省下在未驗證的情況下上線許多使用者的工作量。
 contentOwner: VG
 topic-tags: introduction
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 exl-id: ecce0a45-abae-41c4-9ea7-5dfdcf19e5ea
-source-git-commit: 4c701781e7dc62b9d2b018fd13b1ae9616bbb840
+TQID: https://experienceleague.adobe.com/oyNPb7pxN7VLKQJko76nRzM2H1xL7e-s3E--FDTREf0
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+subfeature_v2:
+  - id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
-source-wordcount: '1048'
-ht-degree: 0%
+source-wordcount: 1051
+ht-degree: 3%
 
 ---
 
-# Brand Portal的訪客存取權 {#guest-access-to-brand-portal}
+# Brand Portal 的訪客存取權 {#guest-access-to-brand-portal}
 
 Experience Manager Assets Brand Portal允許訪客存取入口網站。 訪客使用者不需要認證即可進入入口網站，且可以存取入口網站的公開資產（和集合）。 訪客工作階段中的使用者可以將資產新增至Lightbox （私人集合）並下載相同的資產，直到其工作階段持續存在，或除非訪客使用者選擇[[!UICONTROL 結束工作階段]](#exit-guest-session)。 訪客使用者工作階段會維持15分鐘作用中。
 
@@ -40,7 +54,7 @@ Removed the first para: "AEM Assets Brand Portal allows public users to enter th
 訪客使用者工作階段會維持15分鐘作用中。
 此程式會將&#x200B;**[!UICONTROL Lightbox]**&#x200B;的狀態從工作階段開始時間保留15分鐘。 之後，目前的來賓工作階段會重新啟動，導致Lightbox狀態遺失。
 
-例如，某個訪客使用者在1500小時登入Brand Portal，並在15:05小時將資產新增至&#x200B;**[!UICONTROL Lightbox]**&#x200B;進行下載。 如果使用者未在15:15小時（登入後15分鐘內）之前下載&#x200B;**[!UICONTROL Lightbox]**&#x200B;集合（或其資產），則使用者必須重新啟動工作階段。 **[!UICONTROL Lightbox]**&#x200B;是空的，這表示如果工作階段遺失，已上傳的資產將無法再使用。
+例如，某個訪客使用者在1500小時登入Brand Portal，並在15:05小時將資產新增至&#x200B;**[!UICONTROL Lightbox]**&#x200B;進行下載。 如果使用者未在15:15小時（登入後15分鐘內）前下載&#x200B;**[!UICONTROL Lightbox]**&#x200B;集合（或其資產），則使用者必須重新啟動工作階段。 **[!UICONTROL Lightbox]**&#x200B;是空的，這表示如果工作階段遺失，已上傳的資產將無法再使用。
 
 ## 允許並行來賓工作階段 {#concurrent-guest-sessions-allowed}
 
@@ -61,13 +75,13 @@ Removed the first para: "AEM Assets Brand Portal allows public users to enter th
 
 如果管理員啟用[啟用資料夾階層](../using/brand-portal-general-configuration.md#main-pars-header-1621071021)，訪客使用者在登入Brand Portal時，會從父資料夾中的根資料夾和共用資料夾看到資料夾樹狀結構。
 
-這些父資料夾是虛擬資料夾，無法對它們執行任何動作。 您可以使用鎖定圖示來辨識這些虛擬資料夾。
+這些父資料夾是虛擬資料夾，無法對它們執行任何動作。 您可以透過鎖定圖示識別這些虛擬資料夾。
 
 和共用資料夾不同，在&#x200B;**[!UICONTROL 卡片檢視]**&#x200B;中，暫留或選取時不會顯示任何動作工作。 在&#x200B;**[!UICONTROL 欄檢視]**&#x200B;和&#x200B;**[!UICONTROL 清單檢視]**&#x200B;中選取虛擬資料夾時，會顯示&#x200B;**[!UICONTROL 總覽]**&#x200B;按鈕。
 
 >[!NOTE]
 >
->虛擬資料夾的預設縮圖是第一個共用資料夾的縮圖影像。
+>虛擬資料夾的預設縮圖為最先共用之資料夾的縮圖影像。
 
 ![](assets/enabled-hierarchy1.png) ![](assets/hierarchy1-nonadmin.png) ![](assets/hierarchy-nonadmin.png) ![](assets/hierarchy2-nonadmin.png)
 

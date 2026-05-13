@@ -1,57 +1,72 @@
 ---
 title: 下載資產
-description: All users can download accessible assets and folders at the same time, ensuring that approved brand assets are securely distributed for offline use.
+description: 所有使用者可以同時下載可存取的資產和資料夾，確保核准的品牌資產安全地分送以供離線使用。
 content-type: reference
 contentOwner: Vishabh Gupta
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download, download-install, download assets
 exl-id: be264b1c-38d9-4075-b56a-113f34a2c6bf
-source-git-commit: 6194eb5697ef48c9693c00a7a51322ef4827cdc3
+TQID: https://experienceleague.adobe.com/RxwM021BfmZtMB1oi-EtwMuHinMTOKclwEUNjcQu6o4
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: bd0d2470-932c-4269-8eca-6d939b72d9ef
+  - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+subfeature_v2:
+  - id: cf50b0d2-df62-495c-a741-4fa0284ca4fc
+  - id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+  - id: ee69dd13-2aba-4eb0-912b-399e82368d73
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
-source-wordcount: '1957'
+source-wordcount: 1957
 ht-degree: 11%
 
 ---
 
 # 下載資產 {#download-assets-from-bp}
 
-Adobe Experience Manager Assets Brand Portal enhances the download experience by letting users simultaneously download assets and folders accessible to them from Brand Portal. This method means that approved brand assets can be securely distributed for offline use. Read on to know how to download assets (approved assets) from Brand Portal, and what to expect from the [download performance](#expected-download-performance).
+Adobe Experience Manager Assets Brand Portal可讓使用者同時下載可從Brand Portal存取的資產和資料夾，藉此增強下載體驗。 此方法表示核准的品牌資產可以安全地發佈，以供離線使用。 請閱讀下文，瞭解如何從Brand Portal下載資產（已核准的資產），以及[下載效能](#expected-download-performance)的期望。
 
 
 >[!NOTE]
 >
->In Brand Portal 2020.10.0 (and above), the **[!UICONTROL Fast Download]** setting is enabled by default, which uses IBM® Aspera Connect for accelerated download of the assets. Install IBM® Aspera Connect 3.9.9 (`https://www.ibm.com/docs/en/aspera-connect/3.9.9`) in your browser&#39;s extension before downloading the assets from Brand Portal. See the [guide to accelerate downloads from Brand Portal](../using/accelerated-download.md).
+>在Brand Portal 2020.10.0 （及更新版本）中，**[!UICONTROL 快速下載]**&#x200B;設定預設為啟用，會使用IBM® Aspera Connect來加速下載資產。 從Brand Portal下載資產之前，請在瀏覽器的擴充功能中安裝IBM® Aspera Connect 3.9.9 (`https://www.ibm.com/docs/en/aspera-connect/3.9.9`)。 請參閱[指南以加速從Brand Portal](../using/accelerated-download.md)下載。
 >
->If you do not want to use IBM® Aspera Connect and continue with the normal download process, contact the Brand Portal administrator to turn off the **[!UICONTROL Fast Download]** setting.
+>如果您不想使用® Aspera Connect並繼續正常下載程式，請聯絡Brand Portal管理員以關閉&#x200B;**[!UICONTROL 快速下載]**&#x200B;設定。
 
-## Configure asset download {#configure-download}
+## 設定資產下載 {#configure-download}
 
-Brand Portal administrators can configure the asset download and user group settings for Brand Portal users. This ability lets users access and download asset renditions from the Brand Portal interface.
+Brand Portal管理員可以為Brand Portal使用者設定資產下載和使用者群組設定。 此功能可讓使用者從Brand Portal介面存取及下載資產轉譯。
 
 >[!NOTE]
 >
->The download settings on the user interface provide a self-service experience for Brand Portal users, letting them configure and download asset renditions easily. It does not restrict the download of assets at the application layer, for example, the users can still access and download asset renditions with the complete URL path.
+>使用者介面上的下載設定可為Brand Portal使用者提供自助式體驗，讓他們輕鬆設定和下載資產轉譯。 它不會限制在應用程式層的資產下載，例如，使用者仍然可以存取和下載具有完整URL路徑的資產轉譯。
 
-The following configurations define how you access and download the asset renditions from the Brand Portal interface:
+以下設定會定義如何從Brand Portal介面存取及下載資產轉譯：
 
-* Enable download settings
-* Configure user group settings
+* 啟用下載設定
+* 設定使用者群組設定
 
-### Enable download settings {#enable-download-settings}
+### 啟用下載設定 {#enable-download-settings}
 
-The administrators can enable the **[!UICONTROL Download Settings]** to define the set of renditions accessible to the Brand Portal users for download.
+管理員可以啟用&#x200B;**[!UICONTROL 下載設定]**，以定義Brand Portal使用者可存取的轉譯集以供下載。
 
-The available settings are:
+可用的設定包括：
 
 * **[!UICONTROL 快速下載]**
 
-  It provides accelerated download of the assets using IBM® Aspera Connect. By default, the **[!UICONTROL Fast Download]** setting is enabled in the **[!UICONTROL Download Settings]**.
+  它提供使用® Aspera Connect加速資產下載的功能。 預設會在&#x200B;**[!UICONTROL 下載設定]**&#x200B;中啟用&#x200B;**[!UICONTROL 快速下載]**&#x200B;設定。
 
 * **[!UICONTROL 自訂轉譯]**
 
-  Enables downloading custom and (or) dynamic renditions of the assets.
+  啟用下載資產的自訂和（或）動態轉譯。
 
-  All the asset renditions other than the original asset and system-generated renditions are called custom renditions. 其中包含資產可用的靜態和動態轉譯。 任何使用者都可以在Experience Manager Assets中建立自訂靜態轉譯，但只有管理員才能建立自訂動態轉譯。 請參閱如何套用影像預設集或動態轉譯[。](../using/brand-portal-image-presets.md)
+  除了原始資產和系統產生的轉譯之外的所有資產轉譯都稱為自訂轉譯。 其中包含資產可用的靜態和動態轉譯。 任何使用者都可以在Experience Manager Assets中建立自訂靜態轉譯，但只有管理員才能建立自訂動態轉譯。 請參閱如何套用影像預設集或動態轉譯[。](../using/brand-portal-image-presets.md)
 
 * **[!UICONTROL 系統轉譯]**
 

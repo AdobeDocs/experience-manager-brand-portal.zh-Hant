@@ -6,10 +6,23 @@ topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 role: Admin
 exl-id: 35b1fd75-f9e4-4145-80bd-84de091f8b2b
-source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
+TQID: https://experienceleague.adobe.com/CxUuu1tgxUNjW4TD-vgW-LGn2y9-4avL-mc9eykqBQM
+product_v2:
+  - id: d09181b5-a36a-43de-ba01-36641440bc43
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: cda65036-5305-4f01-89da-9b3506ae8c50
+  - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+subfeature_v2:
+  - id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
-source-wordcount: '2166'
-ht-degree: 0%
+source-wordcount: 2233
+ht-degree: 1%
 
 ---
 
@@ -17,7 +30,7 @@ ht-degree: 0%
 
 管理員可以使用Adobe Admin Console建立Experience Manager Assets Brand Portal使用者和產品設定檔，並使用Brand Portal使用者介面管理其角色。 檢視者和編輯者無法使用此許可權。
 
-在[[!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview)中，您可以檢視與您的組織相關聯的所有產品。 產品可以是任何Experience Cloud解決方案，例如Adobe Analytics、Adobe Target或Experience Manager Assets Brand Portal。 選擇AEM Brand Portal產品，並建立產品設定檔。
+在[[!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview)中，您可以檢視與貴組織相關聯的所有產品。 產品可以是任何Experience Cloud解決方案，例如Adobe Analytics、Adobe Target或Experience Manager Assets Brand Portal。 選擇AEM Brand Portal產品，並建立產品設定檔。
 
 <!--
 Comment Type: draft
@@ -33,19 +46,19 @@ Comment Type: draft
 
 >[!NOTE]
 >
->若要在Brand Portal中建立群組，請從Adobe[!UICONTROL Admin Console]，使用&#x200B;**[!UICONTROL 產品>產品設定檔]**，而非&#x200B;**[!UICONTROL 使用者頁面>使用者群組]**。 Adobe[!UICONTROL Admin Console]中的產品設定檔是用來在Brand Portal中建立群組。
+>若要在Brand Portal中建立群組，請從Adobe [!UICONTROL Admin Console]，使用&#x200B;**[!UICONTROL 產品>產品設定檔]**，而非&#x200B;**[!UICONTROL 使用者頁面>使用者群組]**。 Adobe [!UICONTROL Admin Console]中的產品設定檔是用來在Brand Portal中建立群組。
 
 ## 新增使用者 {#add-a-user}
 
-如果您是產品管理員，請使用Adobe[[!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview)來建立使用者，並將他們指派給產品設定檔（*先前稱為產品設定*），這些設定檔在Brand Portal中顯示為群組。 您可以使用群組來執行大量作業，例如角色管理和資產共用。
+如果您是產品管理員，請使用Adobe [[!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview)建立使用者，並將他們指派給產品設定檔（*先前稱為產品設定*），這些設定檔在Brand Portal中顯示為群組。 您可以使用群組來執行大量作業，例如角色管理和資產共用。
 
 >[!NOTE]
 >
->無權存取Brand Portal的新使用者可以從Brand Portal的登入畫面請求存取權。 如需詳細資訊，請參閱[要求存取Brand Portal](../using/brand-portal.md#request-access-to-brand-portal)。 在通知區域收到存取權要求通知後，請按一下相關的通知，然後按一下[授與存取權]。**&#x200B;** 或者，您也可以按照收到的存取要求電子郵件中的連結進行操作。 接下來，若要透過[Adobe[!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview)新增使用者，請遵循下列程式中的步驟4-7。
+>無權存取Brand Portal的新使用者可以從Brand Portal的登入畫面請求存取權。 如需詳細資訊，請參閱[要求存取Brand Portal](../using/brand-portal.md#request-access-to-brand-portal)。 在通知區域收到存取權要求通知後，請按一下相關的通知，然後按一下[授與存取權]。**&#x200B;** 或者，您也可以按照收到的存取要求電子郵件中的連結進行操作。 接下來，若要透過[Adobe [!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview)新增使用者，請遵循下列程式中的步驟4-7。
 
 >[!NOTE]
 >
->您可以直接或從Brand Portal登入[Adobe[!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview)。 如果您直接登入，請依照下列步驟4-7新增使用者。
+>您可以直接或從Brand Portal登入[Adobe [!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview)。 如果您直接登入，請依照下列步驟4-7新增使用者。
 
 1. 從頂端的AEM工具列中，按一下Adobe標誌以存取管理工具。
 
@@ -59,7 +72,7 @@ Comment Type: draft
 
    ![啟動Admin Console的使用者角色](assets/launch_admin_console.png)
 
-1. 在Admin Console中，執行下列任一項作業以建立新使用者：
+1. 在Admin Console中，執行下列任一項作業來建立新使用者：
 
    * 從頂端的工具列按一下&#x200B;**[!UICONTROL 概觀]**。 在[!UICONTROL 總覽]頁面中，按一下Brand Portal產品卡片上的&#x200B;**[!UICONTROL 指派使用者]**。
 
@@ -74,11 +87,11 @@ Comment Type: draft
    ![將使用者新增至Brand Portal](assets/add_user_to_aem_bp.png)
 
 1. 將使用者指派給至少一個產品設定檔（先前稱為產品設定），讓使用者可以存取Brand Portal。 從&#x200B;**[!UICONTROL 選取適當的產品設定檔請為此產品]**&#x200B;欄位選取設定檔。
-1. 按一下「**[!UICONTROL 儲存]**」。歡迎電子郵件會傳送給新新增的使用者。 受邀使用者可以按一下歡迎電子郵件中的連結，以存取Brand Portal。 使用者可以使用Admin Console中設定的電子郵件ID ([!UICONTROL Adobe ID]、[!UICONTROL Enterprise ID]或[!UICONTROL Federated ID])登入。 如需詳細資訊，請參閱[首次登入體驗](../using/brand-portal-onboarding.md)。
+1. 按一下「**[!UICONTROL 儲存]**」。 歡迎電子郵件會傳送給新新增的使用者。 受邀使用者可以按一下歡迎電子郵件中的連結，以存取Brand Portal。 使用者可以使用Admin Console中設定的電子郵件ID （[!UICONTROL Adobe ID]、[!UICONTROL Enterprise ID]或[!UICONTROL Federated ID]）登入。 如需詳細資訊，請參閱[首次登入體驗](../using/brand-portal-onboarding.md)。
 
    >[!NOTE]
    >
-   >如果使用者無法登入Brand Portal，組織的管理員應該造訪Adobe[!UICONTROL Admin Console]。 檢查使用者是否出現且已新增至至少一個產品設定檔。
+   >如果使用者無法登入Brand Portal，組織的管理員應該造訪Adobe [!UICONTROL Admin Console]。 檢查使用者是否出現且已新增至至少一個產品設定檔。
 
    如需有關授予使用者管理許可權的資訊，請參閱[提供系統管理員許可權給使用者](../using/brand-portal-adding-users.md#provideadministratorprivilegestousers)。
 
@@ -117,7 +130,7 @@ Comment Type: draft
 
 ## 將使用者新增至產品設定檔 {#add-users-to-a-product-profile}
 
-若要將使用者新增至Brand Portal群組，請在[!UICONTROL Admin Console]中將使用者新增至對應的產品設定檔（先前稱為產品設定）。 您可以個別或大量新增使用者。
+若要將使用者新增至Brand Portal群組，請在[!UICONTROL Admin Console]中將他們新增至對應的產品設定檔（先前稱為產品設定）。 您可以個別或大量新增使用者。
 
 >[!NOTE]
 >
@@ -150,7 +163,7 @@ Comment Type: draft
 
    ![將使用者新增至群組](assets/admin_console_addusertosalesgroup.png)
 
-   * 按一下「**[!UICONTROL 儲存]**」。
+   * 按一下&#x200B;**[!UICONTROL 儲存]**。
 
 1. 若要將大量使用者新增至產品設定檔，請執行以下操作：
 
@@ -170,7 +183,7 @@ Comment Type: draft
 
 ## 提供管理員許可權給使用者 {#provide-administrator-privileges-to-users}
 
-您可以授予Brand Portal使用者系統管理員或產品管理員許可權。 但是，請避免在[!UICONTROL 角色]中指派其他可用的管理Admin Console。 例如，產品設定檔管理員、使用者群組管理員和支援管理員。 請參閱[系統管理角色](https://helpx.adobe.com/tw/enterprise/using/admin-roles.html)。
+您可以授予Brand Portal使用者系統管理員或產品管理員許可權。 不過，請避免指派[!UICONTROL Admin Console]中可用的其他管理角色。 例如，產品設定檔管理員、使用者群組管理員和支援管理員。 請參閱[系統管理角色](https://helpx.adobe.com/tw/enterprise/using/admin-roles.html)。
 
 >[!NOTE]
 >
@@ -194,7 +207,7 @@ Comment Type: draft
    ![在Admin Console中新增使用者](assets/admin_console_adduseruserpage.png)
 
 1. 在使用者設定檔頁面中，找出底部的&#x200B;**[!UICONTROL 管理許可權]**&#x200B;區段，然後選擇&#x200B;**[!UICONTROL 省略符號(...) >編輯管理許可權]**。
-   Admin Console![&#128279;](assets/admin_console_editadminrights.png)中的管理員許可權
+   Admin Console中的![管理員許可權](assets/admin_console_editadminrights.png)
 
 1. 在[!UICONTROL 編輯管理員]頁面中，選取「系統管理員」或「產品管理員」。
 
@@ -204,7 +217,7 @@ Comment Type: draft
    >
    >Brand Portal僅支援系統管理員和產品管理員角色。
    >
-   >Adobe建議您避免使用「系統管理員」角色，因為它會授予組織內所有產品的全組織管理員許可權。 例如，組織的系統管理員包括用於行銷的三個雲端產品，擁有所有三個產品的完整許可權集。 只有系統管理員可以設定Experience Manager Assets，以便資產可以從Experience Manager Assets發佈到Brand Portal。 如需詳細資訊，請參閱[使用Brand Portal設定Experience Manager Assets](../using/configure-aem-assets-with-brand-portal.md)。
+   >Adobe建議您避免使用系統管理員角色，因為它會授予組織內所有產品的全組織管理員許可權。 例如，組織的系統管理員包括用於行銷的三個雲端產品，擁有所有三個產品的完整許可權集。 只有系統管理員可以設定Experience Manager Assets，以便資產可以從Experience Manager Assets發佈到Brand Portal。 如需詳細資訊，請參閱[使用Brand Portal設定Experience Manager Assets](../using/configure-aem-assets-with-brand-portal.md)。
    >
    >相反地，「產品管理員」角色僅授予特定產品的管理員許可權。 如果您想要在Brand Portal中實施更精細的存取控制，請使用產品管理員角色，並將產品選為Brand Portal。
 
@@ -252,7 +265,7 @@ Comment Type: draft
    >如果使用者是編輯器群組的成員，也會停用使用者角色。 若要撤銷使用者的編輯許可權，請將該使用者從「編輯器」群組中移除，或將整個群組的角色變更為「檢視器」。
 
 
-1. 按一下「**[!UICONTROL 儲存]**」。會針對對應的使用者修改角色。 如果您選取了多個使用者，則會同時修改所有使用者的角色。
+1. 按一下「**[!UICONTROL 儲存]**」。 會針對對應的使用者修改角色。 如果您選取了多個使用者，則會同時修改所有使用者的角色。
 
    >[!NOTE]
    >
@@ -307,7 +320,7 @@ Comment Type: draft
    >此外，存取影像檔案原始轉譯的任何限制都不會套用至管理員，即使管理員是受限制群組的成員。
 
 
-1. 按一下「**[!UICONTROL 儲存]**」。會針對對應的群組修改角色。
+1. 按一下「**[!UICONTROL 儲存]**」。 會針對對應的群組修改角色。
 
    >[!NOTE]
    >
