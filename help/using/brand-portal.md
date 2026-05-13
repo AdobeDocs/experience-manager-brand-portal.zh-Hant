@@ -5,10 +5,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 exl-id: 0f2c45e4-416e-451a-905b-06c5e42a9272
-source-git-commit: 2810c95d24ab4259d2b61f78233d3a78c7da0dc1
+TQID: https://experienceleague.adobe.com/oBDmsUsNSLapEzQa9r4J-vZqTz2qe0cPW6hU1EYzrXU
+product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+subfeature_v2: id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
-source-wordcount: '1629'
-ht-degree: 6%
+source-wordcount: 1714
+ht-degree: 14%
 
 ---
 
@@ -20,8 +26,8 @@ ht-degree: 6%
 
 **Adobe Experience Manager (AEM) Assets Brand Portal**&#x200B;著重於行銷人員提供資產發佈和資產貢獻功能，與分散於全球各地的Brand Portal使用者有效合作的需求。
 
-資產散佈可讓您取得、控制經核准的創意資產，並安全地將其散佈至跨裝置的外部團體和內部業務使用者。 不過，資產貢獻可讓Brand Portal使用者將資產上傳到Brand Portal並發佈到Experience Manager Assets，而不需要存取作者環境。 在Brand Portal **中，貢獻功能稱為**&#x200B;Assets Sourcing。 同時，它改善了資產分銷的整體Brand Portal體驗和Brand Portal使用者（外部機構/團隊）的貢獻，加快資產上市時間，並降低不合規和未經授權存取的風險。
-請參閱Brand Portal[&#128279;](brand-portal-asset-sourcing.md)中的資產來源。
+資產散佈可讓您取得、控制經核准的創意資產，並安全地將其散佈至跨裝置的外部團體和內部業務使用者。 不過，資產貢獻可讓Brand Portal使用者將資產上傳到Brand Portal並發佈到Experience Manager Assets，而不需要存取作者環境。 在Brand Portal **中，貢獻功能稱為**Assets Sourcing。 同時，它改善了資產分銷的整體Brand Portal體驗和Brand Portal使用者（外部機構/團隊）的貢獻，加快資產上市時間，並降低不合規和未經授權存取的風險。
+請參閱Brand Portal](brand-portal-asset-sourcing.md)中的[資產來源。
 
 瀏覽器式入口網站環境可讓您以核准的格式輕鬆上傳、瀏覽、搜尋、預覽和匯出資產。
 
@@ -35,9 +41,9 @@ ht-degree: 6%
 
 >[!IMPORTANT]
 >
-> * Brand Portal處於維護模式。 所有新產品創新都可在[Content Hub](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview)上取得。
-> * 如果您還是需要啟用Brand Portal，請聯絡您的Adobe代表，瞭解您的使用案例和其他特定要求的詳細資訊。
-> * Brand Portal不適用於[Assets Prime](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/assets-prime)或[Assets Ultimate](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/assets-ultimate-overview)。 不過，已能存取Assets as a Cloud Service的現有Brand Portal客戶在轉換至Assets Ultimate時，仍可繼續使用。
+> * Brand Portal 目前處於維護模式。 所有新增的產品創新可於 [Content Hub](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview) 上取得。
+> * 如果您仍需要啟用 Brand Portal，請聯絡 Adobe 代表，並提供您的使用案例詳細資訊以及其他特定要求。
+> * [Assets Prime](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/assets-prime) 或 [Assets Ultimate](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-cloud-service/content/assets/assets-ultimate-overview) 無法使用 Brand Portal。 但是，已經擁有 Brand Portal 存取權的現有 Assets as a Cloud Service 客戶，在轉換到 Assets Ultimate 時仍可以繼續使用。
 
 <!--Experience Manager Assets as a Cloud Service is automatically configured with Brand Portal by activating Brand Portal from the Cloud Manager. The activation workflow creates the required configurations at the backend and activates Brand Portal on the same IMS org as of the Experience Manager Assets as a Cloud Service instance.-->
 
@@ -133,8 +139,8 @@ Experience Manager Assets Brand Portal允許[訪客存取](#request-access-to-br
 除了上述工作之外，AEM Assets中的作者還可以執行下列工作：
 
 * [使用Brand Portal設定AEM Assets](../using/configure-aem-assets-with-brand-portal.md)
-* [將資料夾發佈至 Brand Portal](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/assets/brandportal/brand-portal-publish-folder)
-* [將集合發佈至 Brand Portal](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/assets/brandportal/brand-portal-publish-collection)
+* [將資料夾發佈至Brand Portal](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/assets/brandportal/brand-portal-publish-folder)
+* [將集合發佈至Brand Portal](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/assets/brandportal/brand-portal-publish-collection)
 
 ## Brand Portal URL的替代別名 {#tenant-alias-for-portal-url}
 
@@ -156,7 +162,7 @@ Brand Portal 6.4.3以後，組織可以針對其Brand Portal租使用者的每�
 
 若要要求存取權，請執行下列動作：
 
-1. 從Brand Portal登入頁面中，選取&#x200B;**[!UICONTROL 按一下這裡]** （對應&#x200B;**[!UICONTROL 需要存取權？）]**。但是，若要輸入來賓工作階段，請選取與&#x200B;**[!UICONTROL 來賓存取？]**&#x200B;相對應的&#x200B;**[!UICONTROL 按一下這裡]**。
+1. 從Brand Portal登入頁面中，選取&#x200B;**[!UICONTROL 按一下這裡]** （對應&#x200B;**[!UICONTROL 需要存取權？]**）。 但是，若要輸入來賓工作階段，請選取與&#x200B;**[!UICONTROL 來賓存取？]**&#x200B;相對應的&#x200B;**[!UICONTROL 按一下這裡]**。
 
    ![Brand Portal登入畫面](assets/bp-login-requestaccess.png)
 
@@ -166,7 +172,7 @@ Brand Portal 6.4.3以後，組織可以針對其Brand Portal租使用者的每�
 
    在[!UICONTROL 要求存取]頁面中，使用您的ID登入（案例1）或建立[!UICONTROL Adobe ID] （案例2）：
 
-   ![[!UICONTROL 要求存取權]](assets/bplogin_request_access_2.png)
+   ![[!UICONTROL 請求存取權]](assets/bplogin_request_access_2.png)
 
    **案例1**
 
@@ -202,7 +208,7 @@ Brand Portal產品管理員會在其Brand Portal通知區域及收件匣中的�
 
 ![存取要求的通知](assets/bplogin_request_access_7.png)
 
-若要授與存取權，產品管理員需要按一下Brand Portal通知區域中的相關通知，然後按一下[授與存取權]。**&#x200B;**
+若要授與存取權，產品管理員需要按一下Brand Portal通知區域中的相關通知，然後按一下[授與存取權]。****
 或者，產品管理員也可以依照存取要求電子郵件中提供的連結，造訪Adobe [!UICONTROL Admin Console]，並將使用者新增至相關的產品設定。
 
 系統已將您重新導向至[Adobe [!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview)首頁。 使用Adobe [!UICONTROL Admin Console]建立使用者，並將他們指派給產品設定檔（先前稱為產品設定），這些設定檔在Brand Portal中顯示為群組。 如需在[!UICONTROL Admin Console]中新增使用者的詳細資訊，請參閱[新增使用者](brand-portal-adding-users.md#add-a-user) （請依照程式中的步驟4-7新增使用者）。
@@ -241,4 +247,4 @@ Brand Portal產品管理員會在其Brand Portal通知區域及收件匣中的�
 * [Adobe Customer Support]()
 -->
 
-* [AEM論壇](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community?profile.language=zh-Hant)
+* [AEM論壇](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community)

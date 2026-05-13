@@ -5,10 +5,15 @@ content-type: reference
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: ff2dc92ea112a95c90724f06f141221ffdef33a1
+TQID: https://experienceleague.adobe.com/e2-MbP-f0xwBB8JLpb-7V80uNP-0N8cCnJeCLJCfRm0
+product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: bd0d2470-932c-4269-8eca-6d939b72d9efid: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+subfeature_v2: id: a0cde32c-c339-4649-bd06-f1111bc952fcid: e00c7c12-7035-41fe-ad76-1ec82c8c3f01id: f0e3b2ca-813f-4b7a-81df-52339e17ddcf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
-source-wordcount: '1595'
-ht-degree: 96%
+source-wordcount: 1633
+ht-degree: 93%
 
 ---
 
@@ -25,7 +30,7 @@ ht-degree: 96%
 
 ## 概觀 {#overview}
 
-Adobe Experience Manager (AEM) Assets Brand Portal 能協助您橫跨多種裝置輕鬆地取得和控制已核准的創意資產，並安全地向外部對象及內部業務使用者分發這些資產。其能協助提高資產共用的效率、縮短資產的上市時間，以及降低不合規和未經授權存取的風險。Brand Portal 讓使用者能夠隨時隨地以公司核准的格式瀏覽、搜尋、預覽、下載和匯出資產。
+Adobe Experience Manager (AEM) Assets Brand Portal 能協助您橫跨多種裝置輕鬆地取得和控制已核准的創意資產，並安全地向外部對象及內部業務使用者分發這些資產。 其能協助提高資產共用的效率、縮短資產的上市時間，以及降低不合規和未經授權存取的風險。 Brand Portal 讓使用者能夠隨時隨地以公司核准的格式瀏覽、搜尋、預覽、下載和匯出資產。
 
 ## 2026.01.01 新增功能 {#whats-new-in-2026.01.01}
 
@@ -109,7 +114,7 @@ Adobe Experience Manager (AEM) Assets Brand Portal 能協助您橫跨多種裝�
 ### 2023 年 5 月版本 {#may-2023}
 
 **錯誤修正**
-此版本包含以下重大問題的修正：
+此版本包含下列嚴重問題的修正：
 
 * 如果從共用連結下載資產時發生錯誤，錯誤提示的 `Notice` 和 `Close` 標籤未本地化。
 * 使用 `Filter` 窗格存取搜尋篩選器時，Brand Portal 顯示&#x200B;**請求頁首欄位過大**&#x200B;錯誤。
@@ -127,7 +132,7 @@ Adobe Experience Manager (AEM) Assets Brand Portal 能協助您橫跨多種裝�
 此版本包含以下重大問題的修正：
 
 * 無法在 Brand Portal 上更新基本資料圖片。
-* 內容樹狀結構窗格無法調整大小。如果檔案名稱長度超過內容樹狀結構的預設寬度，則無法水平和垂直拖曳內容樹狀結構。因此，無法讀取較長的檔名。
+* 內容樹狀結構窗格無法調整大小。 如果檔案名稱長度超過內容樹狀結構的預設寬度，則無法水平和垂直拖曳內容樹狀結構。 因此，無法讀取較長的檔名。
 * 在搜尋表單中兩次皆使用相同的屬性述詞時，搜尋結果並不一致。
 * 中間登入頁面上的文字並未針對所有語言進行本地化。
 
@@ -136,7 +141,7 @@ Adobe Experience Manager (AEM) Assets Brand Portal 能協助您橫跨多種裝�
 此版本包含下列增強功能:
 
 * 現在可以使用新的現代 PDF 檢視器，讓 PDF 資產的預覽畫面更清楚。
-* 您現在可以選擇啟用或停用管理員的資產來源通知。導覽至「[!UICONTROL 一般設定]」，然後啟用或停用 [!UICONTROL `Notify Administrator of asset contribution`]。
+* 您現在可以選擇啟用或停用管理員的資產來源通知。 導覽至「[!UICONTROL 一般設定]」，然後啟用或停用 [!UICONTROL `Notify Administrator of asset contribution`]。
 
   ![通知管理員資產貢獻情形](assets/notify-admin.png)
 
@@ -162,7 +167,7 @@ Adobe Experience Manager (AEM) Assets Brand Portal 能協助您橫跨多種裝�
 
 >[!IMPORTANT]
 >
->AEM Assets Brand Portal 中的即時簡短通知將於 2022 年 12 月 1 日起停止使用。您不再收到即時簡短通知，而會收到以下事件的電子郵件通知：
+>AEM Assets Brand Portal 中的即時簡短通知將於 2022 年 12 月 1 日起停止使用。 您不再收到即時簡短通知，而會收到以下事件的電子郵件通知：
 >
 >* 以連結的方式共用資產
 >* 請求存取權的工作流程
@@ -187,7 +192,7 @@ Adobe Experience Manager (AEM) Assets Brand Portal 能協助您橫跨多種裝�
 
 **新功能**
 
-Brand Portal 現在每隔十二小時便會自動執行工作，刪除所有發佈至 AEM 的 Brand Portal 資產。因此，您不需要手動刪除「貢獻」資料夾中的資產，使資料夾大小不超過臨界值限制。
+Brand Portal 現在每隔十二小時便會自動執行工作，刪除所有發佈至 AEM 的 Brand Portal 資產。 因此，您不需要手動刪除「貢獻」資料夾中的資產，使資料夾大小不超過臨界值限制。
 
 **已修正重大問題**
 
@@ -195,7 +200,7 @@ Brand Portal 現在每隔十二小時便會自動執行工作，刪除所有發�
 
 * 當您下載的資料夾或集合包含帶有顏色標記之資產時，也會下載 XML 檔案。
 * 當您下載包含轉譯的影片時，Brand Portal 會建立一個無效的 .ZIP 檔案。
-* 當您在 AEM 作者上建立預設集和資產，然後將其發佈至 Brand Portal 時，您可以在下載資產時選取動態轉譯。但是，您無法將已下載的 .ZIP 檔案解壓縮。此問題導致無法存取下載的內容。
+* 當您在 AEM 作者上建立預設集和資產，然後將其發佈至 Brand Portal 時，您可以在下載資產時選取動態轉譯。 但是，您無法將已下載的 .ZIP 檔案解壓縮。 此問題導致無法存取下載的內容。
 * 從 Brand Portal 上的某些資料夾下載影片資產時出現問題。
 * 當您使用電子郵件共用貢獻資料夾的 URL 時，檢視者和編輯者角色在使用階層連結存取其父系資料夾時會遇到問題。
 * 來源發佈的報告顯示錯誤的工作開始時間。
@@ -206,11 +211,11 @@ Brand Portal 現在每隔十二小時便會自動執行工作，刪除所有發�
 
 * 訪客使用者的工作階段逾時臨界值已從 2 小時縮短至 15 分鐘。
 * 多頁面 PDF 已移除額外的「**[!UICONTROL 檢視頁面]**」選項，因為使用者現在可以從 Adobe Document Cloud 檢視器檢視 PDF 頁面。
-* 使用者無法搜尋、導覽或開啟資料夾。使用者介面反映錯誤訊息：`Failed to load data`。
+* 使用者無法搜尋、導覽或開啟資料夾。 使用者介面反映錯誤訊息：`Failed to load data`。
 * **[!UICONTROL 轉譯]**&#x200B;面板未列出發佈至 Brand Portal 之資產的所有靜態轉譯。
 * **[!UICONTROL 轉譯]**&#x200B;面板列出資產的智慧裁切轉譯，但使用者無法預覽或下載智慧裁切轉譯。
 * 下載對話框列出所選資產的智慧裁切轉譯，但使用者無法下載智慧裁切轉譯。
-* 非管理員使用者在下載資產時只能取得原始資產轉譯。未下載系統和自訂轉譯。
+* 非管理員使用者在下載資產時只能取得原始資產轉譯。 未下載系統和自訂轉譯。
 * 套用搜尋篩選器以下載資產時，下載對話框中的 `Download` 按鈕已停用且不允許使用者下載資產。
 * 當 `Smart Tags` 和 (或) `Color Tags` 啟用後，下載對話框會列出做為轉譯的 `json` 檔案，並把這些 `json` 檔案下載成歸檔 zip 資料夾。
 * 匿名使用者無法透過共用的連結下載資產，因為該連結會重新導向至 Brand Portal 登入頁面。
@@ -399,12 +404,12 @@ Brand Portal 使用者介面提供以下語言版本：
 
 ## 連結 {#links}
 
-* [adobe.com 上的 Adobe Experience Manager 產品頁面](https://business.adobe.com/in/products/experience-manager/adobe-experience-manager.html)
-* [Assets Brand Portal 文件](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-brand-portal/using/home)
+* [adobe.com上的Adobe Experience Manager產品頁面](https://business.adobe.com/in/products/experience-manager/adobe-experience-manager.html)
+* [Assets Brand Portal檔案](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-brand-portal/using/home)
 
 ## 產品存取和支援 (受限網站) {#product-access-and-support-restricted-sites}
 
-這些網站僅適用於客戶。如果您是客戶並且需要存取權，請聯絡您的 Adobe 客戶經理。
+這些網站僅適用於客戶。 如果您是客戶並且需要存取權，請聯絡您的 Adobe 客戶經理。
 
 <!--
 * [https://daycare.day.com](https://daycare.day.com) 

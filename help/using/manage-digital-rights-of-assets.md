@@ -7,10 +7,14 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 role: Admin
 exl-id: 86c31891-0627-41ca-b571-8dac3a074d55
-source-git-commit: 10f89ded6febb1a024cbe181fa48a290d90223f0
+TQID: https://experienceleague.adobe.com/3ZH-bkACyy-0XGHZu4uxJCXGgAKCoD4JmcCd1vBBxLA
+product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
-source-wordcount: '887'
-ht-degree: 3%
+source-wordcount: 904
+ht-degree: 4%
 
 ---
 
@@ -71,7 +75,7 @@ ht-degree: 3%
 
 授權資產在從Brand Portal下載前，必須先接受授權合約。 此授權資產的合約於您直接從Brand Portal下載資產，或透過共用連結下載資產時提供。 無論是否已過期，所有使用者都可以檢視受授權保護的資產。 不過，已到期的授權資產的下載和使用是有限的。 若要瞭解已到期授權資產的行為以及根據使用者角色可允許的活動，請參閱已到期資產的[使用許可權](../using/manage-digital-rights-of-assets.md#usage-permissions-expired-assets)。
 
-受授權保護的資產已附加[授權合約](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/assets/administer/drm)，方法是在[!DNL Experience Manager Assets]中設定資產的中繼資料屬性。
+受授權保護的資產已附加[授權合約](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/drm)，方法是在[!DNL Experience Manager Assets]中設定資產的中繼資料屬性。
 
 如果資產包含下列（或兩者）中繼資料屬性之一，則視為受保護資產：
 

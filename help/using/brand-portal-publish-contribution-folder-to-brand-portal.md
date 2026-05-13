@@ -6,9 +6,12 @@ contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 exl-id: 9acad588-977a-45de-b544-f2cc8874ba12
-source-git-commit: 8cde9e84262e25ff22d5b2d06e3c5df9cc2ae557
+TQID: https://experienceleague.adobe.com/o--c7CzIqcaLPuOVG81dQpALRa0wxI-Aul6F-pN-spI
+product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
-source-wordcount: '1057'
+source-wordcount: 1063
 ht-degree: 1%
 
 ---
@@ -52,10 +55,10 @@ Experience Manager Assets管理員和具有建立新資料夾許可權的非管�
 
 1. 按一下&#x200B;**[!UICONTROL 建立]**&#x200B;以建立新資料夾。 **[!UICONTROL 建立資料夾]**&#x200B;對話方塊開啟。
 
-1. 輸入資料夾的&#x200B;**[!UICONTROL Title]**&#x200B;和&#x200B;**[!UICONTROL Name]**，並選取&#x200B;**[!UICONTROL 資產貢獻]**&#x200B;核取方塊。
+1. 輸入資料夾的&#x200B;**[!UICONTROL Title]**&#x200B;和&#x200B;**[!UICONTROL Name]**，並選取&#x200B;**[!UICONTROL 資產貢獻]**核取方塊。
 Adobe建議您使用不含任何空格的小寫字母來命名資料夾。
 
-1. 按一下「**[!UICONTROL 建立]**」。您會看到Experience Manager Assets存放庫中列出的貢獻資料夾。
+1. 按一下「**[!UICONTROL 建立]**」。 您會看到Experience Manager Assets存放庫中列出的貢獻資料夾。
 
    >[!NOTE]
    >
@@ -78,7 +81,7 @@ Experience Manager Assets管理員會在設定貢獻資料夾的屬性時執行�
 * **上傳簡報**：上傳包含資產相關資訊的資產需求檔案。
 * **新增貢獻者**：新增Brand Portal使用者，以授予他們貢獻資料夾的存取權。
 
-資產需求是指管理員提供的詳細資訊，可協助貢獻者(Brand Portal使用者)瞭解貢獻資料夾的需求和需求。 管理員會上傳資產需求檔案，詳細說明貢獻資料夾的資產型別，包括用途、影像型別和大小上限。
+資產需求是指管理員提供的詳細資訊，可協助貢獻者（Brand Portal使用者）瞭解貢獻資料夾的需求和需求。 管理員會上傳資產需求檔案，詳細說明貢獻資料夾的資產型別，包括用途、影像型別和大小上限。
 
 **若要設定貢獻資料夾屬性：**
 
@@ -106,7 +109,7 @@ Experience Manager Assets管理員會在設定貢獻資料夾的屬性時執行�
 >
 >搜尋結果以Experience Manager Assets中設定的Brand Portal使用者清單為基礎。 確定您擁有更新的Brand Portal使用者清單。
 
-管理員可以從`user.csv`下載[!DNL Admin Console]檔案，並將其作為新增Brand Portal使用者的基礎範本。 移至[!UICONTROL 使用者]，然後按一下[!UICONTROL 將使用者清單匯出為csv]選項，即可下載`users.csv`檔案。 下列範例使用者列出新增使用者所需的屬性詳細資訊。 使用者專案的唯一必要屬性是`Email`，而所有其他屬性都是選用屬性。
+管理員可以從[!DNL Admin Console]下載`user.csv`檔案，並將其作為新增Brand Portal使用者的基礎範本。 移至[!UICONTROL 使用者]，然後按一下[!UICONTROL 將使用者清單匯出為csv]選項，即可下載`users.csv`檔案。 下列範例使用者列出新增使用者所需的屬性詳細資訊。 使用者專案的唯一必要屬性是`Email`，而所有其他屬性都是選用屬性。
 
 [取得檔案](assets/users.csv)
 
@@ -126,7 +129,7 @@ Experience Manager Assets使用者會將一組基準資產上傳至&#x200B;**共
 
    ![](assets/upload-new-assets1.png)
 
-1. 按一下[建立&#x200B;**&#x200B;**] > [檔案&#x200B;**&#x200B;**]，上傳包含多個資產的個別檔案或資料夾(.zip)。
+1. 按一下[建立&#x200B;****] > [檔案&#x200B;****]，上傳包含多個資產的個別檔案或資料夾(.zip)。
 
    ![](assets/upload-new-assets2.png)
 

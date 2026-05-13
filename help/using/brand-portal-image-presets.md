@@ -6,10 +6,16 @@ topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 role: Admin
 exl-id: 212a1b3a-686f-4250-be06-b679b6039887
-source-git-commit: 10f89ded6febb1a024cbe181fa48a290d90223f0
+TQID: https://experienceleague.adobe.com/XWG-kCasFqDycZEmxS6SBEVh4Jz-79p-u56SilhfprY
+product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: bd0d2470-932c-4269-8eca-6d939b72d9efid: cda65036-5305-4f01-89da-9b3506ae8c50
+subfeature_v2: id: cf50b0d2-df62-495c-a741-4fa0284ca4fcid: ee69dd13-2aba-4eb0-912b-399e82368d73
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
-source-wordcount: '815'
-ht-degree: 1%
+source-wordcount: 817
+ht-degree: 3%
 
 ---
 
@@ -19,7 +25,7 @@ ht-degree: 1%
 
 影像預設集是用來產生影像的動態轉譯，且可供預覽和下載。 預覽影像及其轉譯時，您可以選擇預設集，將影像重新格式化為符合管理員所設定的規格。
 
-(*如果Experience Manager Assets作者執行個體是在&#x200B;**Dynamic Media混合模式***中執行)。 若要在Brand Portal中檢視資產的動態轉譯，請確定其金字塔TIFF轉譯存在於您發佈至Brand Portal的Experience Manager Assets製作執行個體中。 發佈資產時，資產的PTIFF轉譯也會發佈至Brand Portal。
+（*如果Experience Manager Assets作者執行個體是在&#x200B;**Dynamic Media混合模式***中執行）。 若要在Brand Portal中檢視資產的動態轉譯，請確保其金字塔TIFF轉譯存在於您發佈至Brand Portal的Experience Manager Assets製作執行個體中。 發佈資產時，資產的PTIFF轉譯也會發佈至Brand Portal。
 
 >[!NOTE]
 >
@@ -38,7 +44,7 @@ Experience Manager Assets管理員可建立影像預設集，這些預設集會�
 >
 >如果Experience Manager Assets Author執行個體以&#x200B;**Dynamic Media混合模式**&#x200B;執行，則會建立影像資產的金字塔TIFF轉譯並儲存在Experience Manager Assets存放庫中。
 >
->不過，如果Experience Manager Assets作者執行個體以&#x200B;**Dynamic Media Scene7模式**&#x200B;執行，則Scene7伺服器上存在影像資產的金字塔TIFF轉譯。
+>不過，如果Experience Manager Assets作者執行個體以&#x200B;**Dynamic Media Scene7模式**&#x200B;執行，則Scene7伺服器上存在影像資產的Pyramid TIFF轉譯。
 >
 >將這類資產發佈至Brand Portal時，會套用影像預設集並顯示動態轉譯。
 
@@ -61,7 +67,7 @@ Experience Manager Assets管理員可建立影像預設集，這些預設集會�
    >
    >您也可以使用&#x200B;**[!UICONTROL 編輯影像預設集]**&#x200B;頁面來編輯現有影像預設集的屬性。 若要編輯影像預設集，請從影像預設集頁面中選取它，然後按一下&#x200B;**[!UICONTROL 編輯]**。
 
-1. 按一下「**[!UICONTROL 儲存]**」。影像預設集隨即建立並顯示在影像預設集頁面上。
+1. 按一下「**[!UICONTROL 儲存]**」。 影像預設集隨即建立並顯示在影像預設集頁面上。
 1. 若要刪除影像預設集，請從影像預設集頁面中選取它，然後按一下&#x200B;**[!UICONTROL 刪除]**。 在確認頁面中，按一下&#x200B;**[!UICONTROL 刪除]**&#x200B;以確認刪除。 影像預設集會從影像預設集頁面中移除。
 
 ## 預覽影像時套用影像預設集 {#apply-image-presets-when-previewing-images}
@@ -100,4 +106,4 @@ Experience Manager Assets管理員可建立影像預設集，這些預設集會�
 
    ![](assets/dynamicrenditions.png)
 
-1. 按一下&#x200B;**[!UICONTROL 下載]**。 自訂動態轉譯會以ZIP檔案下載，連同您選擇下載的影像和轉譯。 不過，如果下載單一資產，則不會建立zip檔案，這可確保快速下載。
+1. 按一下「**[!UICONTROL 下載]**」。 自訂動態轉譯會以ZIP檔案下載，連同您選擇下載的影像和轉譯。 不過，如果下載單一資產，則不會建立zip檔案，這可確保快速下載。

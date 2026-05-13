@@ -6,9 +6,15 @@ topic-tags: download-install, download assets
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 exl-id: cf28df58-c6dd-4b12-8279-01351892009f
-source-git-commit: 6194eb5697ef48c9693c00a7a51322ef4827cdc3
+TQID: https://experienceleague.adobe.com/4YwbUZ1PopjlrANgrvsKdf1EczcUTD2VR4PPyfRs1f4
+product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+subfeature_v2: id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
-source-wordcount: '1078'
+source-wordcount: 1078
 ht-degree: 3%
 
 ---
@@ -182,7 +188,7 @@ On successful completion of the download, a dialog box shows the location where 
 
 若要在® Edge上使用加速下載功能，請從信任的網站清單中移除Brand Portal網站。
 
-1. 開啟[控制檯] （**[!UICONTROL Window鍵+ X]**，然後選取[控制檯] **&#x200B;**）。
+1. 開啟[控制檯] （**[!UICONTROL Window鍵+ X]**，然後選取[控制檯] ****）。
 1. 移至&#x200B;**[!UICONTROL 網路和網際網路]** > **[!UICONTROL 網際網路選項]**。 按一下「**[!UICONTROL 安全性]**」標籤。
 1. 按一下&#x200B;**[!UICONTROL 信任的網站區域]**，然後按一下&#x200B;**[!UICONTROL 網站]**。
 1. 從清單中移除Brand Portal網站。
@@ -205,7 +211,7 @@ On successful completion of the download, a dialog box shows the location where 
 
 如果加速下載對您無效，請嘗試下列建議：
 
-1. 檢查連線埠是否未被封鎖。 使用Google搜尋來尋找可讓您根據使用的作業系統檢查連線埠是否遭到封鎖的選項。  <!-- THIS URL IS 404 AND DOES NOT REDIRECT [https://test-connect.asperasoft.com](https://test-connect.asperasoft.com/) from your computer. -->
+1. 檢查連線埠是否未被封鎖。 使用Google搜尋來尋找可讓您根據使用的作業系統檢查連線埠是否遭到封鎖的選項。 <!-- THIS URL IS 404 AND DOES NOT REDIRECT [https://test-connect.asperasoft.com](https://test-connect.asperasoft.com/) from your computer. -->
 
    如果連線埠狀況不正常，請連絡您的網路群組，並確定連線埠33001 （TCP和UDP）在防火牆中未被封鎖。
 

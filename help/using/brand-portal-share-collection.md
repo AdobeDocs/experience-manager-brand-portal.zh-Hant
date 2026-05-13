@@ -6,9 +6,14 @@ content-type: reference
 topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 exl-id: 29b877f6-4200-4299-9b8d-81d88f4e8221
-source-git-commit: 32a67abf466dd3bf635b851b02377ed23591915e
+TQID: https://experienceleague.adobe.com/JDFqy51bnJFV-WNbr9gA61jykF-DJXl90SF1Xn-WGJI
+product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+subfeature_v2: id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
 workflow-type: tm+mt
-source-wordcount: '671'
+source-wordcount: 689
 ht-degree: 0%
 
 ---
@@ -19,7 +24,7 @@ ht-degree: 0%
 
 <!--The administrators can share and unshare a collection with the authorized Brand Portal users. Editors and viewers can view and share the collections created by them, shared with them, and public collections.-->
 
-收藏集會透過電子郵件以連結形式共用。 有權存取共用連結的每個人都可以開啟集合。 但是，共用的電子郵件可以轉寄給任何人。 此外，[共用連結](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-brand-portal/using/share/brand-portal-link-share)是暫時性的，僅可在有限期間存取。 或者，也可以邀請使用者成為集合的永久成員。 集合有下列使用者型別：
+收藏集會透過電子郵件以連結形式共用。 有權存取共用連結的每個人都可以開啟集合。 但是，共用的電子郵件可以轉寄給任何人。 此外，[共用連結](https://experienceleague.adobe.com/en/docs/experience-manager-brand-portal/using/share/brand-portal-link-share)是暫時性的，僅可在有限期間存取。 或者，也可以邀請使用者成為集合的永久成員。 集合有下列使用者型別：
 
 * **管理員**&#x200B;可以與授權的Brand Portal使用者共用或取消共用集合。 他們可以邀請其他使用者加入特定的集合，並定義他們在該集合中的角色。 此外，管理員可以建立公開集合。
 
@@ -85,7 +90,7 @@ ht-degree: 0%
 
 1. 警告訊息隨即出現。 按一下&#x200B;**[!UICONTROL 確認]**&#x200B;以取消共用集合。
 
-1. 按一下[儲存]以套用變更。**&#x200B;**
+1. 按一下[儲存]以套用變更。****
 
    一旦從共用清單移除使用者，非共用集合就會從使用者的&#x200B;**[!UICONTROL 集合]**&#x200B;主控台移除。
 
