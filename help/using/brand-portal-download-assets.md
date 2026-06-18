@@ -7,21 +7,12 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download, download-install, download assets
 exl-id: be264b1c-38d9-4075-b56a-113f34a2c6bf
 TQID: https://experienceleague.adobe.com/RxwM021BfmZtMB1oi-EtwMuHinMTOKclwEUNjcQu6o4
-product_v2:
-  - id: d09181b5-a36a-43de-ba01-36641440bc43
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: bd0d2470-932c-4269-8eca-6d939b72d9ef
-  - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
-subfeature_v2:
-  - id: cf50b0d2-df62-495c-a741-4fa0284ca4fc
-  - id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
-  - id: ee69dd13-2aba-4eb0-912b-399e82368d73
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
+product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: bd0d2470-932c-4269-8eca-6d939b72d9efid: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+subfeature_v2: id: cf50b0d2-df62-495c-a741-4fa0284ca4fcid: e00c7c12-7035-41fe-ad76-1ec82c8c3f01id: ee69dd13-2aba-4eb0-912b-399e82368d73
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 10f42cf00fb054b38bb5edc4e088441c4a0206da
 workflow-type: tm+mt
 source-wordcount: 1957
 ht-degree: 11%
@@ -39,7 +30,7 @@ Adobe Experience Manager Assets Brand Portal可讓使用者同時下載可從Bra
 >
 >如果您不想使用® Aspera Connect並繼續正常下載程式，請聯絡Brand Portal管理員以關閉&#x200B;**[!UICONTROL 快速下載]**&#x200B;設定。
 
-## 設定資產下載 {#configure-download}
+## 設定資產下載
 
 Brand Portal管理員可以為Brand Portal使用者設定資產下載和使用者群組設定。 此功能可讓使用者從Brand Portal介面存取及下載資產轉譯。
 
@@ -171,7 +162,7 @@ Brand Portal使用者可以從Brand Portal介面下載多個資產、包含資�
      >
      >如果您下載的資產也包含授權資產，系統會將您重新導向至&#x200B;**[!UICONTROL 版權管理]**&#x200B;頁面。 在此頁面中，選取資產，按一下&#x200B;**[!UICONTROL 同意]**，然後按一下&#x200B;**[!UICONTROL 下載]**。 如果您選擇不同意，授權資產將不會下載。
      > 
-     >受授權保護的資產已附加[授權合約](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/assets/administer/drm)，方法是在Experience Manager Assets中設定資產的[中繼資料屬性](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/assets/administer/drm)。
+     >受授權保護的資產已附加[授權合約](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/drm)，方法是在Experience Manager Assets中設定資產的[中繼資料屬性](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/administer/drm)。
 
 
      ![已授權資產](assets/licensed-asset-new.png)
@@ -295,7 +286,7 @@ removed the known issue from step 3 as it is fixed in 2022.02.0 release.
 
 <!-- 
 Backup of content before updating the new feature docs.
-## Configure asset download {#configure-download}
+## Configure asset download
 
 The download configuration allows the Brand Portal administrators to define the set of renditions available to the Brand Portal users for downloading the assets. The administrator can configure the asset **[!UICONTROL Download]** settings from the Brand Portal interface. 
 
