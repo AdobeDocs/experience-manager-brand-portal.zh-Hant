@@ -7,24 +7,13 @@ content-type: reference
 topic-tags: download-install
 exl-id: 08d6a0fb-061e-4bef-b8e2-bb8522e7482e
 TQID: https://experienceleague.adobe.com/LZ7QHhEUSQtnreqQNBHt89LDjuHGAEHKy-e4zh3xKjU
-product_v2:
-  - id: d09181b5-a36a-43de-ba01-36641440bc43
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: bd0d2470-932c-4269-8eca-6d939b72d9ef
-  - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
-subfeature_v2:
-  - id: b112da9a-40c7-4e3d-8f68-114cdbd87ae4
-  - id: cf50b0d2-df62-495c-a741-4fa0284ca4fc
-  - id: d17d085a-e808-49dd-b9a6-85a996b999bd
-  - id: d8e79b3c-92b5-4c4d-a46c-5f16d63a14dc
-  - id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
-  - id: ee69dd13-2aba-4eb0-912b-399e82368d73
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: cda5d9923d47a3e76267328af9cd1548b6291237
+product_v2: id: d09181b5-a36a-43de-ba01-36641440bc43id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: bd0d2470-932c-4269-8eca-6d939b72d9efid: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+subfeature_v2: id: b112da9a-40c7-4e3d-8f68-114cdbd87ae4id: cf50b0d2-df62-495c-a741-4fa0284ca4fcid: d17d085a-e808-49dd-b9a6-85a996b999bdid: d8e79b3c-92b5-4c4d-a46c-5f16d63a14dcid: e00c7c12-7035-41fe-ad76-1ec82c8c3f01id: ee69dd13-2aba-4eb0-912b-399e82368d73
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 4b423f850ccbdf8c2c2da14a7cd5ab844502883a
 workflow-type: tm+mt
-source-wordcount: 1409
+source-wordcount: 1412
 ht-degree: 3%
 
 ---
@@ -48,7 +37,7 @@ Brand Portal使用者可以：
 * [Dynamic Media混合式設定](#configure-dm-hybrid-settings)
 如果Experience Manager Author例項以Dynamic Media — 混合模式執行。
 * [Dynamic Media [!DNL Scene7] 設定](#configure-dm-scene7-settings)
-如果Experience Manager Author執行個體是在Dynamic Media - **[!DNL Scene7]**&#x200B;模式下執行。
+如果Experience Manager Author執行個體是在Dynamic Media - **[!DNL Scene7]**模式下執行。
 根據您在Brand Portal租使用者所復寫的Experience Manager Author例項中設定的設定，設定任一設定。
 
 >[!NOTE]
@@ -73,11 +62,11 @@ Brand Portal存放庫不會儲存視訊編碼並從&#x200B;**[!DNL Scene7]**&#x2
 
 * **在Dynamic Media模式中啟動Experience Manager Author**
 
-  在[Dynamic Media - [!DNL Scene7] 模式](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/assets/dynamic/config-dms7#enabling-dynamic-media-in-scene-mode)或[Dynamic Media — 混合模式](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/assets/dynamic/config-dynamic)中啟動Experience Manager Author執行個體（已設定Brand Portal），或
+  在[Dynamic Media - [!DNL Scene7] 模式](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/config-dms7#enabling-dynamic-media-in-scene-mode)或[Dynamic Media — 混合模式](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/config-dynamic)中啟動Experience Manager Author執行個體（已設定Brand Portal），或
 
 * **在Experience Manager作者執行個體上設定Dynamic Media雲端服務**
 
-  根據Experience Manager Author執行所在的Dynamic Media模式（Scene7模式或混合模式），從&#x200B;**Tools**&#x200B;在Experience Manager Author上設定[Dynamic Media雲端服務（[!DNL Scene7]模式）](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/assets/dynamic/config-dms7#configuring-dynamic-media-cloud-services)或[Dynamic Media雲端服務（混合模式）](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/assets/dynamic/config-dms7#configuring-dynamic-media-cloud-services) | **雲端服務** | **動態媒體**。
+  根據Experience Manager Author執行所在的Dynamic Media模式（Scene7模式或混合模式），從&#x200B;**Tools**&#x200B;在Experience Manager Author上設定[Dynamic Media雲端服務（[!DNL Scene7]模式）](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/config-dms7#configuring-dynamic-media-cloud-services)或[Dynamic Media雲端服務（混合模式）](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/config-dms7#configuring-dynamic-media-cloud-services) | **雲端服務** | **動態媒體**。
 
 * **在Brand Portal上設定Dynamic Media**
 
@@ -87,21 +76,21 @@ Brand Portal存放庫不會儲存視訊編碼並從&#x200B;**[!DNL Scene7]**&#x2
 
 * **將視訊編碼套用至Brand Portal的發佈資料夾**
 
-  套用[視訊編碼](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/assets/dynamic/video-profiles)並將包含豐富媒體資產的資料夾從Experience Manager製作執行個體發佈到Brand Portal。
+  套用[視訊編碼](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/video-profiles)並將包含豐富媒體資產的資料夾從Experience Manager製作執行個體發佈到Brand Portal。
 
-* 如果啟用安全預覽，則在SPS中允許清單輸出IP **&#x200B;**
+* 如果啟用安全預覽，則在SPS中允許清單輸出IP ****
 
-  如果使用Dynamic Media-**[!DNL Scene7]** （為公司啟用[安全預覽](https://experienceleague.adobe.com/zh-hant/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public)），則建議&#x200B;**[!DNL Scene7]**&#x200B;公司管理員[允許列出使用SPS (**[!UICONTROL Scene7]** Publishing System) Flash UI之個別區域的公用輸出IP](https://experienceleague.adobe.com/zh-hant/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public#testing-the-secure-testing-service)。
+  如果使用Dynamic Media-**[!DNL Scene7]** （為公司啟用[安全預覽](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public)），則建議&#x200B;**[!DNL Scene7]**&#x200B;公司管理員[允許列出使用SPS (**[!UICONTROL Scene7]** Publishing System) Flash UI之個別區域的公用輸出IP](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public#testing-the-secure-testing-service)。
 
   輸出IP如下：
 
   | **地區** | **輸出IP** |
   |--- |--- |
-  | 不適用 | 130.248.160.68、20.94.203.130 |
+  | 不適用 | 130.248.149.188, 130.248.149.189, 130.248.149.190, 130.248.160.68, 20.94.203.130 |
   | EMEA | 185.34.189.3、51.132.146.75 |
   | APAC | 172.82.240.74, 172.82.240.75 |
 
-  若要允許列出任一輸出IP，請參閱[準備您的帳戶以進行安全測試服務](https://experienceleague.adobe.com/zh-hant/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public#testing-the-secure-testing-service)。
+  若要允許列出任一輸出IP，請參閱[準備您的帳戶以進行安全測試服務](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public#testing-the-secure-testing-service)。
 
 ## 最佳做法
 
@@ -128,9 +117,9 @@ Brand Portal存放庫不會儲存視訊編碼並從&#x200B;**[!DNL Scene7]**&#x2
 
 ### Dynamic Media Scene7模式的允許清單公開輸出IP
 
-如果Dynamic Media **[!UICONTROL Scene7]** — 已啟用[安全預覽](https://experienceleague.adobe.com/zh-hant/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public) — 用於提供視訊資產至Brand Portal，則&#x200B;**[!UICONTROL Scene7]**&#x200B;會建立用於中繼環境或內部應用程式的專用影像伺服器。 對此伺服器的任何請求都會檢查原始IP位址。 如果傳入的請求不在核准的IP位址清單中，則會傳回失敗回應。
-因此，**[!UICONTROL Scene7]**&#x200B;公司管理員會透過&#x200B;**[!UICONTROL SPS]** (Scene7 Publishing System) Flash UI，為其公司的&#x200B;**[!UICONTROL Secure Testing]**&#x200B;環境設定核准的IP位址清單。 請確定您個別區域（來自以下區域）的輸出IP已新增至該核准清單。
-若要允許列出任一輸出IP，請參閱[準備您的帳戶以進行安全測試服務](https://experienceleague.adobe.com/zh-hant/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public#testing-the-secure-testing-service)。
+如果Dynamic Media **[!UICONTROL Scene7]** — 已啟用[安全預覽](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public) — 用於提供視訊資產至Brand Portal，則&#x200B;**[!UICONTROL Scene7]**會建立用於中繼環境或內部應用程式的專用影像伺服器。 對此伺服器的任何請求都會檢查原始IP位址。 如果傳入的請求不在核准的IP位址清單中，則會傳回失敗回應。
+因此，**[!UICONTROL Scene7]**&#x200B;公司管理員會透過&#x200B;**[!UICONTROL SPS]** (Scene7 Publishing System) Flash UI，為其公司的&#x200B;**[!UICONTROL Secure Testing]**環境設定核准的IP位址清單。 請確定您個別區域（來自以下區域）的輸出IP已新增至該核准清單。
+若要允許列出任一輸出IP，請參閱[準備您的帳戶以進行安全測試服務](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public#testing-the-secure-testing-service)。
 輸出IP如下：
 
 | **地區** | **輸出IP** |
@@ -145,7 +134,7 @@ Brand Portal存放庫不會儲存視訊編碼並從&#x200B;**[!DNL Scene7]**&#x2
 
 >[!NOTE]
 >
->[視訊編碼設定檔](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/assets/dynamic/video-profiles)未發佈至Brand Portal。 而是從&#x200B;**[!UICONTROL Scene7]**&#x200B;伺服器擷取。 因此，若要在Brand Portal中成功播放視訊編碼，請確定設定詳細資料與Experience Manager Author執行個體中的[Dynamic Media雲端服務（[!DNL Scene7]模式）](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/assets/dynamic/config-dms7#configuring-dynamic-media-cloud-services)相同。
+>[視訊編碼設定檔](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/video-profiles)未發佈至Brand Portal。 而是從&#x200B;**[!UICONTROL Scene7]**&#x200B;伺服器擷取。 因此，若要在Brand Portal中成功播放視訊編碼，請確定設定詳細資料與Experience Manager Author執行個體中的[Dynamic Media雲端服務（[!DNL Scene7]模式）](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/config-dms7#configuring-dynamic-media-cloud-services)相同。
 
 若要在Brand Portal租使用者上設定Dynamic Media設定：
 
@@ -171,7 +160,7 @@ Brand Portal存放庫不會儲存視訊編碼並從&#x200B;**[!DNL Scene7]**&#x2
 
 2. 從系統管理工具面板中，選取&#x200B;**[!UICONTROL Dynamic Media組態]**&#x200B;圖磚。
 
-   在Brand Portal![&#128279;](assets/DMS7-Tile.png)上的DM [!UICONTROL Scene 7]設定
+   在Brand Portal](assets/DMS7-Tile.png)上的![DM [!UICONTROL Scene 7]設定
 
    **[!UICONTROL 編輯Dynamic Media組態]**&#x200B;頁面隨即顯示。
 
