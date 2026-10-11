@@ -87,7 +87,7 @@ Experience Manager Assets 6.5.5已修正此問題。 您可以將您的Experienc
 
 **問題：我什麼時候可以移轉到新版本的 Brand Portal？**
 
-**回答：**Brand Portal 6.4.5 於 2019 年 10 月發佈到生產環境。 下一個 Brand Portal 版本預計將於 2020 年 3 月發佈。
+**回答：**&#x200B;Brand Portal 6.4.5 於 2019 年 10 月發佈到生產環境。 下一個 Brand Portal 版本預計將於 2020 年 3 月發佈。
 關於更新和版本變更，Adobe 建議您追蹤[發行說明](brand-portal-release-notes.md)和 [Brand Portal 新增功能](whats-new.md)。
 
 
@@ -120,7 +120,7 @@ Brand Portal 使用者可以存取「**貢獻**」資料夾，並上傳內容到
 
 **問題：我可以修改現有「貢獻」資料夾的名稱嗎？**
 
-**回答：****不可以**，您不能修改現有「**貢獻**」資料夾的名稱。
+**回答：**&#x200B;**不可以**，您不能修改現有「**貢獻**」資料夾的名稱。
 
 
 
