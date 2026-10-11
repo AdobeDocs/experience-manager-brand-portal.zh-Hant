@@ -6,29 +6,40 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 topic-tags: download-install
 exl-id: 08d6a0fb-061e-4bef-b8e2-bb8522e7482e
-TQID: https://experienceleague.adobe.com/LZ7QHhEUSQtnreqQNBHt89LDjuHGAEHKy-e4zh3xKjU
+TQID: 'https://experienceleague.adobe.com/LZ7QHhEUSQtnreqQNBHt89LDjuHGAEHKy-e4zh3xKjU'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: bd0d2470-932c-4269-8eca-6d939b72d9ef
+    internal-label: Dynamic Media
   - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+    internal-label: Configuration
+  - id: a45b1e7f-e65f-4cd3-be86-5cec5d9449ef
+    internal-label: Content management
 subfeature_v2:
   - id: b112da9a-40c7-4e3d-8f68-114cdbd87ae4
+    internal-label: Video encoding
   - id: cf50b0d2-df62-495c-a741-4fa0284ca4fc
+    internal-label: Hybrid mode
   - id: d17d085a-e808-49dd-b9a6-85a996b999bd
+    internal-label: Viewers
   - id: d8e79b3c-92b5-4c4d-a46c-5f16d63a14dc
+    internal-label: Viewer presets
   - id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+    internal-label: Brand Portal
   - id: ee69dd13-2aba-4eb0-912b-399e82368d73
+    internal-label: Scene7 mode
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 4b423f850ccbdf8c2c2da14a7cd5ab844502883a
+    internal-label: User
+source-git-commit: 4cfa580ba79b189ec4bcef8003c66734aa465ba3
 workflow-type: tm+mt
-source-wordcount: 1412
+source-wordcount: '1412'
 ht-degree: 3%
-
 ---
-
 # Brand Portal 上的動態影片支援 {#dynamic-video-support-on-brand-portal}
 
 透過Dynamic Media支援，在Brand Portal上自適應的預覽和播放視訊。 您也可以從入口網站和共用連結下載動態轉譯。
@@ -98,8 +109,8 @@ Brand Portal存放庫不會儲存視訊編碼並從&#x200B;**[!DNL Scene7]**&#x2
   | **地區** | **輸出IP** |
   |--- |--- |
   | 不適用 | 130.248.149.188, 130.248.149.189, 130.248.149.190, 130.248.160.68, 20.94.203.130 |
-  | EMEA | 185.34.189.3、51.132.146.75 |
-  | APAC | 172.82.240.74, 172.82.240.75 |
+  | 歐洲、中東和非洲地區 | 185.34.189.3、51.132.146.75 |
+  | 亞太地區 | 172.82.240.74, 172.82.240.75 |
 
   若要允許列出任一輸出IP，請參閱[準備您的帳戶以進行安全測試服務](https://experienceleague.adobe.com/zh-hant/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public#testing-the-secure-testing-service)。
 
@@ -136,8 +147,8 @@ Brand Portal存放庫不會儲存視訊編碼並從&#x200B;**[!DNL Scene7]**&#x2
 | **地區** | **輸出IP** |
 |--- |--- |
 | 不適用 | 130.248.149.188, 130.248.149.189, 130.248.149.190, 130.248.160.68, 20.94.203.130 |
-| EMEA | 51.132.146.75, 130.248.244.202, 130.248.244.203, 130.248.244.204, 130.248.244.210, 130.248.244.211, 130.248.244.212 |
-| APAC | 63.140.44.54 |
+| 歐洲、中東和非洲地區 | 51.132.146.75, 130.248.244.202, 130.248.244.203, 130.248.244.204, 130.248.244.210, 130.248.244.211, 130.248.244.212 |
+| 亞太地區 | 63.140.44.54 |
 
 ## 設定Dynamic Media （混合）設定 {#configure-dm-hybrid-settings}
 

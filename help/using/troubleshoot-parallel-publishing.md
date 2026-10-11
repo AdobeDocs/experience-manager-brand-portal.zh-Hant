@@ -6,25 +6,31 @@ content-type: reference
 topic-tags: brand-portal
 role: Admin
 exl-id: 631beabc-b145-49ba-a8e4-f301497be6da
-TQID: https://experienceleague.adobe.com/1Lui1NdyGzMArtIFPix9hzBzwBwtwfoxb8K3u4b9Aeo
+TQID: 'https://experienceleague.adobe.com/1Lui1NdyGzMArtIFPix9hzBzwBwtwfoxb8K3u4b9Aeo'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+    internal-label: Configuration
+  - id: a45b1e7f-e65f-4cd3-be86-5cec5d9449ef
+    internal-label: Content management
 subfeature_v2:
   - id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+    internal-label: Brand Portal
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
+    internal-label: Troubleshooting
+source-git-commit: 4cfa580ba79b189ec4bcef8003c66734aa465ba3
 workflow-type: tm+mt
-source-wordcount: 953
+source-wordcount: '954'
 ht-degree: 6%
-
 ---
-
 # 針對平行發佈至 Brand Portal 的問題進行疑難排解 {#troubleshoot-issues-in-parallel-publishing-to-brand-portal}
 
 Brand Portal已使用Experience Manager Assets設定，以核准從Experience Manager Assets製作例項無縫擷取（或發佈）品牌資產。 設定[後](../using/configure-aem-assets-with-brand-portal.md)，Experience Manager作者會使用復寫代理程式，將一或多個選取的資產復寫至Brand Portal雲端服務，以供Brand Portal使用者核准使用。 Experience Manager 6.2 SP1-CFP5、Experience Manager CFP 6.3.0.2及之後皆使用多個復寫代理程式，以允許高速平行發佈。
@@ -77,9 +83,9 @@ Last Modified Date: 2018-06-21T22:56:21.256-0400
 i. 刪除 `/etc/replication/agents.author/mp_replication`
 二、 刪除`/etc/cloudservices/mediaportal/<config_name>`
 
-1. 移至localhost:4502/useradmin：\
+1. 移至localhost：4502/useradmin：\
    i. 搜尋使用者 `mac-<tenantid>replication`
-二、 刪除此使用者
+   二、 刪除此使用者
 
 現在系統已全部清除。 現在，您可以嘗試建立雲端服務設定，同時仍使用現有的JWT應用程式。 不需要建立應用程式，而是從新建立的雲端設定更新公開金鑰。
 
