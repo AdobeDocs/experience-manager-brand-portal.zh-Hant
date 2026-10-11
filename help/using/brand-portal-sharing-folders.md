@@ -5,25 +5,31 @@ content-type: reference
 topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 exl-id: d28cf927-60e8-437e-9cba-92f7e19020e7
-TQID: https://experienceleague.adobe.com/zcuaWI7GsV39hpBMfzoB9Oiep5IVgmmfz79J-cOm32g
+TQID: 'https://experienceleague.adobe.com/zcuaWI7GsV39hpBMfzoB9Oiep5IVgmmfz79J-cOm32g'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+    internal-label: Configuration
+  - id: a45b1e7f-e65f-4cd3-be86-5cec5d9449ef
+    internal-label: Content management
 subfeature_v2:
   - id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+    internal-label: Brand Portal
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
+    internal-label: Security
+source-git-commit: 4cfa580ba79b189ec4bcef8003c66734aa465ba3
 workflow-type: tm+mt
-source-wordcount: 1108
+source-wordcount: '1112'
 ht-degree: 2%
-
 ---
-
 # 在Brand Portal上共用資料夾 {#share-folders}
 
 Assets需要從預先設定的Brand Portal製作例項發佈至Experience Manager，因為Brand Portal不支援資產擷取。
@@ -40,7 +46,7 @@ Assets需要從預先設定的Brand Portal製作例項發佈至Experience Manage
 
 ### 在Brand Portal上與使用者群組共用資料夾 {#sharing-folders-with-user-groups-on-brand-portal}
 
-檔案夾資產的存取權取決於其父檔案夾的存取權，不論子檔案夾的設定為何。 AEM中的[ACL](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-65/content/security/security)會控管此行為，子資料夾會從其父資料夾繼承ACL。 例如，假設資料夾A包含資料夾B，其中包含資料夾C。接著，擁有資料夾A存取許可權的使用者群組（或使用者）也會擁有資料夾B和資料夾C的相同存取許可權。資料夾B是A的子資料夾，會繼承其ACL，而資料夾C是B的子資料夾，則會繼承其ACL。
+檔案夾資產的存取權取決於其父檔案夾的存取權，不論子檔案夾的設定為何。 AEM中的[ACL](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/security/security)會控管此行為，子資料夾會從其父資料夾繼承ACL。 例如，假設資料夾A包含資料夾B，其中包含資料夾C。接著，擁有資料夾A存取許可權的使用者群組（或使用者）也會擁有資料夾B和資料夾C的相同存取許可權。資料夾B是A的子資料夾，會繼承其ACL，而資料夾C是B的子資料夾，則會繼承其ACL。
 
 同樣地，只有存取資料夾B許可權的使用者群組（或使用者）對資料夾C而不是資料夾A擁有相同的存取許可權。Adobe建議組織內容，以便將最公開的資產放在子資料夾中，允許從子資料夾一直限制存取根資料夾。
 
@@ -121,7 +127,7 @@ Assets需要從預先設定的Brand Portal製作例項發佈至Experience Manage
 
 1. 如果您不想向使用者顯示預設名稱，請在&#x200B;**[!UICONTROL 資料夾屬性]**&#x200B;主控台的&#x200B;**[!UICONTROL 資料夾標題]**&#x200B;欄位中指定資料夾標題。
 1. 從&#x200B;**[!UICONTROL 新增使用者]**&#x200B;清單中，選取您要共用資料夾的使用者或群組，然後按一下&#x200B;**[!UICONTROL 新增]**。
-若要只與訪客使用者共用資料夾，而不與其他使用者共用，請從&#x200B;**[!UICONTROL 成員]**&#x200B;下拉式清單中選取&#x200B;**[!UICONTROL 匿名使用者]**。
+若要只與訪客使用者共用資料夾，而不與其他使用者共用，請從**[!UICONTROL 成員]**&#x200B;下拉式清單中選取&#x200B;**[!UICONTROL 匿名使用者]**。
 
    ![](assets/only-anonymous.png)
 
@@ -147,7 +153,7 @@ Assets需要從預先設定的Brand Portal製作例項發佈至Experience Manage
 
    ![](assets/folder_propertiesunshare.png)
 
-1. 在警告訊息方塊中，按一下&#x200B;**[!UICONTROL 確認]**&#x200B;以確認取消共用。
-按一下&#x200B;**[!UICONTROL 儲存]**。
+1. 在警告訊息方塊中，按一下&#x200B;**[!UICONTROL 確認]**以確認取消共用。
+按一下**[!UICONTROL 儲存]**。
 
 1. 使用您從共用清單移除之使用者的憑證登入Brand Portal。 該資料夾在Brand Portal介面中無法再供使用者使用。

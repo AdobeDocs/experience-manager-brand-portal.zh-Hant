@@ -5,26 +5,33 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 exl-id: 0f2c45e4-416e-451a-905b-06c5e42a9272
-TQID: https://experienceleague.adobe.com/oBDmsUsNSLapEzQa9r4J-vZqTz2qe0cPW6hU1EYzrXU
+TQID: 'https://experienceleague.adobe.com/oBDmsUsNSLapEzQa9r4J-vZqTz2qe0cPW6hU1EYzrXU'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+    internal-label: Configuration
+  - id: a45b1e7f-e65f-4cd3-be86-5cec5d9449ef
+    internal-label: Content management
 subfeature_v2:
   - id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+    internal-label: Brand Portal
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 870850fd29819d96017608f1db48d46b38c62bff
+    internal-label: Security
+source-git-commit: 4cfa580ba79b189ec4bcef8003c66734aa465ba3
 workflow-type: tm+mt
-source-wordcount: 1549
-ht-degree: 14%
-
+source-wordcount: '1722'
+ht-degree: 12%
 ---
-
 # Experience Manager Assets Brand Portal概觀 {#overview-of-aem-assets-brand-portal}
 
 身為行銷人員，您有時需要與通路合作夥伴和內部業務使用者共同作業，以建立、管理相關數位內容並快速傳送給客戶。 在整個客戶歷程中及時傳送相關內容，對於推動更高需求、轉換、參與和客戶忠誠度至關重要。
@@ -33,8 +40,8 @@ ht-degree: 14%
 
 **Adobe Experience Manager (AEM) Assets Brand Portal**&#x200B;著重於行銷人員提供資產發佈和資產貢獻功能，與分散於全球各地的Brand Portal使用者有效合作的需求。
 
-資產散佈可讓您取得、控制經核准的創意資產，並安全地將其散佈至跨裝置的外部團體和內部業務使用者。不過，資產貢獻可讓Brand Portal使用者將資產上傳到Brand Portal並發佈到Experience Manager Assets，而不需要存取作者環境。在Brand Portal **中，貢獻功能稱為**&#x200B;Assets Sourcing。同時，它改善了資產分銷的整體Brand Portal體驗和Brand Portal使用者（外部機構/團隊）的貢獻，加快資產上市時間，並降低不合規和未經授權存取的風險。
-請參閱[Brand Portal中的Asset Sourcing](brand-portal-asset-sourcing.md)。
+資產散佈可讓您取得、控制經核准的創意資產，並安全地將其散佈至跨裝置的外部團體和內部業務使用者。 不過，資產貢獻可讓Brand Portal使用者將資產上傳到Brand Portal並發佈到Experience Manager Assets，而不需要存取作者環境。 在Brand Portal **中，貢獻功能稱為**Assets Sourcing。 同時，它改善了資產分銷的整體Brand Portal體驗和Brand Portal使用者（外部機構/團隊）的貢獻，加快資產上市時間，並降低不合規和未經授權存取的風險。
+請參閱Brand Portal](brand-portal-asset-sourcing.md)中的[資產來源。
 
 瀏覽器式入口網站環境可讓您以核准的格式輕鬆上傳、瀏覽、搜尋、預覽和匯出資產。
 
@@ -153,7 +160,7 @@ Experience Manager Assets Brand Portal允許[訪客存取](#request-access-to-br
 
 Brand Portal 6.4.3以後，組織可以針對其Brand Portal租使用者的每個現有URL擁有一個替代（別名） URL。 別名URL可在URL中使用替代首碼來建立。\
 如果租使用者名稱稱大於32個字元，則需要建立租使用者別名。
-請注意，您只能自訂Brand Portal URL的前置詞，而不能自訂整個URL。例如，具有現有網域`geomettrix.brand-portal.adobe.com`的組織可以取得根據請求建立的`geomettrixinc.brand-portal.adobe.com`。
+請注意，您只能自訂Brand Portal URL的前置詞，而不能自訂整個URL。 例如，具有現有網域`geomettrix.brand-portal.adobe.com`的組織可以取得根據請求建立的`geomettrixinc.brand-portal.adobe.com`。
 
 不過，AEM作者執行個體只能使用租使用者ID URL設定[設定](../using/configure-aem-assets-with-brand-portal.md)，而不能使用租使用者別名（替代） URL。
 
@@ -184,7 +191,7 @@ Brand Portal 6.4.3以後，組織可以針對其Brand Portal租使用者的每�
    **案例1**
 
    1. 如果您有[!UICONTROL Adobe ID]、[!UICONTROL Enterprise ID]或[!UICONTROL Federated ID]，請按一下&#x200B;**[!UICONTROL 登入]**。
-[!UICONTROL 登入]頁面隨即開啟。
+      [!UICONTROL 登入]頁面隨即開啟。
 
    1. 提供您的[!UICONTROL Adobe ID]認證，然後按一下&#x200B;**[!UICONTROL 登入]**。
 
@@ -195,9 +202,9 @@ Brand Portal 6.4.3以後，組織可以針對其Brand Portal租使用者的每�
    **案例2**
 
    1. 如果您沒有[!UICONTROL Adobe ID]，若要建立一個，請從[!UICONTROL 要求存取]頁面按一下&#x200B;**[!UICONTROL 取得Adobe ID]**。
-[!UICONTROL 登入]頁面開啟。
+      [!UICONTROL 登入]頁面隨即開啟。
    1. 按一下&#x200B;**[!UICONTROL 取得Adobe ID]**。
-[!UICONTROL 註冊]頁面開啟。
+      [!UICONTROL 註冊]頁面開啟。
    1. 輸入您的名字和姓氏、電子郵件ID和密碼。
    1. 選取&#x200B;**[!UICONTROL 註冊]**。
 
@@ -215,7 +222,7 @@ Brand Portal產品管理員會在其Brand Portal通知區域及收件匣中的�
 
 ![存取要求的通知](assets/bplogin_request_access_7.png)
 
-若要授與存取權，產品管理員需要按一下Brand Portal通知區域中的相關通知，然後按一下[授與存取權]。**&#x200B;**
+若要授與存取權，產品管理員需要按一下Brand Portal通知區域中的相關通知，然後按一下[授與存取權]。****
 或者，產品管理員也可以依照存取要求電子郵件中提供的連結，造訪Adobe [!UICONTROL Admin Console]，並將使用者新增至相關的產品設定。
 
 系統已將您重新導向至[Adobe [!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview)首頁。 使用Adobe [!UICONTROL Admin Console]建立使用者，並將他們指派給產品設定檔（先前稱為產品設定），這些設定檔在Brand Portal中顯示為群組。 如需在[!UICONTROL Admin Console]中新增使用者的詳細資訊，請參閱[新增使用者](brand-portal-adding-users.md#add-a-user) （請依照程式中的步驟4-7新增使用者）。
@@ -254,4 +261,4 @@ Brand Portal產品管理員會在其Brand Portal通知區域及收件匣中的�
 * [Adobe Customer Support]()
 -->
 
-* [AEM論壇](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community?profile.language=zh-Hant)
+* [AEM論壇](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community)

@@ -12,23 +12,28 @@ audience: author, marketer
 version: Experience Manager 6.5
 kt: 3838
 exl-id: 2c132a7a-ed10-4856-8378-67939167ea60
-TQID: https://experienceleague.adobe.com/52tECcTrEZL6eSx--nL07mGMJ94Tf7B6ZlHQ8BlqNvY
+TQID: 'https://experienceleague.adobe.com/52tECcTrEZL6eSx--nL07mGMJ94Tf7B6ZlHQ8BlqNvY'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+    internal-label: Configuration
+  - id: a45b1e7f-e65f-4cd3-be86-5cec5d9449ef
+    internal-label: Content management
 subfeature_v2:
   - id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+    internal-label: Brand Portal
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
+    internal-label: User
+source-git-commit: 4cfa580ba79b189ec4bcef8003c66734aa465ba3
 workflow-type: tm+mt
-source-wordcount: 662
+source-wordcount: '662'
 ht-degree: 12%
-
 ---
-
 # 資產來源概觀 {#overview-asset-sourcing-in-bp}
 
 **Asset Sourcing**&#x200B;可讓Experience Manager Assets使用者（管理員/非管理員使用者）使用額外的&#x200B;**資產貢獻**&#x200B;屬性來建立新資料夾，確保所建立的新資料夾可供Brand Portal使用者提交資產。 這會自動觸發工作流程，在新建立的&#x200B;**貢獻**&#x200B;資料夾中建立兩個額外的子資料夾，稱為&#x200B;**SHARED**&#x200B;和&#x200B;**NEW**。 管理員會上傳應新增至貢獻資料夾的資產型別簡介，以定義需求。 他們上傳一組基準資產至&#x200B;**共用**&#x200B;資料夾，為Brand Portal使用者提供必要的參考資訊。 然後，在將新建立的「**貢獻**」資料夾發佈至 Brand Portal 前，管理員可以把貢獻資料夾存取權授予使用中的 Brand Portal 使用者。 當使用者完成在&#x200B;**NEW**&#x200B;資料夾中新增內容時，他們可以發佈貢獻資料夾回Experience Manager作者環境。 請注意，可能需要幾分鐘的時間來完成匯入，並在Experience Manager Assets中反映新發佈的內容。
@@ -127,7 +132,7 @@ Experience Manager Assets管理員可上傳包含Experience Manager Assets中有
 1. 從[!UICONTROL 工具]面板，瀏覽至&#x200B;**[!UICONTROL Assets]** > **[!UICONTROL Brand Portal使用者]**。
 
 1. Brand Portal上傳貢獻者視窗隨即開啟。
-從您的本機電腦瀏覽並上傳包含作用中Brand Portal使用者清單的&#x200B;**組態(.csv)檔案**。
+從您的本機電腦瀏覽並上傳包含作用中Brand Portal使用者清單的**組態(.csv)檔案**。
 1. 按一下&#x200B;**[!UICONTROL 儲存]**。
 
    ![](assets/upload-user-list2.png)

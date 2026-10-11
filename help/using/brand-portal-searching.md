@@ -6,26 +6,33 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: SearchandPromote
 exl-id: 7297bbe5-df8c-4d0b-8204-218a9fdc2292
-TQID: https://experienceleague.adobe.com/KzFwzaIiTMjBh9fMsgu2MQWTAOaOAm-yMtEFnv0WvXU
+TQID: 'https://experienceleague.adobe.com/KzFwzaIiTMjBh9fMsgu2MQWTAOaOAm-yMtEFnv0WvXU'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+    internal-label: Configuration
+  - id: a45b1e7f-e65f-4cd3-be86-5cec5d9449ef
+    internal-label: Content management
 subfeature_v2:
   - id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+    internal-label: Brand Portal
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: ce44533e-8ec8-4e11-a9e9-78b0fe561832
-source-git-commit: e48edcb1ed5d76686794f7a7ed6389c7f4ab1ed3
+    internal-label: Content structure
+source-git-commit: 4cfa580ba79b189ec4bcef8003c66734aa465ba3
 workflow-type: tm+mt
-source-wordcount: 1361
+source-wordcount: '1369'
 ht-degree: 3%
-
 ---
-
 # 在 Brand Portal 上搜尋資產 {#search-assets-on-brand-portal}
 
 Brand Portal搜尋功能可讓您使用Omnisearch快速搜尋相關資產，以及使用篩選器的多面向搜尋，協助您進一步縮小搜尋範圍。 您可以在檔案或資料夾層級搜尋資產，並將搜尋結果儲存為智慧型收集。
@@ -70,7 +77,7 @@ Brand Portal搜尋功能可讓您使用Omnisearch快速搜尋相關資產，以�
 Brand Portal中的![篩選器面板](assets/file-type-search.png "Brand Portal中的篩選器面板")
 
 **[!UICONTROL 篩選器]**&#x200B;面板包含幾個標準Facet，例如 — **[!UICONTROL 路徑瀏覽器]**、**[!UICONTROL 檔案型別]**、**[!UICONTROL 檔案大小]**、**[!UICONTROL 狀態]**&#x200B;以及&#x200B;**[!UICONTROL 方向]**。
-不過，您可以[新增自訂搜尋Facet](../using/brand-portal-search-facets.md)，或從&#x200B;**[!UICONTROL 篩選器]**&#x200B;面板中移除特定的Facet。 只需編輯基礎搜尋表單中的述詞。 檢視Brand Portal[&#128279;](../using/brand-portal-search-facets.md#list-of-search-predicates)上可用和可用的搜尋述詞清單。
+不過，您可以[新增自訂搜尋Facet](../using/brand-portal-search-facets.md)，或從&#x200B;**[!UICONTROL 篩選器]**&#x200B;面板中移除特定的Facet。 只需編輯基礎搜尋表單中的述詞。 檢視Brand Portal](../using/brand-portal-search-facets.md#list-of-search-predicates)上可用和可用的[搜尋述詞清單。
 
 若要將篩選器套用至您的搜尋，請使用可用的[搜尋Facet](../using/brand-portal-search-facets.md)：
 
@@ -78,7 +85,7 @@ Brand Portal中的![篩選器面板](assets/file-type-search.png "Brand Portal�
 
    ![](assets/selectorrail.png)
 
-1. 從左側的&#x200B;**[!UICONTROL 篩選器]**&#x200B;面板中，選取適當的選項以套用相關的篩選器。
+1. 從左側的&#x200B;**[!UICONTROL 篩選器]**面板中，選取適當的選項以套用相關的篩選器。
 例如，使用下列標準篩選器：
 
    * **[!UICONTROL 路徑瀏覽器]**&#x200B;以搜尋特定目錄中的資產。 路徑瀏覽器的述詞預設搜尋路徑為`/content/dam/mac/<tenant-id>/`，可透過編輯預設搜尋表單進行設定。
@@ -103,7 +110,7 @@ Brand Portal中的![篩選器面板](assets/file-type-search.png "Brand Portal�
      [!UICONTROL 屬性述詞]支援下列文字搜尋：
 
      **部分片語**
-若要允許使用屬性述詞中的部分詞語來搜尋資產，請啟用「搜尋表單」中的&#x200B;**[!UICONTROL 部分搜尋]**&#x200B;核取方塊。 此方法可讓您搜尋所需的資產，即使您未指定資產中繼資料中使用的確切字詞或片語。
+     若要允許使用屬性述詞中的部分詞語來搜尋資產，請啟用「搜尋表單」中的**[!UICONTROL 部分搜尋]**&#x200B;核取方塊。 此方法可讓您搜尋所需的資產，即使您未指定資產中繼資料中使用的確切字詞或片語。
 
      >[!NOTE]
      >
@@ -114,15 +121,15 @@ Brand Portal中的![篩選器面板](assets/file-type-search.png "Brand Portal�
      >* `jcr:content/metadata/dc:format`
 
      您可以：
-      * 在「篩選器」面板的Facet中，指定搜尋片語中的單字。 例如，如果您搜尋字詞&#x200B;**climb** （且「屬性述詞」對應至`dc:title`屬性），則系統會傳回標題片語中包含&#x200B;**climb**&#x200B;字的所有資產。
-      * 指定搜尋片語中單字的一部分，並以萬用字元(&#42;)填滿空隙。
-例如，搜尋：
-         * **climb&#42;**&#x200B;傳回標題片語中字元開頭為「climb」的所有資產。
-         * **&#42;climb**&#x200B;傳回標題片語中字詞結尾為&quot;climb&quot;的所有資產。
-         * **&#42;climb&#42;**&#x200B;傳回標題片語中包含「climb」字元的所有資產。
+     * 在「篩選器」面板的Facet中，指定搜尋片語中的單字。 例如，如果您搜尋字詞&#x200B;**climb** （且「屬性述詞」對應至`dc:title`屬性），則系統會傳回標題片語中包含&#x200B;**climb**&#x200B;字的所有資產。
+     * 指定搜尋片語中單字的一部分，並以萬用字元(&#42;)填滿空隙。
+       例如，搜尋：
+       * **climb&#42;**&#x200B;傳回標題片語中字元開頭為「climb」的所有資產。
+       * **&#42;climb**&#x200B;傳回標題片語中字詞結尾為&quot;climb&quot;的所有資產。
+       * **&#42;climb&#42;**&#x200B;傳回標題片語中包含「climb」字元的所有資產。
 
      **不區分大小寫的文字**
-您可以在屬性述詞中允許不區分大小寫的搜尋。 只需啟用[搜尋表單]中的&#x200B;**[!UICONTROL 忽略大小寫]**&#x200B;核取方塊。 依預設，「屬性述詞」中的文字搜尋會區分大小寫。
+     您可以在屬性述詞中允許不區分大小寫的搜尋。 只需啟用[搜尋表單]中的**[!UICONTROL 忽略大小寫]**&#x200B;核取方塊。 依預設，「屬性述詞」中的文字搜尋會區分大小寫。
 
    >[!NOTE]
    >

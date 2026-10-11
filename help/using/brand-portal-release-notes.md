@@ -5,29 +5,37 @@ content-type: reference
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-TQID: https://experienceleague.adobe.com/e2-MbP-f0xwBB8JLpb-7V80uNP-0N8cCnJeCLJCfRm0
+TQID: 'https://experienceleague.adobe.com/e2-MbP-f0xwBB8JLpb-7V80uNP-0N8cCnJeCLJCfRm0'
 product_v2:
   - id: d09181b5-a36a-43de-ba01-36641440bc43
+    internal-label: Experience Manager Assets
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: bd0d2470-932c-4269-8eca-6d939b72d9ef
+    internal-label: Dynamic Media
   - id: da0dfbce-df02-4f8b-b32d-a4e3b1d05085
+    internal-label: Configuration
+  - id: a45b1e7f-e65f-4cd3-be86-5cec5d9449ef
+    internal-label: Content management
 subfeature_v2:
   - id: a0cde32c-c339-4649-bd06-f1111bc952fc
+    internal-label: Smart Crop
   - id: e00c7c12-7035-41fe-ad76-1ec82c8c3f01
+    internal-label: Brand Portal
   - id: f0e3b2ca-813f-4b7a-81df-52339e17ddcf
+    internal-label: Smart Tags
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 10f42cf00fb054b38bb5edc4e088441c4a0206da
+    internal-label: User
+source-git-commit: 4cfa580ba79b189ec4bcef8003c66734aa465ba3
 workflow-type: tm+mt
-source-wordcount: 1633
+source-wordcount: '1633'
 ht-degree: 93%
-
 ---
-
 # 發行說明 {#release-notes}
 
-深入了解 Adobe Experience Manager Assets Brand Portal 2026.01.01 版本中的新功能、增強功能、已修正的重大問題和已知問題。
+深入了解 Adobe Experience Manager Assets Brand Portal 2026.01.01 版本中的新功能、增強功能、已修正的關鍵問題和已知問題。
 
 ## 發行資訊 {#release-information}
 
@@ -46,7 +54,7 @@ Adobe Experience Manager (AEM) Assets Brand Portal 能協助您橫跨多種裝�
 
 #### 增強功能
 
-此版本包含下列增強功能:
+此版本包含下列增強功能：
 
 * 在「管理工具」面板>「動態媒體設定」中，您現在可以使用&#x200B;**[!UICONTROL 重設]**&#x200B;按鈕來清除任何變更、重設密碼，以及將設定還原成預設狀態。
 
@@ -58,7 +66,7 @@ Adobe Experience Manager (AEM) Assets Brand Portal 能協助您橫跨多種裝�
 
 **錯誤修正和增強功能**
 
-此版本包含下列錯誤修正:
+此版本包含下列錯誤修正：
 
 * 來源匯入事件的電子郵件通知未發送。
 * 使用搜尋篩選器時，[!DNL Brand Portal] 會在搜尋篩選器視窗內顯示重複的資料夾。
@@ -80,7 +88,7 @@ Adobe Experience Manager (AEM) Assets Brand Portal 能協助您橫跨多種裝�
 * 當您使用動作列中的「[!UICONTROL 下載]」按鈕下載資產時，最多會下載 1000 項資產。
 * 在內容樹狀結構中檢視時，PSD 類型資產的名稱不正確。
 * 資產詳細資料頁面上的「[!UICONTROL 刪除轉譯]」選項沒有作用。
-* 下載快顯視窗中的資產標題和大小不符。
+* 下載快顯視窗中的資產標題和大小未對齊。
 * 建立報告時，標籤未本地化。
 * 支援管理員在 Brand Portal 中被稱為管理員。
 
@@ -93,7 +101,7 @@ Adobe Experience Manager (AEM) Assets Brand Portal 能協助您橫跨多種裝�
 
 * 使用全方位搜尋欄位執行部分搜尋時，搜尋結果有所改善。
 
-此版本包含下列錯誤修正:
+此版本包含下列錯誤修正：
 
 * 無法將「[!UICONTROL 日期]」和「[!UICONTROL 選項]」述詞儲存至「[!UICONTROL 智慧型集合]」。
 
@@ -113,7 +121,7 @@ Adobe Experience Manager (AEM) Assets Brand Portal 能協助您橫跨多種裝�
 * 在[!UICONTROL 下載]快顯視窗中載入資產時的效能提升。
 * 當您下載資產或資產的轉譯時，現在將以其原始檔案類型格式而非 zip 檔案下載。
 
-此版本包含下列錯誤修正:
+此版本包含下列錯誤修正：
 
 * 搜尋篩選器的長標籤或標記未正確顯示。
 * 無法在「下載」對話框中顯示較長的轉譯名稱。
@@ -131,30 +139,30 @@ Adobe Experience Manager (AEM) Assets Brand Portal 能協助您橫跨多種裝�
 此版本包含下列已知問題：
 
 * 資產來源報告內容僅有部分本地化。
-* 使用者基本資料中的一些欄位無法在使用者基本資料中編輯。
+* 使用者輪廓中的一些欄位無法編輯。
 
 ### 2023 年 2 月版本 {#feb-2023}
 
 **錯誤修正**
 
-此版本包含以下重大問題的修正：
+此版本包含以下關鍵問題的修正：
 
 * 無法在 Brand Portal 上更新基本資料圖片。
-* 內容樹狀結構窗格無法調整大小。 如果檔案名稱長度超過內容樹狀結構的預設寬度，則無法水平和垂直拖曳內容樹狀結構。 因此，無法讀取較長的檔名。
+* 內容樹狀結構窗格無法調整大小。 如果檔案名稱長度超過內容樹狀結構的預設寬度，則無法同時水平和垂直拖曳內容樹狀結構。 因此，較長的檔名會變得難以辨識。
 * 在搜尋表單中兩次皆使用相同的屬性述詞時，搜尋結果並不一致。
 * 中間登入頁面上的文字並未針對所有語言進行本地化。
 
 **增強功能**
 
-此版本包含下列增強功能:
+此版本包含下列增強功能：
 
-* 現在可以使用新的現代 PDF 檢視器，讓 PDF 資產的預覽畫面更清楚。
+* 現在可以使用新的現代 PDF 檢視器，以改善 PDF 資產的預覽。
 * 您現在可以選擇啟用或停用管理員的資產來源通知。 導覽至「[!UICONTROL 一般設定]」，然後啟用或停用 [!UICONTROL `Notify Administrator of asset contribution`]。
 
   ![通知管理員資產貢獻情形](assets/notify-admin.png)
 
 * 若是請求存取被停用，未經授權的使用者就無法請求 Brand Portal 的存取權。
-* 僅有為 Brand Portal 佈建的組織才會顯示在基本資料選擇器清單中。
+* 僅有為 Brand Portal 佈建的組織才會顯示在輪廓選擇器清單中。
 
 **已知問題**
 
@@ -167,7 +175,7 @@ Adobe Experience Manager (AEM) Assets Brand Portal 能協助您橫跨多種裝�
 
 **已修正重大問題**
 
-此版本包含以下重大問題的修正：
+此版本包含以下關鍵問題的修正：
 
 * 將大型檔案從 Brand Portal 複製到第三方工具時回應速度較慢。
 * 當您選取轉譯計數核取方塊時，選取個別轉譯的核取方塊會被停用。
@@ -188,7 +196,7 @@ Adobe Experience Manager (AEM) Assets Brand Portal 能協助您橫跨多種裝�
 
 **已修正重大問題**
 
-此版本包含以下重大問題的修正：
+此版本包含以下關鍵問題的修正：
 
 * 當 NUI 無法在 Experience Manager 中處理資產時，Brand Portal 會顯示不準確的資產匯入狀態。
 * 當預覽動作失敗時，沒有告知失敗的通知。
@@ -210,7 +218,7 @@ Brand Portal 現在每隔十二小時便會自動執行工作，刪除所有發�
 * 當您下載包含轉譯的影片時，Brand Portal 會建立一個無效的 .ZIP 檔案。
 * 當您在 AEM 作者上建立預設集和資產，然後將其發佈至 Brand Portal 時，您可以在下載資產時選取動態轉譯。 但是，您無法將已下載的 .ZIP 檔案解壓縮。 此問題導致無法存取下載的內容。
 * 從 Brand Portal 上的某些資料夾下載影片資產時出現問題。
-* 當您使用電子郵件共用貢獻資料夾的 URL 時，檢視者和編輯者角色在使用階層連結存取其父系資料夾時會遇到問題。
+* 當您使用電子郵件共用貢獻資料夾的 URL 時，檢視者和編輯者角色在使用階層連結存取其上層資料夾時會遇到問題。
 * 來源發佈的報告顯示錯誤的工作開始時間。
 
 ### 2022 年 2 月版本 {#feb-2022}
@@ -227,7 +235,7 @@ Brand Portal 現在每隔十二小時便會自動執行工作，刪除所有發�
 * 套用搜尋篩選器以下載資產時，下載對話框中的 `Download` 按鈕已停用且不允許使用者下載資產。
 * 當 `Smart Tags` 和 (或) `Color Tags` 啟用後，下載對話框會列出做為轉譯的 `json` 檔案，並把這些 `json` 檔案下載成歸檔 zip 資料夾。
 * 匿名使用者無法透過共用的連結下載資產，因為該連結會重新導向至 Brand Portal 登入頁面。
-* 系統未反映目前使用中使用者數量的正確數值。
+* 系統未反映作用中並行使用者數量的正確數值。
 
 <!--
 ### New Features
